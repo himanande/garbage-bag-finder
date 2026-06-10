@@ -176,8 +176,8 @@ export default function GarbageBagFinder() {
       setFilteredResults(sortedResults)
       setSelectedStores([])
       setShowResults(true)
-    } catch (error: any) {
-      console.error('Search error:', error.message || error)
+    } catch (error) {
+      console.error('Search error:', error instanceof Error ? error.message : error)
     } finally {
       setLoading(false)
     }
