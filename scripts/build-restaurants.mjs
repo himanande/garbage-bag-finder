@@ -53,6 +53,10 @@ const CITY_TO_PREF = {
   '寝屋川市': '大阪府',
   '門真市': '大阪府',
   '守口市': '大阪府',
+  '大東市': '大阪府',
+  '四條畷市': '大阪府',
+  '交野市': '大阪府',
+  '柏原市': '大阪府',
   '岸和田市': '大阪府',
   '和泉市': '大阪府',
   '泉佐野市': '大阪府',
@@ -74,6 +78,9 @@ const CITY_TO_PREF = {
   '豊能郡': '大阪府',
   '泉北郡': '大阪府',
   '南河内郡': '大阪府',
+  '豊岡市': '兵庫県',
+  '丹波篠山市': '兵庫県',
+  '丹波市': '兵庫県',
   '神戸市': '兵庫県',
   '姫路市': '兵庫県',
   '尼崎市': '兵庫県',
@@ -139,15 +146,15 @@ const GENRE_RULES = [
   ['ラーメン', ['ラーメン', 'らーめん', '拉麺', '拉麵', '中華そば', 'ワンタン', '人類みな麺類']],
   ['うどん・そば', ['うどん', 'そば', '蕎麦', 'ウドン']],
   ['お好み焼き・粉もん', ['お好み焼き', 'たこ焼き', 'タコ焼き', '粉もん', '鉄板焼き', 'もんじゃ', '鶴橋風月']],
-  ['寿司・海鮮', ['寿司', '鮨', '海鮮', '刺身', '魚介', '海老', 'カニ', '牡蠣']],
-  ['焼肉', ['焼肉', '焼き肉', 'ホルモン', '牛タン', 'ステーキ', '牛']],
-  ['中華', ['中華', '中国料理', '餃子', '担々麺', '麻婆', '北京', '上海', '点心', '飲茶', '炒飯', 'チャーハン', '回鍋肉', '麻辣', '豚まん', 'シュウマイ', '焼売', '饅頭', '小籠包', '蓬莱', '老祥記']],
+  ['寿司・海鮮', ['寿司', '鮨', '海鮮', '刺身', '魚介', '海老', 'カニ', '牡蠣', 'まぐろ', 'マグロ', '鯛', '魚', '漁']],
+  ['焼肉', ['焼肉', '焼き肉', 'ホルモン', '牛タン', 'ステーキ', '肉料理', '肉の']],
+  ['中華', ['中華', '中国料理', '台湾料理', '韓国', '餃子', '担々麺', '麻婆', '北京', '上海', '点心', '飲茶', '炒飯', 'チャーハン', '回鍋肉', '麻辣', '豚まん', 'シュウマイ', '焼売', '饅頭', '小籠包', '蓬莱', '老祥記']],
   ['イタリアン', ['イタリアン', 'パスタ', 'ピザ', 'ピッツァ', 'リゾット', 'イタリア', 'トラットリア', 'オステリア']],
   ['フレンチ', ['フレンチ', 'フランス', 'ビストロ', 'ブラッスリー', 'Paris', 'パリ', 'おでん フレンチ', '赤白']],
   ['カレー', ['カレー', 'スパイス', 'インド', 'スリランカ', 'ターリー']],
-  ['スイーツ・カフェ', ['スイーツ', 'ケーキ', 'カフェ', 'Cafe', 'cafe', 'Coffee', 'コーヒー', 'パン', 'パティスリー', 'チョコ', 'アイス', 'プリン', 'パフェ', 'ショコラ', 'ベーカリー', '珈琲', 'クレープ', 'ワッフル', 'タルト', 'タピオカ', '和菓子', '餅', 'もち', 'おはぎ', '八つ橋', 'チーズケーキ', 'バウム', 'バームクーヘン', '饅頭', '大福', '最中', 'ふたば', 'りくろー', 'アフタヌーンティー', 'ティールーム', 'ゴンチャ', 'お茶', '甘味', 'どら焼き', 'お菓子', '製菓', 'おこし', 'おたべ', '月化粧']],
-  ['居酒屋・バル', ['居酒屋', 'バル', 'バー', '立ち飲み', '立呑み', '酒場', 'ビール', 'ワイン', '串焼き', '串揚げ', '串かつ', '串カツ', '炭火焼', '小料理', '料理屋', 'やきとり', '焼き鳥', '焼鳥', '大衆', 'ビアホール', 'ミュンヘン']],
-  ['和食・割烹', ['和食', '割烹', '懐石', '日本料理', '天ぷら', 'とんかつ', '天丼', 'うな', '鰻', '鍋', '蟹', '京料理', '食堂', '定食', '煮物', '出汁', '茶漬け', '粥', 'おかゆ', 'おぶ', '丼', 'どんぶり', '親子丼', '牛丼', 'おでん', '炙り', '揚げ物', '天重']],
+  ['スイーツ・カフェ', ['スイーツ', 'ケーキ', 'カフェ', 'Cafe', 'cafe', 'Coffee', 'コーヒー', 'パン', 'パティスリー', 'チョコ', 'アイス', 'ジェラート', 'プリン', 'パフェ', 'ショコラ', 'ベーカリー', '珈琲', 'クレープ', 'ワッフル', 'タルト', 'タピオカ', '和菓子', '餅', 'もち', 'おはぎ', '八つ橋', 'チーズケーキ', 'バウム', 'バームクーヘン', '饅頭', '大福', '最中', 'ふたば', 'りくろー', 'アフタヌーンティー', 'ティールーム', 'ゴンチャ', 'お茶', '甘味', 'どら焼き', 'お菓子', '菓子店', '製菓', 'おこし', 'おたべ', '月化粧', 'マカロン', 'クッキー', 'ドーナツ']],
+  ['居酒屋・バル', ['居酒屋', 'バル', 'バー', '立ち飲み', '立呑み', '酒場', 'ビール', 'ワイン', '串焼き', '串揚げ', '串かつ', '串カツ', '炭火焼', '小料理', '料理屋', 'やきとり', '焼き鳥', '焼鳥', '大衆', 'ビアホール', 'ミュンヘン', 'カクウチ', '角打ち', '横丁', '酒亭', '肴', '酒の']],
+  ['和食・割烹', ['和食', '割烹', '懐石', '日本料理', '天ぷら', 'とんかつ', '天丼', 'うな', '鰻', '鍋', '蟹', '京料理', '食堂', '定食', '煮物', '出汁', '茶漬け', '粥', 'おかゆ', 'おぶ', '丼', 'どんぶり', '親子丼', '牛丼', 'おでん', '炙り', '揚げ物', '天重', 'かしわ', '釜飯', '漬物']],
   ['洋食', ['洋食', 'グリル', 'オムライス', 'ハンバーグ', 'エビフライ', 'コロッケ', 'デミグラス', 'デミ', '豚テキ', 'ビフテキ', '欧風', '洋风']],
   ['郷土料理', []],
 ]
@@ -215,8 +222,88 @@ function buildDescription(shop, shopDetail) {
   return parts.filter(Boolean).join('　')
 }
 
+const TS_OUT = path.join(ROOT, 'src', 'data', 'restaurants.ts')
+
+function writeRestaurantsTs(records) {
+  const filtered = records.filter(r => r.genre !== 'スーパー・量販店')
+  const lines = filtered.map(r => {
+    const fields = [
+      `    id: ${JSON.stringify(r.id)}`,
+      `    name: ${JSON.stringify(r.name)}`,
+      `    genre: ${JSON.stringify(r.genre)}`,
+      `    region: ${JSON.stringify(r.region)}`,
+      `    prefecture: ${JSON.stringify(r.prefecture)}`,
+      `    city: ${JSON.stringify(r.city)}`,
+      `    address: ${JSON.stringify(r.address)}`,
+      `    lat: ${r.lat}`,
+      `    lng: ${r.lng}`,
+      `    award: ${JSON.stringify(r.award)}`,
+      `    broadcastDate: ${JSON.stringify(r.broadcastDate)}`,
+      `    description: ${JSON.stringify(r.description)}`,
+      r.imageUrl ? `    imageUrl: ${JSON.stringify(r.imageUrl)}` : null,
+    ].filter(Boolean).join(',\n')
+    return `  {\n${fields},\n  }`
+  })
+
+  const ts = `// 「魔法のレストラン」で紹介されたお店のデータ
+// scripts/build-restaurants.mjs で自動生成 — 手動編集不可
+// lat/lng は未設定(0)。ジオコーディング後に更新予定。
+
+export interface Restaurant {
+  id: string
+  name: string
+  genre: string
+  region: string
+  prefecture: string
+  city: string
+  address: string
+  lat: number
+  lng: number
+  award: string
+  broadcastDate: string
+  description: string
+  imageUrl?: string
+}
+
+export const REGIONS = [
+  '北海道・東北',
+  '関東',
+  '中部',
+  '関西',
+  '中国・四国',
+  '九州・沖縄',
+] as const
+
+export const GENRES = [
+  'ラーメン',
+  '焼肉',
+  '寿司・海鮮',
+  'イタリアン',
+  'フレンチ',
+  '中華',
+  '和食・割烹',
+  '洋食',
+  'うどん・そば',
+  'お好み焼き・粉もん',
+  'カレー',
+  'スイーツ・カフェ',
+  '居酒屋・バル',
+  '郷土料理',
+  'その他',
+] as const
+
+export const restaurants: Restaurant[] = [
+${lines.join(',\n')}
+]
+`
+  fs.writeFileSync(TS_OUT, ts)
+  console.log(`TypeScript出力: ${TS_OUT} (${filtered.length}件、スーパー量販店${records.length - filtered.length}件除外)`)
+}
+
 function main() {
-  const yearFilter = process.argv[2] ?? ''
+  const args = process.argv.slice(2)
+  const writeTs = args.includes('--ts')
+  const yearFilter = args.find(a => !a.startsWith('--')) ?? ''
 
   const extractedFiles = fs.readdirSync(EXTRACTED_DIR)
     .filter(f => f.endsWith('.json') && f.startsWith(yearFilter))
@@ -282,6 +369,8 @@ function main() {
 
   fs.writeFileSync(OUT_FILE, JSON.stringify(results, null, 2))
   console.log(`出力: ${OUT_FILE} (${results.length}件)`)
+
+  if (writeTs) writeRestaurantsTs(results)
 
   // サマリー表示
   const prefSummary = {}
