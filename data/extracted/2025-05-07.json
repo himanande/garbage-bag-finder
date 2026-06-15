@@ -1,0 +1,29 @@
+{
+  "broadcastDate": "2025-05-07",
+  "url": "https://mahou-contents.mbs.jp/shops/onair/2025-05-07",
+  "programTitle": "水野真紀の魔法のレストラン",
+  "episodeTitle": "おとなもええなぁ 3大チェーン人気の謎徹底解明！",
+  "shops": [
+    {
+      "rankInfo": "おとなもええなぁ 3大チェーン人気の謎徹底解明！",
+      "name": "和食さと",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/5a01bf16-585f-48f2-bb2e-d226c6db91cd",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/5a01bf16-585f-48f2-bb2e-d226c6db91cd/menu-4d29691a-99e5-4731-9f73-3a88a37b90cc.jpg"
+    },
+    {
+      "rankInfo": "おとなもええなぁ 3大チェーン人気の謎徹底解明！",
+      "name": "鎌倉パスタ",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/6805d79c-4d5f-49c8-9699-d18d3a0d24bd",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/6805d79c-4d5f-49c8-9699-d18d3a0d24bd/menu-7f9bf8db-872d-47f6-9938-a8a148b958c6.jpg"
+    },
+    {
+      "rankInfo": "おとなもええなぁ 3大チェーン人気の謎徹底解明！",
+      "name": "千鳥屋宗家",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/f87f7ef5-eba3-40fc-ae59-f7a82bce3732",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/f87f7ef5-eba3-40fc-ae59-f7a82bce3732/menu-28bf8ee7-fc04-49f7-a0c2-53ea2c27048a.jpg"
+    }
+  ]
+}

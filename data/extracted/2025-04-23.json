@@ -1,0 +1,29 @@
+{
+  "broadcastDate": "2025-04-23",
+  "url": "https://mahou-contents.mbs.jp/shops/onair/2025-04-23",
+  "programTitle": "水野真紀の魔法のレストラン",
+  "episodeTitle": "無印良品・ニトリ・IKEAキッチングッズ決定戦",
+  "shops": [
+    {
+      "rankInfo": "キッチングッズ対決",
+      "name": "無印良品",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/e7b22f57-2eb8-46e5-bd23-b3e34563e1d8",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/e7b22f57-2eb8-46e5-bd23-b3e34563e1d8/menu-98e3e51f-0670-4cd0-8d00-f96c757d2af7.jpg"
+    },
+    {
+      "rankInfo": "キッチングッズ対決",
+      "name": "ニトリ",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/963833bf-e2b2-48d6-bfc5-02ef5873f029",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/963833bf-e2b2-48d6-bfc5-02ef5873f029/menu-6f28c76c-77f8-4e5d-82d8-80c9b81ec4a9.jpg"
+    },
+    {
+      "rankInfo": "キッチングッズ対決",
+      "name": "IKEA",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/ffe26a2f-f7ad-403a-809c-3083b07b3215",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/ffe26a2f-f7ad-403a-809c-3083b07b3215/menu-9a96ada3-4669-41b2-8ff0-49a83ad87551.jpg"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "broadcastDate": "2025-01-08",
+  "url": "https://mahou-contents.mbs.jp/shops/onair/2025-01-08",
+  "programTitle": "水野真紀の魔法のレストラン",
+  "episodeTitle": "食のプロが選ぶ！京阪神 ホンマに美味しい丼ランキング",
+  "shops": [
+    {
+      "rankInfo": "食のプロが選ぶ！京阪神 ホンマに美味しい丼ランキング",
+      "name": "第10位",
+      "menu": "Dontsuki",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/53060e47-fa6b-4519-ad74-50a50f25cd50",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/53060e47-fa6b-4519-ad74-50a50f25cd50/menu-b40102ca-d679-4bb0-b568-9ebb688ae59a.jpg"
+    },
+    {
+      "rankInfo": "食のプロが選ぶ！京阪神 ホンマに美味しい丼ランキング",
+      "name": "第9位",
+      "menu": "ひとむかし",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/b6272351-3e9c-4548-acd4-cc40be39a292",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/b6272351-3e9c-4548-acd4-cc40be39a292/menu-45125856-9940-435e-8cad-0e792ceeab67.jpg"
+    },
+    {
+      "rankInfo": "食のプロが選ぶ！京阪神 ホンマに美味しい丼ランキング",
+      "name": "第8位",
+      "menu": "はり重カレーショップ",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/1cf1b3de-9448-4246-8e43-395dad54c50e",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/1cf1b3de-9448-4246-8e43-395dad54c50e/menu-a69a1981-50ce-4b3d-9639-29a2fef5db14.jpg"
+    },
+    {
+      "rankInfo": "食のプロが選ぶ！京阪神 ホンマに美味しい丼ランキング",
+      "name": "第7位",
+      "menu": "京極 かねよ",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/64bdb675-57a3-482e-abb5-c74db770ab86",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/64bdb675-57a3-482e-abb5-c74db770ab86/menu-4c485f3f-4967-4be4-82a5-4b422c3a0f93.jpg"
+    },
+    {
+      "rankInfo": "食のプロが選ぶ！京阪神 ホンマに美味しい丼ランキング",
+      "name": "第6位",
+      "menu": "かつ丼吉兵衛",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/2b126207-9bc0-4a93-a1df-13f6cbe0d3e1",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/2b126207-9bc0-4a93-a1df-13f6cbe0d3e1/menu-99491fc7-ecba-41e1-8e5a-e76d50fa27f1.jpg"
+    },
+    {
+      "rankInfo": "食のプロが選ぶ！京阪神 ホンマに美味しい丼ランキング",
+      "name": "第5位",
+      "menu": "喜多呂",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/0d134bc2-5b4c-49ff-b2e0-7c44840c27cf",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/0d134bc2-5b4c-49ff-b2e0-7c44840c27cf/menu-14a22fb8-d8a2-479c-af6d-e9a9b5ebd22c.jpg"
+    },
+    {
+      "rankInfo": "食のプロが選ぶ！京阪神 ホンマに美味しい丼ランキング",
+      "name": "第4位",
+      "menu": "神戸北野 旭屋精肉店",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/e87c3c0a-ac5c-4a0e-8603-c7d6acf0f84c",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/e87c3c0a-ac5c-4a0e-8603-c7d6acf0f84c/menu-4b4bf7fe-5151-4ff5-8d2c-44e743f5ec5a.jpg"
+    },
+    {
+      "rankInfo": "食のプロが選ぶ！京阪神 ホンマに美味しい丼ランキング",
+      "name": "第3位",
+      "menu": "谷町 一味禅",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/5c0e16d0-291f-4c79-aef5-cdddfca25483",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/5c0e16d0-291f-4c79-aef5-cdddfca25483/menu-ada51e0b-9c3d-4858-8769-5e1ff43d9b83.jpg"
+    },
+    {
+      "rankInfo": "食のプロが選ぶ！京阪神 ホンマに美味しい丼ランキング",
+      "name": "第2位",
+      "menu": "鴨と醸し 鼓道",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/e96c9b17-3a23-4fc5-a864-a3bee458a5af",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/e96c9b17-3a23-4fc5-a864-a3bee458a5af/menu-5351a7d5-79cf-4a66-ade5-b53e49434815.jpg"
+    }
+  ]
+}

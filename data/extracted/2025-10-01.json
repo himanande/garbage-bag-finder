@@ -1,0 +1,57 @@
+{
+  "broadcastDate": "2025-10-01",
+  "url": "https://mahou-contents.mbs.jp/shops/onair/2025-10-01",
+  "programTitle": "水野真紀の魔法のレストラン",
+  "episodeTitle": "食のプロが選ぶ！京阪神ホンマに美味しいオムライスランキング",
+  "shops": [
+    {
+      "rankInfo": "食のプロが選ぶ！京阪神ホンマに美味しいオムライスランキング",
+      "name": "第7位",
+      "menu": "洋食レストランKiitos",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/099e3c32-747c-49da-a4d8-747bd2ddbdc1",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/099e3c32-747c-49da-a4d8-747bd2ddbdc1/menu-4b8ca4f5-d07f-420a-9f2c-bac61024b357.jpg"
+    },
+    {
+      "rankInfo": "食のプロが選ぶ！京阪神ホンマに美味しいオムライスランキング",
+      "name": "第6位",
+      "menu": "長屋オムライス",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/b1d88531-43fa-4322-b6b5-d027bf6e4bd6",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/b1d88531-43fa-4322-b6b5-d027bf6e4bd6/menu-fe3a9610-520f-4810-928c-5d7f83f150e7.jpg"
+    },
+    {
+      "rankInfo": "食のプロが選ぶ！京阪神ホンマに美味しいオムライスランキング",
+      "name": "第5位",
+      "menu": "pagot 山側店",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/f4b3fcea-c3c5-438a-94a8-86dd1f253dda",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/f4b3fcea-c3c5-438a-94a8-86dd1f253dda/menu-ea9577f7-ba6d-4726-8e88-cd5ecf2c98dc.jpg"
+    },
+    {
+      "rankInfo": "食のプロが選ぶ！京阪神ホンマに美味しいオムライスランキング",
+      "name": "第4位",
+      "menu": "明治軒",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/d598846c-63f6-47ac-a471-3b6e2ba4b15c",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/d598846c-63f6-47ac-a471-3b6e2ba4b15c/menu-1bcc70b8-4772-4399-8360-7cea48f96b77.jpg"
+    },
+    {
+      "rankInfo": "食のプロが選ぶ！京阪神ホンマに美味しいオムライスランキング",
+      "name": "第3位",
+      "menu": "ザ・洋食屋キチキチ",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/f45c63e7-50d1-4621-861e-bfef78b0a414",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/f45c63e7-50d1-4621-861e-bfef78b0a414/menu-c7738bbc-48ba-490f-83d1-8e76baf7db37.jpg"
+    },
+    {
+      "rankInfo": "食のプロが選ぶ！京阪神ホンマに美味しいオムライスランキング",
+      "name": "第2位",
+      "menu": "食堂デイズ",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/0a5569c6-6bd0-457b-b5bb-0afc84fd101f",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/0a5569c6-6bd0-457b-b5bb-0afc84fd101f/menu-89000dd7-43c6-48a1-b208-a6016ddb4169.jpg"
+    },
+    {
+      "rankInfo": "食のプロが選ぶ！京阪神ホンマに美味しいオムライスランキング",
+      "name": "第1位",
+      "menu": "グリル末松",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/e102c9b9-8cd8-49a0-9fc9-d956827cb945",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/e102c9b9-8cd8-49a0-9fc9-d956827cb945/menu-11edc4a5-5cf3-4d4a-8eda-5aefc573658f.jpg"
+    }
+  ]
+}

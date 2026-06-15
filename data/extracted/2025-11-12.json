@@ -1,0 +1,50 @@
+{
+  "broadcastDate": "2025-11-12",
+  "url": "https://mahou-contents.mbs.jp/shops/onair/2025-11-12",
+  "programTitle": "水野真紀の魔法のレストラン",
+  "episodeTitle": "結局コレがうまい！関西茶色グルメ6連発",
+  "shops": [
+    {
+      "rankInfo": "結局コレがうまい！関西茶色グルメ6連発",
+      "name": "出汁小林",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/21b57eb2-0d0e-4ad8-844b-8e25f20ea499",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/21b57eb2-0d0e-4ad8-844b-8e25f20ea499/menu-05f4b9a3-161b-41d0-9a03-a5924a279cbb.jpg"
+    },
+    {
+      "rankInfo": "結局コレがうまい！関西茶色グルメ6連発",
+      "name": "やぐ羅本店",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/0b3dad00-d15f-4aec-b0b3-ed8549c99283",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/0b3dad00-d15f-4aec-b0b3-ed8549c99283/menu-98430810-a675-4d2f-86f4-40fa0232fbb6.jpg"
+    },
+    {
+      "rankInfo": "結局コレがうまい！関西茶色グルメ6連発",
+      "name": "昼だけうなぎ屋 西中島店",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/1c7a93f7-182a-4de9-8458-3272d576900e",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/1c7a93f7-182a-4de9-8458-3272d576900e/menu-6cd2f324-3d9d-4cef-84f7-2a2d045a6141.jpg"
+    },
+    {
+      "rankInfo": "結局コレがうまい！関西茶色グルメ6連発",
+      "name": "笹屋伊織南店・イオリカフェ",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/05bcea16-d3e6-4ab7-92e1-09ce9e1522e1",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/05bcea16-d3e6-4ab7-92e1-09ce9e1522e1/menu-e365898f-1d25-441a-8a70-d0e676128bfa.jpg"
+    },
+    {
+      "rankInfo": "結局コレがうまい！関西茶色グルメ6連発",
+      "name": "クレープえんどう 寺田町本店",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/1ba20846-652f-4bc7-9871-fbc76f95ccf1",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/1ba20846-652f-4bc7-9871-fbc76f95ccf1/menu-0d188309-b279-41b0-912b-869137b76bf1.jpg"
+    },
+    {
+      "rankInfo": "結局コレがうまい！関西茶色グルメ6連発",
+      "name": "キリンケラーヤマト 大阪駅前第三ビル店",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/54fe93c8-4012-4c8c-9806-85dae67b7e72",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/54fe93c8-4012-4c8c-9806-85dae67b7e72/menu-e244775f-dd9c-4a5b-828b-f52e651789a3.jpg"
+    }
+  ]
+}

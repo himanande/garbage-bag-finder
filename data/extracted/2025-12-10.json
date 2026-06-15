@@ -1,0 +1,22 @@
+{
+  "broadcastDate": "2025-12-10",
+  "url": "https://mahou-contents.mbs.jp/shops/onair/2025-12-10",
+  "programTitle": "水野真紀の魔法のレストラン",
+  "episodeTitle": "ココが悔しい！人気焼肉チェーン店対決 ワンカルビvs.牛角",
+  "shops": [
+    {
+      "rankInfo": "ココが悔しい！ワンカルビvs.牛角",
+      "name": "焼肉",
+      "menu": "ワンカルビ",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/ea93610a-3af8-4964-94ea-d529e0597275",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/ea93610a-3af8-4964-94ea-d529e0597275/menu-4b78cd29-5545-446e-bc13-c704cd0aeb64.jpg"
+    },
+    {
+      "rankInfo": "ココが悔しい！ワンカルビvs.牛角",
+      "name": "焼肉",
+      "menu": "牛角",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/dc45d898-35c8-44a2-ab76-fa3ea5a09f7d",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/dc45d898-35c8-44a2-ab76-fa3ea5a09f7d/menu-0658a41d-a6a9-43bd-917e-14b6fd07393d.jpg"
+    }
+  ]
+}

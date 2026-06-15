@@ -1,0 +1,22 @@
+{
+  "broadcastDate": "2025-11-05",
+  "url": "https://mahou-contents.mbs.jp/shops/onair/2025-11-05",
+  "programTitle": "水野真紀の魔法のレストラン",
+  "episodeTitle": "絶対に食べるべきメニューランキング スシロー&ジョリーパスタ",
+  "shops": [
+    {
+      "rankInfo": "一流寿司職人がうなった！",
+      "name": "絶対に食べるべきメニューランキング",
+      "menu": "スシロー",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/52fd85c6-84bd-4db5-bbca-60495b5a4b44",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/52fd85c6-84bd-4db5-bbca-60495b5a4b44/menu-e119cd0c-1468-4068-9c5b-9784a13f5698.jpg"
+    },
+    {
+      "rankInfo": "一流寿司職人がうなった！",
+      "name": "絶対に食べるべきメニューランキング",
+      "menu": "ジョリーパスタ",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/dee19f1f-e312-41d8-a6e5-48c24a761053",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/dee19f1f-e312-41d8-a6e5-48c24a761053/menu-cd7cbcb5-4324-4646-8757-f0e15dffd5e9.jpg"
+    }
+  ]
+}

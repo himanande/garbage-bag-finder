@@ -1,0 +1,22 @@
+{
+  "broadcastDate": "2025-03-26",
+  "url": "https://mahou-contents.mbs.jp/shops/onair/2025-03-26",
+  "programTitle": "水野真紀の魔法のレストラン",
+  "episodeTitle": "ここが悔しい！人気中華チェーン店対決 大阪王将 vs. 珉珉",
+  "shops": [
+    {
+      "rankInfo": "ここが悔しい！人気中華チェーン店対決 大阪王将 vs. 珉珉",
+      "name": "大阪王将",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/2af2c6c1-0673-4c41-88ea-d131e3dfee98",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/2af2c6c1-0673-4c41-88ea-d131e3dfee98/menu-7905022d-a02b-4b64-a646-cbbb1c1d3e23.jpg"
+    },
+    {
+      "rankInfo": "ここが悔しい！人気中華チェーン店対決 大阪王将 vs. 珉珉",
+      "name": "珉珉",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/41686ef0-7dd8-45f9-b218-f1ebd180124c",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/41686ef0-7dd8-45f9-b218-f1ebd180124c/menu-781b5171-da98-4cd1-9eb6-b1b5e6ea34fa.jpg"
+    }
+  ]
+}

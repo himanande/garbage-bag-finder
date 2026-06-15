@@ -1,0 +1,78 @@
+{
+  "broadcastDate": "2025-07-30",
+  "url": "https://mahou-contents.mbs.jp/shops/onair/2025-07-30",
+  "programTitle": "水野真紀の魔法のレストラン",
+  "episodeTitle": "食のプロが選ぶ！京阪神ホンマに美味しい喫茶店ランキング",
+  "shops": [
+    {
+      "rankInfo": "食のプロが選ぶ！京阪神ホンマに美味しい喫茶店ランキング",
+      "name": "第10位",
+      "menu": "純喫茶ヒロ",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/4e8f1de1-07f6-41c5-9a5d-45116a6dfe68",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/4e8f1de1-07f6-41c5-9a5d-45116a6dfe68/menu-c73c2eed-e87a-45a8-b8d9-1dbf5cfcd51c.jpg"
+    },
+    {
+      "rankInfo": "食のプロが選ぶ！京阪神ホンマに美味しい喫茶店ランキング",
+      "name": "第9位",
+      "menu": "喫茶チロル",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/51b3e8d0-2777-4155-8d10-539dc32e4200",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/51b3e8d0-2777-4155-8d10-539dc32e4200/menu-93250c36-aa86-407e-9836-b5d01026266a.jpg"
+    },
+    {
+      "rankInfo": "食のプロが選ぶ！京阪神ホンマに美味しい喫茶店ランキング",
+      "name": "第8位",
+      "menu": "エビアンコーヒー",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/e99e21f8-4e40-4486-b198-d57d886010a8",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/e99e21f8-4e40-4486-b198-d57d886010a8/menu-1c9c8374-6d05-4117-ac7d-d80520cb1299.jpg"
+    },
+    {
+      "rankInfo": "食のプロが選ぶ！京阪神ホンマに美味しい喫茶店ランキング",
+      "name": "第7位",
+      "menu": "喫茶マドラグ",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/0dde5a7f-d1e6-4e7d-b14f-59b2adfe86b3",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/0dde5a7f-d1e6-4e7d-b14f-59b2adfe86b3/menu-f64ab1c0-62b0-4006-951d-202150fce0a3.jpg"
+    },
+    {
+      "rankInfo": "食のプロが選ぶ！京阪神ホンマに美味しい喫茶店ランキング",
+      "name": "第6位",
+      "menu": "喫茶ルプラ",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/4d030c46-628c-46e0-a0fd-a884943229e1",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/4d030c46-628c-46e0-a0fd-a884943229e1/menu-50c212c3-8309-4263-bbc7-021696824d8f.jpg"
+    },
+    {
+      "rankInfo": "食のプロが選ぶ！京阪神ホンマに美味しい喫茶店ランキング",
+      "name": "第5位",
+      "menu": "萩原珈琲店元町サントス",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/f606d72d-0f88-4693-9659-77416805ef65",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/f606d72d-0f88-4693-9659-77416805ef65/menu-c43fdf23-57a8-411e-a3e2-bd72dcf6fa5b.jpg"
+    },
+    {
+      "rankInfo": "食のプロが選ぶ！京阪神ホンマに美味しい喫茶店ランキング",
+      "name": "第4位",
+      "menu": "丸福珈琲店",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/bff6765e-f25e-42fd-b84f-fcb9c14373fd",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/bff6765e-f25e-42fd-b84f-fcb9c14373fd/menu-d0566925-32a6-4818-98d5-43cb91b4a68b.jpg"
+    },
+    {
+      "rankInfo": "食のプロが選ぶ！京阪神ホンマに美味しい喫茶店ランキング",
+      "name": "第3位",
+      "menu": "北野坂にしむら珈琲店",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/81003b65-f2c0-4399-a4b4-a51ecb5d6c47",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/81003b65-f2c0-4399-a4b4-a51ecb5d6c47/menu-f937c3d5-466c-4dc6-a9be-86fb9a4416cb.jpg"
+    },
+    {
+      "rankInfo": "食のプロが選ぶ！京阪神ホンマに美味しい喫茶店ランキング",
+      "name": "第2位",
+      "menu": "マヅラ喫茶店",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/648de1dc-fa33-4e87-8c7c-c6ef66fd6876",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/648de1dc-fa33-4e87-8c7c-c6ef66fd6876/menu-ee7165e4-32f3-4dc2-b41b-d51beaa6af28.jpg"
+    },
+    {
+      "rankInfo": "食のプロが選ぶ！京阪神ホンマに美味しい喫茶店ランキング",
+      "name": "第1位",
+      "menu": "イノダコーヒ",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/2e2b9b03-ba16-4eb6-85ad-03da79a0ba14",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/2e2b9b03-ba16-4eb6-85ad-03da79a0ba14/menu-e20f872f-6e27-46c0-b9d1-4006a1c444a6.jpg"
+    }
+  ]
+}

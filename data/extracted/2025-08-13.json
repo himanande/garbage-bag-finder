@@ -1,0 +1,36 @@
+{
+  "broadcastDate": "2025-08-13",
+  "url": "https://mahou-contents.mbs.jp/shops/onair/2025-08-13",
+  "programTitle": "水野真紀の魔法のレストラン",
+  "episodeTitle": "老舗vs.最新店～うどん＆スイーツ～",
+  "shops": [
+    {
+      "rankInfo": "老舗vs.最新店",
+      "name": "うどん",
+      "menu": "老舗",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/75223d94-7aed-4078-80b5-6b332f58bfc0",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/75223d94-7aed-4078-80b5-6b332f58bfc0/menu-d2ec4082-9b3b-4469-a77d-878b0b5566e5.jpg"
+    },
+    {
+      "rankInfo": "老舗vs.最新店",
+      "name": "うどん",
+      "menu": "最新店",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/89f2eca9-e7bc-4191-b127-e4a3133f5789",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/89f2eca9-e7bc-4191-b127-e4a3133f5789/menu-be17e4a2-3ff7-4c75-8198-04ab78587165.jpg"
+    },
+    {
+      "rankInfo": "老舗vs.最新店",
+      "name": "スイーツ",
+      "menu": "老舗",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/447f7434-dc7f-4a29-91db-dd74946cb149",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/447f7434-dc7f-4a29-91db-dd74946cb149/menu-4b5a76b4-9b71-43f4-8dce-7e72e05312c2.jpg"
+    },
+    {
+      "rankInfo": "老舗vs.最新店",
+      "name": "スイーツ",
+      "menu": "最新店",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/b4409704-630b-4945-be43-a6fc1441875f",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/b4409704-630b-4945-be43-a6fc1441875f/menu-1c17344c-a3cc-4e56-9f2e-af80005a1a41.jpg"
+    }
+  ]
+}

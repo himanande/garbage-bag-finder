@@ -1,0 +1,64 @@
+{
+  "broadcastDate": "2025-05-21",
+  "url": "https://mahou-contents.mbs.jp/shops/onair/2025-05-21",
+  "programTitle": "水野真紀の魔法のレストラン",
+  "episodeTitle": "肉vs.魚 コスパ最強グルメ対決",
+  "shops": [
+    {
+      "rankInfo": "全国グランプリ金賞！",
+      "name": "A5黒毛和牛の",
+      "menu": "贅沢丼",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/b1a206d2-ba58-4389-b1c3-8d7069b8480f",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/b1a206d2-ba58-4389-b1c3-8d7069b8480f/menu-1d965705-ee4e-4bb0-bc5a-501e9a262e6c.jpg"
+    },
+    {
+      "rankInfo": "ネタ数14種類",
+      "name": "〇〇が丸々のった",
+      "menu": "豪華海鮮丼！",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/1288f6f8-aba1-4fa0-bc73-fc7f692021a3",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/1288f6f8-aba1-4fa0-bc73-fc7f692021a3/menu-f4a3720b-7aa8-49d5-b5bd-964f9f91f2f3.jpg"
+    },
+    {
+      "rankInfo": "高級ブランド豚が",
+      "name": "山盛り",
+      "menu": "㊙とんかつ定食",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/ebd5474a-9975-4f04-aa81-47396774ca33",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/ebd5474a-9975-4f04-aa81-47396774ca33/menu-e910fff6-3e6b-43dd-89a1-320d4658d64a.jpg"
+    },
+    {
+      "rankInfo": "北新地で行列必至",
+      "name": "品数10品！",
+      "menu": "激安御膳",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/0345b5cc-a758-4b99-8d36-e062dfdf49d9",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/0345b5cc-a758-4b99-8d36-e062dfdf49d9/menu-99f643ad-3b83-4adf-bcd3-5d2ebb60e060.jpg"
+    },
+    {
+      "rankInfo": "肉増し増しのド迫力！",
+      "name": "神戸長田の",
+      "menu": "ソウルフード！",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/b44e310e-31e3-4c4e-ad89-7cd55d79b0a8",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/b44e310e-31e3-4c4e-ad89-7cd55d79b0a8/menu-8b197ab8-8ad1-4c60-ae96-e2a2894fac3b.jpg"
+    },
+    {
+      "rankInfo": "タコ×〇〇",
+      "name": "明石の名物",
+      "menu": "進化系粉もん",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/11bfe2e6-b091-47fa-a0f2-88f80a7eba9c",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/11bfe2e6-b091-47fa-a0f2-88f80a7eba9c/menu-4dd15c8f-81c6-4b3a-8386-9bb052bcac53.jpg"
+    },
+    {
+      "rankInfo": "親子三代の歴史ある",
+      "name": "本格寿司ランチ",
+      "menu": "15貫で〇〇円！",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/4078c0a9-65d2-4048-a860-8f640274da49",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/4078c0a9-65d2-4048-a860-8f640274da49/menu-dbd97321-bd3d-406b-b7a4-16dcd8d9bfa2.jpg"
+    },
+    {
+      "rankInfo": "黒毛和牛の八変化",
+      "name": "店を救った",
+      "menu": "焼肉ランチ",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/e0e12e11-57d0-4e2d-9fbb-f273c35954de",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/e0e12e11-57d0-4e2d-9fbb-f273c35954de/menu-49bc433f-2203-485d-9469-65fb4758c7cf.jpg"
+    }
+  ]
+}

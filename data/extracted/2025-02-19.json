@@ -1,0 +1,29 @@
+{
+  "broadcastDate": "2025-02-19",
+  "url": "https://mahou-contents.mbs.jp/shops/onair/2025-02-19",
+  "programTitle": "水野真紀の魔法のレストラン",
+  "episodeTitle": "実は関西だけ！？地域差グルメの謎",
+  "shops": [
+    {
+      "rankInfo": "実は関西だけ！？",
+      "name": "地域差グルメの謎",
+      "menu": "ファミリーマート",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/aed946fb-4922-4ff5-b4e6-d389d677b43f",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/aed946fb-4922-4ff5-b4e6-d389d677b43f/menu-b50e2a41-630f-4b13-a604-9092c9334403.jpg"
+    },
+    {
+      "rankInfo": "実は関西だけ！？",
+      "name": "地域差グルメの謎",
+      "menu": "井村屋",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/6c2676b5-db99-423f-b493-ef8cf215ec33",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/6c2676b5-db99-423f-b493-ef8cf215ec33/menu-d466adbd-5be8-4cfe-877c-7e0cac86c486.jpg"
+    },
+    {
+      "rankInfo": "実は関西だけ！？",
+      "name": "地域差グルメの謎",
+      "menu": "たこ梅",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/7f729a2c-424f-435a-8cf2-1d00089e7548",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/7f729a2c-424f-435a-8cf2-1d00089e7548/menu-feeda781-8e0c-4393-94ae-8a5b34dec962.jpg"
+    }
+  ]
+}

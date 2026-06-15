@@ -1,0 +1,50 @@
+{
+  "broadcastDate": "2025-10-08",
+  "url": "https://mahou-contents.mbs.jp/shops/onair/2025-10-08",
+  "programTitle": "水野真紀の魔法のレストラン",
+  "episodeTitle": "肉vs.魚 コスパ最強グルメ対決！",
+  "shops": [
+    {
+      "rankInfo": "肉vs.魚 コスパ最強グルメ対決！",
+      "name": "肉",
+      "menu": "？なら半額！A5ランク黒毛和牛丼",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/3745d263-d170-4d94-bf16-2a5b97fb53e2",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/3745d263-d170-4d94-bf16-2a5b97fb53e2/menu-c8edf451-c092-49d6-a421-2663be3bd31f.jpg"
+    },
+    {
+      "rankInfo": "肉vs.魚 コスパ最強グルメ対決！",
+      "name": "魚",
+      "menu": "？直営 鮮魚たっぷり贅沢丼",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/0abba867-76f9-410c-8271-ff912de1864b",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/0abba867-76f9-410c-8271-ff912de1864b/menu-c02ae467-9f80-4d30-92e9-a1fc6c647f71.jpg"
+    },
+    {
+      "rankInfo": "肉vs.魚 コスパ最強グルメ対決！",
+      "name": "肉",
+      "menu": "まるでアトラクション！？大行列の？ハンバーグ",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/ccd17971-9a76-47f4-93c9-91250d251bca",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/ccd17971-9a76-47f4-93c9-91250d251bca/menu-1dc57c13-94ce-45fe-8809-eb082bd4b57c.jpg"
+    },
+    {
+      "rankInfo": "肉vs.魚 コスパ最強グルメ対決！",
+      "name": "魚",
+      "menu": "創業100年越え 店主が？する絶品定食",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/d4430ae5-603d-46ac-8e7d-fb7b5af288fb",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/d4430ae5-603d-46ac-8e7d-fb7b5af288fb/menu-41639062-bc0e-4fec-a4ec-5bb0469e77c6.jpg"
+    },
+    {
+      "rankInfo": "肉vs.魚 コスパ最強グルメ対決！",
+      "name": "肉",
+      "menu": "肉好き神戸人もうなる？円のステーキランチ",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/4fe7a00a-4121-4e7e-baaa-eab75b2b161d",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/4fe7a00a-4121-4e7e-baaa-eab75b2b161d/menu-925a39ab-e862-44ad-8cf4-2ad044437fd9.jpg"
+    },
+    {
+      "rankInfo": "肉vs.魚 コスパ最強グルメ対決！",
+      "name": "魚",
+      "menu": "寿司10貫が驚き価格 安さの秘密は？",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/36cb4397-6e81-4321-80c9-ac6963121561",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/36cb4397-6e81-4321-80c9-ac6963121561/menu-5da6187a-9368-43c9-9887-39e2221fe6ab.jpg"
+    }
+  ]
+}

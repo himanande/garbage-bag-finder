@@ -1,0 +1,36 @@
+{
+  "broadcastDate": "2025-05-28",
+  "url": "https://mahou-contents.mbs.jp/shops/onair/2025-05-28",
+  "programTitle": "水野真紀の魔法のレストラン",
+  "episodeTitle": "行列店の裏側密着",
+  "shops": [
+    {
+      "rankInfo": "行列店の裏側密着",
+      "name": "老祥記",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/e83295e8-6ec3-499b-8150-e1da53768b86",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/e83295e8-6ec3-499b-8150-e1da53768b86/menu-4d0d90c6-5792-4463-bc1b-1c0e2ac92882.jpg"
+    },
+    {
+      "rankInfo": "行列店の裏側密着",
+      "name": "本家第一旭 本店",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/df6896d0-eedd-4177-8d5e-80190a41f7f4",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/df6896d0-eedd-4177-8d5e-80190a41f7f4/menu-66ab3266-48fc-4b9b-82bd-06ff0176457d.jpg"
+    },
+    {
+      "rankInfo": "行列店の裏側密着",
+      "name": "串かつだるま",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/8ac8b11a-2e52-491d-ac29-8baa628fd03d",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/8ac8b11a-2e52-491d-ac29-8baa628fd03d/menu-603cf091-a02e-45e2-af50-82b84740e5a4.jpg"
+    },
+    {
+      "rankInfo": "行列店の裏側密着",
+      "name": "吉野",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/9a1798ea-9ec0-4e7d-8b97-36e1ea2b6a26",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/9a1798ea-9ec0-4e7d-8b97-36e1ea2b6a26/menu-6bb62584-a831-4ee7-9f8c-8085260cc5a9.jpg"
+    }
+  ]
+}

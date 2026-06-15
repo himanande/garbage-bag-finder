@@ -1,0 +1,43 @@
+{
+  "broadcastDate": "2025-01-15",
+  "url": "https://mahou-contents.mbs.jp/shops/onair/2025-01-15",
+  "programTitle": "水野真紀の魔法のレストラン",
+  "episodeTitle": "関西グルメミステリー",
+  "shops": [
+    {
+      "rankInfo": "関西グルメミステリー",
+      "name": "どうとんぼり神座 道頓堀本店",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/cdfddeac-e694-4f56-93af-2514ac44f1ce",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/cdfddeac-e694-4f56-93af-2514ac44f1ce/menu-db00fd14-4205-4d69-93c9-0d020ef75640.jpg"
+    },
+    {
+      "rankInfo": "関西グルメミステリー",
+      "name": "青木松風庵 月化粧ファクトリー",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/90cd19f9-9c45-478c-aed8-854df0721321",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/90cd19f9-9c45-478c-aed8-854df0721321/menu-226de577-18b4-4d8d-b9c2-e3d6fdfab3d1.jpg"
+    },
+    {
+      "rankInfo": "関西グルメミステリー",
+      "name": "阪急うめだ本店",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/eb69ba19-c5cd-4b1c-942d-a8fb4fdf6737",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/eb69ba19-c5cd-4b1c-942d-a8fb4fdf6737/menu-ec5d4548-e43d-48d6-b2a0-9d65759abfc8.jpg"
+    },
+    {
+      "rankInfo": "関西グルメミステリー",
+      "name": "明石焼 よこ井",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/01c667b6-cb37-41ac-b7d6-f3517f814b0b",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/01c667b6-cb37-41ac-b7d6-f3517f814b0b/menu-338ab506-b043-449e-b21b-4296c62474ea.jpg"
+    },
+    {
+      "rankInfo": "関西グルメミステリー",
+      "name": "こなもん屋",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/eca8a545-220f-471a-9c68-9ee6ce43f558",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/eca8a545-220f-471a-9c68-9ee6ce43f558/menu-d22ff44c-77c0-467e-a3f8-15679345dc4a.jpg"
+    }
+  ]
+}

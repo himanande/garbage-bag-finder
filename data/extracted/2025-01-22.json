@@ -1,0 +1,29 @@
+{
+  "broadcastDate": "2025-01-22",
+  "url": "https://mahou-contents.mbs.jp/shops/onair/2025-01-22",
+  "programTitle": "水野真紀の魔法のレストラン",
+  "episodeTitle": "関西襲来！コスパ最強スーパーマーケット",
+  "shops": [
+    {
+      "rankInfo": "コスパ最強スーパー",
+      "name": "食生活♡♡ロピア",
+      "menu": "部門別売り上げ対決！",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/413d6323-3616-486d-8236-bfe46fab3b2b",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/413d6323-3616-486d-8236-bfe46fab3b2b/menu-29b8a52f-17a2-4253-95d7-ba58ad526ec6.jpg"
+    },
+    {
+      "rankInfo": "スーパーバロー",
+      "name": "まるで魚市場",
+      "menu": "鮮魚＆激安パン！",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/43c21567-255b-48f7-ae2d-4748b24426fa",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/43c21567-255b-48f7-ae2d-4748b24426fa/menu-d260b563-356d-41e1-9c6a-3590254bf1f8.jpg"
+    },
+    {
+      "rankInfo": "肉のハナマサ",
+      "name": "PBが充実！",
+      "menu": "レトルトカレーを調査",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/dd2be6da-9f6e-4588-9da9-69bfccb0df9f",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/dd2be6da-9f6e-4588-9da9-69bfccb0df9f/menu-7ea8c877-1142-4d8d-ad6d-0bbfeeff6e4c.jpg"
+    }
+  ]
+}

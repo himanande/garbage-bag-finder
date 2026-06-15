@@ -1,0 +1,71 @@
+{
+  "broadcastDate": "2025-02-26",
+  "url": "https://mahou-contents.mbs.jp/shops/onair/2025-02-26",
+  "programTitle": "水野真紀の魔法のレストラン",
+  "episodeTitle": "食のプロがホンマは教えたくない！大阪うどん店ランキング",
+  "shops": [
+    {
+      "rankInfo": "食のプロがホンマは教えたくない！大阪うどん店ランキング",
+      "name": "第10位",
+      "menu": "千年UDON",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/2797e684-cc8d-4d6c-89ac-7f2315c2fbe9",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/2797e684-cc8d-4d6c-89ac-7f2315c2fbe9/menu-8104fc03-6493-46f3-8d2a-c4b4151e1563.jpg"
+    },
+    {
+      "rankInfo": "食のプロがホンマは教えたくない！大阪うどん店ランキング",
+      "name": "第9位",
+      "menu": "細うどん 黒門さかえ",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/61bcedf3-2748-4d18-a60a-124f8c9e5643",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/61bcedf3-2748-4d18-a60a-124f8c9e5643/menu-93499c81-3206-4926-8701-4ca55c5958ff.jpg"
+    },
+    {
+      "rankInfo": "食のプロがホンマは教えたくない！大阪うどん店ランキング",
+      "name": "第8位",
+      "menu": "饂飩とお酒 からほり きぬ川",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/74cb4aed-3a82-49d6-97de-189b949cb949",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/74cb4aed-3a82-49d6-97de-189b949cb949/menu-fbf388f3-d655-4bf8-b19d-f801f02d8e2f.jpg"
+    },
+    {
+      "rankInfo": "食のプロがホンマは教えたくない！大阪うどん店ランキング",
+      "name": "第7位",
+      "menu": "手作りうどん 天粉盛",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/86f7343a-1081-49f0-8664-3b471b3df57f",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/86f7343a-1081-49f0-8664-3b471b3df57f/menu-b622b155-73c9-473c-8f30-e40f2abbb99f.jpg"
+    },
+    {
+      "rankInfo": "食のプロがホンマは教えたくない！大阪うどん店ランキング",
+      "name": "第6位",
+      "menu": "谷町 ふる里",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/6677c160-d5ec-4993-a3b2-918172805b63",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/6677c160-d5ec-4993-a3b2-918172805b63/menu-c31f770b-8905-4281-8636-6734566562cb.jpg"
+    },
+    {
+      "rankInfo": "食のプロがホンマは教えたくない！大阪うどん店ランキング",
+      "name": "第5位",
+      "menu": "踊るうどん",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/2cf904f6-ba9d-46c7-811f-691153b1b65e",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/2cf904f6-ba9d-46c7-811f-691153b1b65e/menu-c3c3103c-cc85-405a-ad03-acf4534079da.jpg"
+    },
+    {
+      "rankInfo": "食のプロがホンマは教えたくない！大阪うどん店ランキング",
+      "name": "第3位",
+      "menu": "極楽うどん Ah−麺",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/161331d8-043c-40bf-997b-6abe270d5e0d",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/161331d8-043c-40bf-997b-6abe270d5e0d/menu-9a882333-2cce-4b9b-9106-785b1c574743.jpg"
+    },
+    {
+      "rankInfo": "食のプロがホンマは教えたくない！大阪うどん店ランキング",
+      "name": "第2位",
+      "menu": "たけうちうどん店",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/e9e0827e-79b4-470a-a090-faf1453a518f",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/e9e0827e-79b4-470a-a090-faf1453a518f/menu-8d5a26e3-e271-4093-b616-9d367107fe5b.jpg"
+    },
+    {
+      "rankInfo": "食のプロがホンマは教えたくない！大阪うどん店ランキング",
+      "name": "第1位",
+      "menu": "阿波座ひゃっかく",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/70c9988b-d5b5-4571-a815-d8864535932f",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/70c9988b-d5b5-4571-a815-d8864535932f/menu-b389ce5f-d744-4ebc-8cea-ab84cf40ee56.jpg"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "broadcastDate": "2025-08-06",
+  "url": "https://mahou-contents.mbs.jp/shops/onair/2025-08-06",
+  "programTitle": "水野真紀の魔法のレストラン",
+  "episodeTitle": "無印vs.カルディvs.成城石井 一流料理人もハマる たまらん！グルメベスト5",
+  "shops": [
+    {
+      "rankInfo": "無印良品",
+      "name": "一流料理人もハマる",
+      "menu": "たまらん！グルメベスト5",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/4ff9dc23-f886-4953-a577-22129c0a0489",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/4ff9dc23-f886-4953-a577-22129c0a0489/menu-dba70680-d707-4037-8437-8ea9cc1a019d.jpg"
+    },
+    {
+      "rankInfo": "カルディ",
+      "name": "一流料理人もハマる",
+      "menu": "たまらん！グルメベスト5",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/a3df44d7-3b40-4af6-b71c-a3c8525854fe",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/a3df44d7-3b40-4af6-b71c-a3c8525854fe/menu-3171addd-8b23-4eef-be85-90017f63970b.jpg"
+    },
+    {
+      "rankInfo": "成城石井",
+      "name": "一流料理人もハマる",
+      "menu": "たまらん！グルメベスト5",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/73f80aef-d161-42e5-9030-f2deff08e067",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/73f80aef-d161-42e5-9030-f2deff08e067/menu-051bb510-051c-4cea-8714-6b05f354d9e7.jpg"
+    }
+  ]
+}

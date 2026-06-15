@@ -1,0 +1,36 @@
+{
+  "broadcastDate": "2025-06-18",
+  "url": "https://mahou-contents.mbs.jp/shops/onair/2025-06-18",
+  "programTitle": "水野真紀の魔法のレストラン",
+  "episodeTitle": "ここが悔しい！チェーン店vs.個人店 ～中華料理＆パン～",
+  "shops": [
+    {
+      "rankInfo": "ここが悔しい！チェーン店vs.個人店",
+      "name": "中華料理",
+      "menu": "バーミヤン",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/617a380f-9f5e-407a-9543-4e137be0cfb5",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/617a380f-9f5e-407a-9543-4e137be0cfb5/menu-8df842cf-cd11-4cd7-bea7-dd7a7ac481b4.jpg"
+    },
+    {
+      "rankInfo": "ここが悔しい！チェーン店vs.個人店",
+      "name": "中華料理",
+      "menu": "マルシン飯店",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/39fda9e7-9aef-427d-8339-b2e0cb47f516",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/39fda9e7-9aef-427d-8339-b2e0cb47f516/menu-ee7c8522-8194-43fa-9cc9-03d8fca4bddf.jpg"
+    },
+    {
+      "rankInfo": "ここが悔しい！チェーン店vs.個人店",
+      "name": "パン",
+      "menu": "クックハウス",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/477ddd7b-a76d-4eaa-8898-2daa0196de9e",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/477ddd7b-a76d-4eaa-8898-2daa0196de9e/menu-689edf23-3c25-40b8-840b-21b90a1c2694.jpg"
+    },
+    {
+      "rankInfo": "ここが悔しい！チェーン店vs.個人店",
+      "name": "パン",
+      "menu": "パン・カリテ",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/bf7e3e93-267e-4c7f-ae33-01cebe0f8cf2",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/bf7e3e93-267e-4c7f-ae33-01cebe0f8cf2/menu-bf3ea58b-6915-42d9-8057-326ca14c4d3c.jpg"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "broadcastDate": "2025-10-22",
+  "url": "https://mahou-contents.mbs.jp/shops/onair/2025-10-22",
+  "programTitle": "水野真紀の魔法のレストラン",
+  "episodeTitle": "実は関西だけ！？地域差グルメの謎",
+  "shops": [
+    {
+      "rankInfo": "実は関西だけ？",
+      "name": "地域差グルメ",
+      "menu": "謎大調査",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/f47fe50e-ef1e-4908-a66d-8bec6fe6aaaa",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/f47fe50e-ef1e-4908-a66d-8bec6fe6aaaa/menu-e5386b04-a600-420f-8a02-823b10fd6d6b.jpg"
+    },
+    {
+      "rankInfo": "実は関西だけ？",
+      "name": "地域差グルメ",
+      "menu": "謎大調査",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/94f368f7-cb58-4825-a9b6-d7c65fd94516",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/94f368f7-cb58-4825-a9b6-d7c65fd94516/menu-e44c1ba2-15ee-4ee0-bdc6-f0de54efd8b9.jpg"
+    },
+    {
+      "rankInfo": "実は関西だけ？",
+      "name": "地域差グルメ",
+      "menu": "謎大調査",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/367ff040-e813-4b70-ab18-afefbbec18e5",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/367ff040-e813-4b70-ab18-afefbbec18e5/menu-e11288ae-f85f-4c5e-900d-acc55a66215f.jpg"
+    },
+    {
+      "rankInfo": "実は関西だけ？",
+      "name": "地域差グルメ",
+      "menu": "謎大調査",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/f7096fe4-b4e3-41d8-bdc5-b1589b1ab7c3",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/f7096fe4-b4e3-41d8-bdc5-b1589b1ab7c3/menu-5cdc33f6-e051-4313-8161-6a663b48c9c7.jpg"
+    },
+    {
+      "rankInfo": "実は関西だけ？",
+      "name": "地域差グルメ",
+      "menu": "謎大調査",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/d2c03113-0b8c-45b8-a453-f1ec715af8cf",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/d2c03113-0b8c-45b8-a453-f1ec715af8cf/menu-28ba61bd-1e6d-4215-9fa4-5af97f14441b.jpg"
+    }
+  ]
+}

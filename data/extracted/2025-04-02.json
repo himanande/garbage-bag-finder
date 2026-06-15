@@ -1,0 +1,57 @@
+{
+  "broadcastDate": "2025-04-02",
+  "url": "https://mahou-contents.mbs.jp/shops/onair/2025-04-02",
+  "programTitle": "水野真紀の魔法のレストラン",
+  "episodeTitle": "結局これがうまい！ 関西茶色グルメ",
+  "shops": [
+    {
+      "rankInfo": "関西茶色グルメ",
+      "name": "大阪",
+      "menu": "カレー倶楽部 ルウ 守口店",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/e3e226ae-ca33-493a-9a20-7df3d56b1aca",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/e3e226ae-ca33-493a-9a20-7df3d56b1aca/menu-65442541-76e4-4614-9c8a-cabdb30aa90c.jpg"
+    },
+    {
+      "rankInfo": "関西茶色グルメ",
+      "name": "京都",
+      "menu": "鰻の成瀬 嵐山店",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/fd916613-eee6-4976-9e4b-45cfb6e5f69f",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/fd916613-eee6-4976-9e4b-45cfb6e5f69f/menu-1552feac-5cd7-460f-b1e6-836768f0f6e1.jpg"
+    },
+    {
+      "rankInfo": "関西茶色グルメ",
+      "name": "大阪",
+      "menu": "アンジュ",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/d6b76708-cc93-4683-af90-2e6066ee84d2",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/d6b76708-cc93-4683-af90-2e6066ee84d2/menu-9f4fdd6c-3737-44b2-8314-457ecd1d530c.jpg"
+    },
+    {
+      "rankInfo": "関西茶色グルメ",
+      "name": "大阪",
+      "menu": "500円処 ナンバー1",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/bb5777a7-b5c7-4ece-b08c-f6bbb0356753",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/bb5777a7-b5c7-4ece-b08c-f6bbb0356753/menu-c82622a6-2722-4d25-b7b4-958a21c35acf.jpg"
+    },
+    {
+      "rankInfo": "関西茶色グルメ",
+      "name": "大阪",
+      "menu": "エクチュア からほり「蔵」本店",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/c19e91c7-d38a-438f-ad16-585d4cb7e217",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/c19e91c7-d38a-438f-ad16-585d4cb7e217/menu-13a02a59-46e0-4a67-9e0b-445c89887e5f.jpg"
+    },
+    {
+      "rankInfo": "関西茶色グルメ",
+      "name": "大阪",
+      "menu": "喫茶ルプラ",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/e554d39a-67ff-4d46-831e-211de27cef7c",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/e554d39a-67ff-4d46-831e-211de27cef7c/menu-e622a550-9261-4354-8f24-5e728928f13c.jpg"
+    },
+    {
+      "rankInfo": "関西茶色グルメ",
+      "name": "京都",
+      "menu": "沁みる",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/557da61d-78cb-4bce-bfa3-f1cfff5c9531",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/557da61d-78cb-4bce-bfa3-f1cfff5c9531/menu-4ef590eb-1cb0-4812-ae88-7037548e386f.jpg"
+    }
+  ]
+}

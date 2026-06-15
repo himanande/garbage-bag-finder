@@ -1,0 +1,36 @@
+{
+  "broadcastDate": "2025-04-16",
+  "url": "https://mahou-contents.mbs.jp/shops/onair/2025-04-16",
+  "programTitle": "水野真紀の魔法のレストラン",
+  "episodeTitle": "ここが悔しい！チェーン店vs.個人店～うどん＆お好み焼き～",
+  "shops": [
+    {
+      "rankInfo": "ここが悔しい！チェーン店vs.個人店",
+      "name": "うどん",
+      "menu": "資さんうどん",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/161fa9a6-b10b-4116-be4f-7a7ca753e506",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/161fa9a6-b10b-4116-be4f-7a7ca753e506/menu-9b634518-a2f6-4db9-93d0-495d29d7bac4.jpg"
+    },
+    {
+      "rankInfo": "ここが悔しい！チェーン店vs.個人店",
+      "name": "うどん",
+      "menu": "山元麺蔵",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/a93a6fda-6c30-472f-9b1e-079762dd245e",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/a93a6fda-6c30-472f-9b1e-079762dd245e/menu-4499e0c0-23ba-4c36-a35b-cb54ccdd4725.jpg"
+    },
+    {
+      "rankInfo": "ここが悔しい！チェーン店vs.個人店",
+      "name": "お好み焼き",
+      "menu": "千房",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/df3a004b-6680-4522-8666-8902fd1900c5",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/df3a004b-6680-4522-8666-8902fd1900c5/menu-85bc0689-3285-4e3d-a867-34b010476f98.jpg"
+    },
+    {
+      "rankInfo": "ここが悔しい！チェーン店vs.個人店",
+      "name": "お好み焼き",
+      "menu": "福太郎",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/301905a0-f1e1-44fa-a882-e1bc4e066567",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/301905a0-f1e1-44fa-a882-e1bc4e066567/menu-2a16870d-4225-44ab-b443-a1d11c65d2de.jpg"
+    }
+  ]
+}

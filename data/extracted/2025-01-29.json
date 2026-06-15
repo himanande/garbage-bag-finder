@@ -1,0 +1,57 @@
+{
+  "broadcastDate": "2025-01-29",
+  "url": "https://mahou-contents.mbs.jp/shops/onair/2025-01-29",
+  "programTitle": "水野真紀の魔法のレストラン",
+  "episodeTitle": "京阪神行列たまごグルメランキング",
+  "shops": [
+    {
+      "rankInfo": "京阪神行列たまごグルメランキング",
+      "name": "7位",
+      "menu": "南修軒",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/6b0ed51e-16e3-4aae-96b9-2e9e1ea816e3",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/6b0ed51e-16e3-4aae-96b9-2e9e1ea816e3/menu-08a3728b-443c-457d-a146-d04a5fd710a3.jpg"
+    },
+    {
+      "rankInfo": "京阪神行列たまごグルメランキング",
+      "name": "6位",
+      "menu": "洋食GURa",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/c52c5fcb-1dee-4c08-87bc-0e7f16499fc8",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/c52c5fcb-1dee-4c08-87bc-0e7f16499fc8/menu-ee4dede0-1caa-4128-9cad-9158db9de2cf.jpg"
+    },
+    {
+      "rankInfo": "京阪神行列たまごグルメランキング",
+      "name": "5位",
+      "menu": "喫茶me",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/a0cb93a9-0f40-4b2a-9cea-0dd298519a62",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/a0cb93a9-0f40-4b2a-9cea-0dd298519a62/menu-98b4dd92-9b1d-4f3e-8311-7f62b6f11e0c.jpg"
+    },
+    {
+      "rankInfo": "京阪神行列たまごグルメランキング",
+      "name": "4位",
+      "menu": "卵かけめし 肉すい専門 やまや",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/2265656d-43ef-4b4a-be9f-8e661ee85b63",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/2265656d-43ef-4b4a-be9f-8e661ee85b63/menu-7c14496c-7181-4c2d-9d8a-228fd373026d.jpg"
+    },
+    {
+      "rankInfo": "京阪神行列たまごグルメランキング",
+      "name": "3位",
+      "menu": "卵かけご飯専門店 但熊",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/d50e8fc9-7b8d-4de2-902f-94be9823b97b",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/d50e8fc9-7b8d-4de2-902f-94be9823b97b/menu-3c0ccf77-5454-4b3f-830a-12b6f9cf414b.jpg"
+    },
+    {
+      "rankInfo": "京阪神行列たまごグルメランキング",
+      "name": "2位",
+      "menu": "和心 だし巻き家こんび",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/49066bed-8b40-453a-9476-d0bab58fd1ff",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/49066bed-8b40-453a-9476-d0bab58fd1ff/menu-b1b92b93-a5c1-4340-95e8-a63488433ad8.jpg"
+    },
+    {
+      "rankInfo": "京阪神行列たまごグルメランキング",
+      "name": "1位",
+      "menu": "喫茶マドラグ",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/7f692d01-8812-4f7e-a50a-cef68e7ae73d",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/7f692d01-8812-4f7e-a50a-cef68e7ae73d/menu-51450614-8d6b-49ee-a434-dc9b24626fe5.jpg"
+    }
+  ]
+}

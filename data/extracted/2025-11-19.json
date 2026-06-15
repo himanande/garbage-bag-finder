@@ -1,0 +1,29 @@
+{
+  "broadcastDate": "2025-11-19",
+  "url": "https://mahou-contents.mbs.jp/shops/onair/2025-11-19",
+  "programTitle": "水野真紀の魔法のレストラン",
+  "episodeTitle": "スターシェフが技あり！コンビニグルメランキング",
+  "shops": [
+    {
+      "rankInfo": "コンビニグルメランキング",
+      "name": "ファミリーマート",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/068a88ab-196d-4f7a-989e-bfb92750ad54",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/068a88ab-196d-4f7a-989e-bfb92750ad54/menu-3e13e7f9-f866-47c8-ac6f-e6972546641b.jpg"
+    },
+    {
+      "rankInfo": "コンビニグルメランキング",
+      "name": "セブンイレブン",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/7ed25ae5-d020-41bf-af4f-c69425181549",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/7ed25ae5-d020-41bf-af4f-c69425181549/menu-a5a8c570-1f92-487a-98fa-8b69d367f307.jpg"
+    },
+    {
+      "rankInfo": "コンビニグルメランキング",
+      "name": "ローソン",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/767c4ef3-d97c-4725-b453-e3ab213e658b",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/767c4ef3-d97c-4725-b453-e3ab213e658b/menu-9e1eb544-ea6e-4cb9-bfc4-af4e23b59592.jpg"
+    }
+  ]
+}

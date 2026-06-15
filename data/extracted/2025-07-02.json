@@ -1,0 +1,36 @@
+{
+  "broadcastDate": "2025-07-02",
+  "url": "https://mahou-contents.mbs.jp/shops/onair/2025-07-02",
+  "programTitle": "水野真紀の魔法のレストラン",
+  "episodeTitle": "関西行列店の裏側密着SP",
+  "shops": [
+    {
+      "rankInfo": "あの人気行列店の",
+      "name": "新メニュー開発に密着！",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/bfa56e47-e847-48df-953f-86eeb498f625",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/bfa56e47-e847-48df-953f-86eeb498f625/menu-a0ecfc16-74e4-4610-b403-d829e46546b0.jpg"
+    },
+    {
+      "rankInfo": "1人で130食を売り切る！",
+      "name": "行列うどん店",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/362f6737-5c21-479f-be82-77ee8d8a2adc",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/362f6737-5c21-479f-be82-77ee8d8a2adc/menu-76322f11-e1c1-49f0-9852-3a0ad1f4596b.jpg"
+    },
+    {
+      "rankInfo": "77年の歴史に改革！",
+      "name": "老舗ラーメン店",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/5f922ae1-1a9e-4ce5-bb26-550113e55d74",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/5f922ae1-1a9e-4ce5-bb26-550113e55d74/menu-b96be2df-66b8-4e0c-95f5-aa92c61f4ead.jpg"
+    },
+    {
+      "rankInfo": "1時間練り続ける",
+      "name": "絶品スイーツ",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/4acb39df-69ab-4e82-87ed-5e4a68d8dca5",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/4acb39df-69ab-4e82-87ed-5e4a68d8dca5/menu-f27a582e-a9d1-4764-920c-10296fcbd343.jpg"
+    }
+  ]
+}

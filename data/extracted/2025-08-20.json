@@ -1,0 +1,36 @@
+{
+  "broadcastDate": "2025-08-20",
+  "url": "https://mahou-contents.mbs.jp/shops/onair/2025-08-20",
+  "programTitle": "水野真紀の魔法のレストラン",
+  "episodeTitle": "ここが悔しい！チェーン店vs.個人店 ～洋食＆スイーツ～",
+  "shops": [
+    {
+      "rankInfo": "ここが悔しい！チェーン店vs.個人店",
+      "name": "洋食チェーン店",
+      "menu": "ガスト",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/8244be42-7975-4862-b0f5-38bca674ec65",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/8244be42-7975-4862-b0f5-38bca674ec65/menu-3d0cd130-fd20-417b-b697-87d0dcda6120.jpg"
+    },
+    {
+      "rankInfo": "ここが悔しい！チェーン店vs.個人店",
+      "name": "洋食個人店",
+      "menu": "紅梅ダイナー",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/4b66371a-2e20-4715-a24d-48c6fa954711",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/4b66371a-2e20-4715-a24d-48c6fa954711/menu-e22ec216-dd8e-4ab5-8d22-9d4e0c7f8607.jpg"
+    },
+    {
+      "rankInfo": "ここが悔しい！チェーン店vs.個人店",
+      "name": "スイーツチェーン店",
+      "menu": "モロゾフ",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/2c1dd458-29c6-4357-846b-f75c22cddc99",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/2c1dd458-29c6-4357-846b-f75c22cddc99/menu-9d3dbf61-cd6c-4c70-b972-2ce934777450.jpg"
+    },
+    {
+      "rankInfo": "ここが悔しい！チェーン店vs.個人店",
+      "name": "スイーツ個人店",
+      "menu": "マサヒコオズミパリ",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/b23063ff-f345-4cac-a1f3-38a6307c59d5",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/b23063ff-f345-4cac-a1f3-38a6307c59d5/menu-b8277f4d-1058-4728-8dbb-00d0a465fc2c.jpg"
+    }
+  ]
+}
