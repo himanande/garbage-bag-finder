@@ -1,0 +1,22 @@
+{
+  "broadcastDate": "2024-03-20",
+  "url": "https://mahou-contents.mbs.jp/shops/onair/2024-03-20",
+  "programTitle": "水野真紀の魔法のレストラン",
+  "episodeTitle": "ここが悔しい！回転寿司ライバル対決 くら寿司vs.かっぱ寿司",
+  "shops": [
+    {
+      "rankInfo": "回転寿司ライバル対決",
+      "name": "ライバルが悔しい",
+      "menu": "くら寿司のメニュー",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/da3e53f5-bacf-4da0-b72e-99fa50622b22",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/da3e53f5-bacf-4da0-b72e-99fa50622b22/menu-5d3004f7-ee72-4270-9203-e2da5583cf65.jpg"
+    },
+    {
+      "rankInfo": "回転寿司ライバル対決",
+      "name": "ライバルが悔しい",
+      "menu": "かっぱ寿司のメニュー",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/143a2c56-1aed-497d-a3c6-9e68409dc759",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/143a2c56-1aed-497d-a3c6-9e68409dc759/menu-81bd7bce-3036-4b98-bad9-e1faff352ae4.jpg"
+    }
+  ]
+}

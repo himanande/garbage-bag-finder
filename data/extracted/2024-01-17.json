@@ -1,0 +1,50 @@
+{
+  "broadcastDate": "2024-01-17",
+  "url": "https://mahou-contents.mbs.jp/shops/onair/2024-01-17",
+  "programTitle": "水野真紀の魔法のレストラン",
+  "episodeTitle": "京阪神 地元民が自慢したい町中華",
+  "shops": [
+    {
+      "rankInfo": "大阪大東市民の自慢",
+      "name": "町中華",
+      "menu": "丸正餃子店(本店)",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/eef42bc9-ecfa-4861-aa45-ced5ddd1e965",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/eef42bc9-ecfa-4861-aa45-ced5ddd1e965/menu-72a3e92f-6bc3-4f8d-85c9-7ad5f0144668.jpg"
+    },
+    {
+      "rankInfo": "京都左京区民の自慢",
+      "name": "町中華",
+      "menu": "中国料理華祥",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/87bf02b4-86d5-4bd7-8fb8-f2e0cd8f98e3",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/87bf02b4-86d5-4bd7-8fb8-f2e0cd8f98e3/menu-fd95d9d9-d817-4fee-b7b2-2cb82b979bf4.jpg"
+    },
+    {
+      "rankInfo": "兵庫尼崎市民の自慢",
+      "name": "町中華",
+      "menu": "中華料理 天遊",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/b26e82eb-4384-42c3-80c9-7f1012f18201",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/b26e82eb-4384-42c3-80c9-7f1012f18201/menu-30354c73-d2fe-402b-ad08-d82fbb2d5f75.jpg"
+    },
+    {
+      "rankInfo": "大阪東淀川区民の自慢",
+      "name": "町中華",
+      "menu": "中華料理 ぐら",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/b0988b33-8920-40b3-8a36-f8704d0b4732",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/b0988b33-8920-40b3-8a36-f8704d0b4732/menu-3a332aa8-afa9-400e-9efc-79fdaf1b654a.jpg"
+    },
+    {
+      "rankInfo": "京都山科区民の自慢",
+      "name": "町中華",
+      "menu": "中国料理 ちゅん",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/928a769b-9d68-4355-81cb-58ce804bc166",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/928a769b-9d68-4355-81cb-58ce804bc166/menu-b30ceb2d-70a1-4c66-b26a-2b73042e61a4.jpg"
+    },
+    {
+      "rankInfo": "京都上京区民の自慢",
+      "name": "町中華",
+      "menu": "誠養軒",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/06d357af-50f5-4ac8-8d1f-67d65e99b482",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/06d357af-50f5-4ac8-8d1f-67d65e99b482/menu-111c38d4-7c51-408e-9dba-2666d1ce09db.jpg"
+    }
+  ]
+}

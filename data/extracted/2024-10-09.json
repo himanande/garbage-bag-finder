@@ -1,0 +1,57 @@
+{
+  "broadcastDate": "2024-10-09",
+  "url": "https://mahou-contents.mbs.jp/shops/onair/2024-10-09",
+  "programTitle": "水野真紀の魔法のレストラン",
+  "episodeTitle": "食の都はどっちだ！？梅田vs.河原町",
+  "shops": [
+    {
+      "rankInfo": "梅田vs.河原町",
+      "name": "梅田",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/6a43b718-30fd-40fb-8f6e-36cfdab82861",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/6a43b718-30fd-40fb-8f6e-36cfdab82861/menu-25bd1c75-1961-44db-a5d0-cd7f7aa366c8.jpg"
+    },
+    {
+      "rankInfo": "梅田vs.河原町",
+      "name": "河原町",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/ddd70812-c262-4791-b840-51491fd7ac64",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/ddd70812-c262-4791-b840-51491fd7ac64/menu-e326cbc5-8a6b-44a3-b4cd-1367be5dc02b.jpg"
+    },
+    {
+      "rankInfo": "梅田vs.河原町",
+      "name": "梅田",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/d40c9437-d069-487f-bc5b-519599ba27c6",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/d40c9437-d069-487f-bc5b-519599ba27c6/menu-cc6852ad-df11-430e-a6ab-775ebc401a3c.jpg"
+    },
+    {
+      "rankInfo": "梅田vs.河原町",
+      "name": "梅田",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/305a25f9-144f-4a86-8db5-ec9d2aa631aa",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/305a25f9-144f-4a86-8db5-ec9d2aa631aa/menu-8861bc05-3182-43bb-ac31-2b30c2e462fe.jpg"
+    },
+    {
+      "rankInfo": "梅田vs.河原町",
+      "name": "河原町",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/028020db-668d-4758-a780-eac5f69167e8",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/028020db-668d-4758-a780-eac5f69167e8/menu-3dc311f3-8a93-48d2-a141-60151fe6cc86.jpg"
+    },
+    {
+      "rankInfo": "梅田vs.河原町",
+      "name": "梅田",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/c38eb663-dd59-433d-8ae4-eb026d0be1c0",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/c38eb663-dd59-433d-8ae4-eb026d0be1c0/menu-73b03372-15ba-4b75-98d6-5de37b8736c0.jpg"
+    },
+    {
+      "rankInfo": "梅田vs.河原町",
+      "name": "河原町",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/b40ceab2-f358-44ee-9544-74fcb5f18f6b",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/b40ceab2-f358-44ee-9544-74fcb5f18f6b/menu-c248a4cb-acf6-4c4e-8b8f-4ad61136f784.jpg"
+    }
+  ]
+}

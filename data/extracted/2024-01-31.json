@@ -1,0 +1,22 @@
+{
+  "broadcastDate": "2024-01-31",
+  "url": "https://mahou-contents.mbs.jp/shops/onair/2024-01-31",
+  "programTitle": "水野真紀の魔法のレストラン",
+  "episodeTitle": "コスパ最強スーパーマーケット ロピア＆コストコ",
+  "shops": [
+    {
+      "rankInfo": "ロピア",
+      "name": "コスパ最強の秘密！",
+      "menu": "一流シェフ コレ買い商品",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/70a89138-ac03-461e-8cfa-539e3fe29791",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/70a89138-ac03-461e-8cfa-539e3fe29791/menu-618e310b-7f6a-49d2-bf66-ca3faeee5b1d.jpg"
+    },
+    {
+      "rankInfo": "コストコ",
+      "name": "2024年最新",
+      "menu": "コレ買い！BEST5",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/de9e39c0-96e9-4d4b-b2a4-6a0359a619fd",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/de9e39c0-96e9-4d4b-b2a4-6a0359a619fd/menu-403d88a4-e3f1-42d7-932a-db416b60ed42.jpg"
+    }
+  ]
+}

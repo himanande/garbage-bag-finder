@@ -1,0 +1,64 @@
+{
+  "broadcastDate": "2024-11-27",
+  "url": "https://mahou-contents.mbs.jp/shops/onair/2024-11-27",
+  "programTitle": "水野真紀の魔法のレストラン",
+  "episodeTitle": "結局コレが美味い！大阪茶色グルメ",
+  "shops": [
+    {
+      "rankInfo": "結局コレが美味い！大阪茶色グルメ",
+      "name": "大阪・東大阪",
+      "menu": "キングスポート",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/3cc66629-4bde-4453-b60e-b482abf4fe82",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/3cc66629-4bde-4453-b60e-b482abf4fe82/menu-22ddee20-8303-45d0-b7b9-1ef267c93636.jpg"
+    },
+    {
+      "rankInfo": "結局コレが美味い！大阪茶色グルメ",
+      "name": "大阪・上新庄",
+      "menu": "元祖豚丼屋TONTON上新庄店",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/4d00a270-0368-440a-a3ef-7891d9aa9f46",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/4d00a270-0368-440a-a3ef-7891d9aa9f46/menu-59233523-1bb2-4d21-b494-e13cfc72ebca.jpg"
+    },
+    {
+      "rankInfo": "結局コレが美味い！大阪茶色グルメ",
+      "name": "大阪・南森町",
+      "menu": "JUSTICE BROWN",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/9ce2f7a7-2cdc-49b3-99d2-44b1fc89ab37",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/9ce2f7a7-2cdc-49b3-99d2-44b1fc89ab37/menu-61beb401-2e06-4dcb-98c9-8903e99f97d2.jpg"
+    },
+    {
+      "rankInfo": "結局コレが美味い！大阪茶色グルメ",
+      "name": "大阪・大正",
+      "menu": "窯出しぱん工房 ロンパル",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/e03c7147-189e-43ea-96eb-75cf1079bc33",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/e03c7147-189e-43ea-96eb-75cf1079bc33/menu-256abc3a-75be-4177-8869-a73e1c345785.jpg"
+    },
+    {
+      "rankInfo": "結局コレが美味い！大阪茶色グルメ",
+      "name": "大阪・瓢箪山",
+      "menu": "ドーナツ屋(瓢箪山のドーナツ屋さん)",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/d8a04458-7310-4faf-8f2e-565ec6171f65",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/d8a04458-7310-4faf-8f2e-565ec6171f65/menu-a2446440-154e-41cb-ae49-222996613f37.jpg"
+    },
+    {
+      "rankInfo": "結局コレが美味い！大阪茶色グルメ",
+      "name": "大阪・肥後橋",
+      "menu": "麻婆倶楽部",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/3546773f-3828-41db-bdda-1354b425d06c",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/3546773f-3828-41db-bdda-1354b425d06c/menu-9b948c43-ece2-47ce-b367-baf90c1b9e10.jpg"
+    },
+    {
+      "rankInfo": "結局コレが美味い！大阪茶色グルメ",
+      "name": "大阪・大国町",
+      "menu": "大井",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/40e6d3eb-77e4-454b-b209-afc59c142147",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/40e6d3eb-77e4-454b-b209-afc59c142147/menu-9670548e-33c7-43f4-a5c2-ac6dfe2de3f4.jpg"
+    },
+    {
+      "rankInfo": "結局コレが美味い！大阪茶色グルメ",
+      "name": "大阪・西成",
+      "menu": "おでん まる米",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/497987db-0ba5-4cff-8106-316e5c8d6dd4",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/497987db-0ba5-4cff-8106-316e5c8d6dd4/menu-ff8be53c-f956-4156-a7d3-febce39efa16.jpg"
+    }
+  ]
+}

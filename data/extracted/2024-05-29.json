@@ -1,0 +1,50 @@
+{
+  "broadcastDate": "2024-05-29",
+  "url": "https://mahou-contents.mbs.jp/shops/onair/2024-05-29",
+  "programTitle": "水野真紀の魔法のレストラン",
+  "episodeTitle": "京阪神 地元民が自慢したい町中華",
+  "shops": [
+    {
+      "rankInfo": "地元民が自慢したい町中華",
+      "name": "大阪・今里",
+      "menu": "中華料理 キリン",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/2921831a-43a6-414d-b70b-6302a34bbc4f",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/2921831a-43a6-414d-b70b-6302a34bbc4f/menu-24ea21ab-6cfa-40e9-b3a9-30ddf1de76e7.jpg"
+    },
+    {
+      "rankInfo": "地元民が自慢したい町中華",
+      "name": "大阪・北千里",
+      "menu": "いこい飯店",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/2cd6cb37-dfe7-47a6-86b2-0719d43e2501",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/2cd6cb37-dfe7-47a6-86b2-0719d43e2501/menu-38b8f53d-68d0-4e08-8a7f-930b79552432.jpg"
+    },
+    {
+      "rankInfo": "地元民が自慢したい町中華",
+      "name": "京都・出町柳",
+      "menu": "いのうえの餃子",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/8ad61e30-82e7-446e-ac32-59aaed6e1d46",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/8ad61e30-82e7-446e-ac32-59aaed6e1d46/menu-1ebfd15e-ab02-4186-b2b1-178659eeeb79.jpg"
+    },
+    {
+      "rankInfo": "地元民が自慢したい町中華",
+      "name": "兵庫・東灘区",
+      "menu": "恵愛",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/c6884247-8be2-44dd-a4e0-6dd2825083d9",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/c6884247-8be2-44dd-a4e0-6dd2825083d9/menu-b49c9da4-eb3f-4ec8-ad87-630367dd0b90.jpg"
+    },
+    {
+      "rankInfo": "地元民が自慢したい町中華",
+      "name": "兵庫・甲子園口",
+      "menu": "大貫",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/15009f1a-9da4-41c4-8f8b-d96564f17053",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/15009f1a-9da4-41c4-8f8b-d96564f17053/menu-12b7b6f3-c84d-4339-a0c2-a815f2a7cae4.jpg"
+    },
+    {
+      "rankInfo": "地元民が自慢したい町中華",
+      "name": "京都・下京区",
+      "menu": "志成園",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/7c37ec2c-cf99-433d-94c1-5adc523f9f60",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/7c37ec2c-cf99-433d-94c1-5adc523f9f60/menu-86aa521e-313f-4fa2-afef-b3b5342612a0.jpg"
+    }
+  ]
+}

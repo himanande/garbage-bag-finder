@@ -1,0 +1,50 @@
+{
+  "broadcastDate": "2024-07-17",
+  "url": "https://mahou-contents.mbs.jp/shops/onair/2024-07-17",
+  "programTitle": "水野真紀の魔法のレストラン",
+  "episodeTitle": "夏でも涼しい！梅田駅直結 最新行列グルメ",
+  "shops": [
+    {
+      "rankInfo": "夏でも涼しい！梅田駅直結 最新行列グルメ",
+      "name": "大阪駅前第1ビル",
+      "menu": "ペペロンチーノ専門店 ぺろん",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/db356e72-0623-40cb-9bbc-fba6b4b03305",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/db356e72-0623-40cb-9bbc-fba6b4b03305/menu-53aa04c0-6db1-4fe5-9dae-448230b87c80.jpg"
+    },
+    {
+      "rankInfo": "夏でも涼しい！梅田駅直結 最新行列グルメ",
+      "name": "阪急うめだ本店",
+      "menu": "オールスターダイニング",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/bdb1bdba-8b89-41be-a171-98395120674a",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/bdb1bdba-8b89-41be-a171-98395120674a/menu-06999bb7-c406-4f73-b709-a7d6f99906dc.jpg"
+    },
+    {
+      "rankInfo": "夏でも涼しい！梅田駅直結 最新行列グルメ",
+      "name": "サウスゲートビルディング",
+      "menu": "都野菜 賀茂",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/361f2241-928f-4be7-beb4-2553f3254160",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/361f2241-928f-4be7-beb4-2553f3254160/menu-e65ced1e-3815-4a65-9b6c-8b10e8579ad4.jpg"
+    },
+    {
+      "rankInfo": "夏でも涼しい！梅田駅直結 最新行列グルメ",
+      "name": "ルクアイーレ",
+      "menu": "パフェ＆ジェラート LARGO",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/af9bddb2-7336-494f-830c-af67421be8bc",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/af9bddb2-7336-494f-830c-af67421be8bc/menu-b85d9958-a144-4443-aaac-564ac334c51c.jpg"
+    },
+    {
+      "rankInfo": "夏でも涼しい！梅田駅直結 最新行列グルメ",
+      "name": "阪急三番街",
+      "menu": "肉重 ロマン亭",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/75fe9cef-0a59-4371-a16b-c0c4a8b52251",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/75fe9cef-0a59-4371-a16b-c0c4a8b52251/menu-152f01e6-5adc-4817-94b8-628054ea325a.jpg"
+    },
+    {
+      "rankInfo": "夏でも涼しい！梅田駅直結 最新行列グルメ",
+      "name": "大阪駅前第2ビル",
+      "menu": "ちるり",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/235d5000-0aff-4cfb-847d-25262523a968",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/235d5000-0aff-4cfb-847d-25262523a968/menu-a7adb1e6-aa9a-45b9-92b1-53dd2c59c70d.jpg"
+    }
+  ]
+}

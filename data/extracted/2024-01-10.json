@@ -1,0 +1,50 @@
+{
+  "broadcastDate": "2024-01-10",
+  "url": "https://mahou-contents.mbs.jp/shops/onair/2024-01-10",
+  "programTitle": "水野真紀の魔法のレストラン",
+  "episodeTitle": "新旧儲かりグルメ～粉もん～",
+  "shops": [
+    {
+      "rankInfo": "新旧儲かりグルメ",
+      "name": "～粉もん～",
+      "menu": "創作鉄板 mo-ri",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/5fc716fa-9128-4d29-9a2d-8f8798043a79",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/5fc716fa-9128-4d29-9a2d-8f8798043a79/menu-c22c8a72-2687-4f6f-816a-192e147bfdd9.jpg"
+    },
+    {
+      "rankInfo": "新旧儲かりグルメ",
+      "name": "～粉もん～",
+      "menu": "お好み焼 美津の",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/582b8615-1921-4ae4-9a78-f0d15b7326a4",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/582b8615-1921-4ae4-9a78-f0d15b7326a4/menu-08f14416-27b8-4011-b8d2-0b78e3c8b265.jpg"
+    },
+    {
+      "rankInfo": "新旧儲かりグルメ",
+      "name": "～粉もん～",
+      "menu": "大阪イギー",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/b85a77b1-3b8c-452c-9d7b-dd06644dd675",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/b85a77b1-3b8c-452c-9d7b-dd06644dd675/menu-be253bf4-a16d-43a1-abf0-919a6f386372.jpg"
+    },
+    {
+      "rankInfo": "新旧儲かりグルメ",
+      "name": "～粉もん～",
+      "menu": "甲賀流",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/2cd8e8d4-28f1-4861-a207-cce1d1b825c1",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/2cd8e8d4-28f1-4861-a207-cce1d1b825c1/menu-8bc85a46-d54b-4f5b-976b-bc11f1a698b1.jpg"
+    },
+    {
+      "rankInfo": "新旧儲かりグルメ",
+      "name": "～粉もん～",
+      "menu": "焼きそば専門 水ト",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/b235c82d-f070-4c39-b61f-7c200f876156",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/b235c82d-f070-4c39-b61f-7c200f876156/menu-b7e280f5-d140-4503-a959-bf752f79e272.jpg"
+    },
+    {
+      "rankInfo": "新旧儲かりグルメ",
+      "name": "～粉もん～",
+      "menu": "ぼん繁",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/40fbf14e-4a44-4280-863d-243c04355435",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/40fbf14e-4a44-4280-863d-243c04355435/menu-226686b1-b4cb-4915-ac15-33d100858c53.jpg"
+    }
+  ]
+}

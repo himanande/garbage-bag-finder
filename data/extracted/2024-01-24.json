@@ -1,0 +1,57 @@
+{
+  "broadcastDate": "2024-01-24",
+  "url": "https://mahou-contents.mbs.jp/shops/onair/2024-01-24",
+  "programTitle": "水野真紀の魔法のレストラン",
+  "episodeTitle": "梅田駅直結最新グルメ",
+  "shops": [
+    {
+      "rankInfo": "梅田駅直結！",
+      "name": "最新グルメ",
+      "menu": "マグロマニア",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/c6e39cb7-7756-4079-b4c3-633df9239194",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/c6e39cb7-7756-4079-b4c3-633df9239194/menu-2a527c8c-a85e-49a5-86fd-7dcc96df7b95.jpg"
+    },
+    {
+      "rankInfo": "梅田駅直結！",
+      "name": "最新グルメ",
+      "menu": "もんじゃのえびせん",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/0dcaf73b-244e-47c9-9f61-d1e41f5dfc32",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/0dcaf73b-244e-47c9-9f61-d1e41f5dfc32/menu-78d6c569-88da-4a0f-a058-b826bceff8d7.jpg"
+    },
+    {
+      "rankInfo": "梅田駅直結！",
+      "name": "最新グルメ",
+      "menu": "味仙",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/2a28adf6-12f8-4258-b78b-c6ed4591411b",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/2a28adf6-12f8-4258-b78b-c6ed4591411b/menu-f361a204-3dff-443b-837b-b7f64decc84b.jpg"
+    },
+    {
+      "rankInfo": "梅田駅直結！",
+      "name": "最新グルメ",
+      "menu": "大坂かしわ飯ロマン亭",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/13588d6e-5f74-4158-9232-c0d72a2062ee",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/13588d6e-5f74-4158-9232-c0d72a2062ee/menu-8b082a41-a19c-42c6-a65b-da7dfc61f95d.jpg"
+    },
+    {
+      "rankInfo": "梅田駅直結！",
+      "name": "最新グルメ",
+      "menu": "ヴェンキ",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/6a5c2d38-b8a0-4e3d-9864-a84caf5a78ec",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/6a5c2d38-b8a0-4e3d-9864-a84caf5a78ec/menu-60ae07bc-1548-4ec6-b2d9-119aee409092.jpg"
+    },
+    {
+      "rankInfo": "梅田駅直結！",
+      "name": "最新グルメ",
+      "menu": "ベルヴィル",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/bee8eef0-19fc-4fe4-b814-b00d6f2cd1db",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/bee8eef0-19fc-4fe4-b814-b00d6f2cd1db/menu-724a8f5a-09cf-4ab0-a3f9-b3e973e75cf2.jpg"
+    },
+    {
+      "rankInfo": "梅田駅直結！",
+      "name": "最新グルメ",
+      "menu": "大衆酒泉テルマエ",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/c5d75581-c884-40cd-8d48-caabf34df616",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/c5d75581-c884-40cd-8d48-caabf34df616/menu-75c59617-53db-45c6-baf8-f81546988363.jpg"
+    }
+  ]
+}

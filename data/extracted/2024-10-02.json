@@ -1,0 +1,64 @@
+{
+  "broadcastDate": "2024-10-02",
+  "url": "https://mahou-contents.mbs.jp/shops/onair/2024-10-02",
+  "programTitle": "水野真紀の魔法のレストラン",
+  "episodeTitle": "御堂筋 新旧たまごグルメ",
+  "shops": [
+    {
+      "rankInfo": "新旧たまごグルメ",
+      "name": "巻き部門 新",
+      "menu": "百花",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/d9ddd4e5-fd81-4be2-bba9-f352ef4b3607",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/d9ddd4e5-fd81-4be2-bba9-f352ef4b3607/menu-0327726c-fa21-49fc-8563-8f0fa20174e9.jpg"
+    },
+    {
+      "rankInfo": "新旧たまごグルメ",
+      "name": "巻き部門 旧",
+      "menu": "梅田珈琲館YC",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/0e666794-80de-47e5-8cbc-7807fa512158",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/0e666794-80de-47e5-8cbc-7807fa512158/menu-8455c104-36a3-4c59-b427-e72bdbf77bc3.jpg"
+    },
+    {
+      "rankInfo": "新旧たまごグルメ",
+      "name": "とじ部門 旧",
+      "menu": "総本家 更科",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/b2ecc57b-fee4-4424-b834-6adae626299c",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/b2ecc57b-fee4-4424-b834-6adae626299c/menu-a15c68c1-07d5-4a1b-bf39-daa8e4a11f7f.jpg"
+    },
+    {
+      "rankInfo": "新旧たまごグルメ",
+      "name": "とじ部門 新",
+      "menu": "自然とお肉green",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/f4aa00ac-d7f2-4384-bb05-5f10b1dfa1ec",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/f4aa00ac-d7f2-4384-bb05-5f10b1dfa1ec/menu-4b5b8c12-3a65-420f-ba68-6837dbf5db67.jpg"
+    },
+    {
+      "rankInfo": "新旧たまごグルメ",
+      "name": "オム部門 旧",
+      "menu": "大衆洋食堂 南自由軒",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/2d68f390-623e-42e4-b171-b2c281b4d006",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/2d68f390-623e-42e4-b171-b2c281b4d006/menu-98d0580c-430a-43b6-954b-057d1860f9cc.jpg"
+    },
+    {
+      "rankInfo": "新旧たまごグルメ",
+      "name": "オム部門 新",
+      "menu": "民生炒飯",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/037e4481-b61f-4772-8004-8e2ee9b6b207",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/037e4481-b61f-4772-8004-8e2ee9b6b207/menu-60a1169a-f12c-4f68-b3a7-9b7ec44db643.jpg"
+    },
+    {
+      "rankInfo": "新旧たまごグルメ",
+      "name": "生部門 旧",
+      "menu": "自由軒 難波本店",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/79ad0124-428f-48b1-9b2d-c2eb21ecbe38",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/79ad0124-428f-48b1-9b2d-c2eb21ecbe38/menu-0525ebc2-ef81-484e-b6cd-b22ac830bc0f.jpg"
+    },
+    {
+      "rankInfo": "新旧たまごグルメ",
+      "name": "生部門 新",
+      "menu": "うどん魂侍",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/1e70dd78-0b4a-4a14-94a1-c22c91aefaa5",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/1e70dd78-0b4a-4a14-94a1-c22c91aefaa5/menu-2d604774-fa55-4136-a6a0-d3c95e019f1a.jpg"
+    }
+  ]
+}

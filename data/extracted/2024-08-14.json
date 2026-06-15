@@ -1,0 +1,64 @@
+{
+  "broadcastDate": "2024-08-14",
+  "url": "https://mahou-contents.mbs.jp/shops/onair/2024-08-14",
+  "programTitle": "水野真紀の魔法のレストラン",
+  "episodeTitle": "福島LOVER50人に聞く 外さんグルメMAP2024",
+  "shops": [
+    {
+      "rankInfo": "人気最新店",
+      "name": "WAgyu 鬼く",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/ca479abb-8ae5-4750-b285-aa82cc22adab",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/ca479abb-8ae5-4750-b285-aa82cc22adab/menu-8a464344-11bc-4a7b-b0bb-0ecb46b571dd.jpg"
+    },
+    {
+      "rankInfo": "人気最新店",
+      "name": "海鮮創作 くり木",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/577635ea-9ef0-444f-87b9-a344fd049498",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/577635ea-9ef0-444f-87b9-a344fd049498/menu-0515b1c7-7bc6-4626-967f-c2073f68280e.jpg"
+    },
+    {
+      "rankInfo": "限定メニュー",
+      "name": "PHILO&CO.",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/aeb3fce8-7006-4282-aa34-66dd60e230c8",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/aeb3fce8-7006-4282-aa34-66dd60e230c8/menu-42fd5e57-f9e2-4944-aa67-aa02e26da864.jpg"
+    },
+    {
+      "rankInfo": "限定メニュー",
+      "name": "THE MILL",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/b0aa688c-b5fd-41f3-bf44-8fbdce4b4ec9",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/b0aa688c-b5fd-41f3-bf44-8fbdce4b4ec9/menu-17d6fb34-e1cd-4fe2-91c1-18c2ef15d7e4.jpg"
+    },
+    {
+      "rankInfo": "八方師匠おすすめ店",
+      "name": "VELVET VIRGO(ヴェルベットヴァーゴ)",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/f53952e8-3b57-4234-9551-05f305288e2d",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/f53952e8-3b57-4234-9551-05f305288e2d/menu-398e8145-9942-46e8-8c03-56aa6312e2bb.jpg"
+    },
+    {
+      "rankInfo": "コスパ最強店",
+      "name": "おうどん蓬",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/6d9bd796-0b04-4ab3-9737-d89021b43e6a",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/6d9bd796-0b04-4ab3-9737-d89021b43e6a/menu-d56836c5-93b3-4403-be14-60f77821323f.jpg"
+    },
+    {
+      "rankInfo": "コスパ最強店",
+      "name": "六徳 恒河沙",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/ec5dcdd8-831f-4bd2-b43d-868021c82c4b",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/ec5dcdd8-831f-4bd2-b43d-868021c82c4b/menu-4fef92bf-db8c-43f8-97ee-0787812dfcdc.jpg"
+    },
+    {
+      "rankInfo": "コスパ最強店",
+      "name": "炭味家",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/8482fe4b-e3d7-417e-8573-b78bfab3269a",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/8482fe4b-e3d7-417e-8573-b78bfab3269a/menu-1f0362e2-9ff5-42d1-a905-43652c6e7231.jpg"
+    }
+  ]
+}

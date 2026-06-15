@@ -1,0 +1,71 @@
+{
+  "broadcastDate": "2024-04-24",
+  "url": "https://mahou-contents.mbs.jp/shops/onair/2024-04-24",
+  "programTitle": "水野真紀の魔法のレストラン",
+  "episodeTitle": "めちゃ得！ 関西高低差グルメ",
+  "shops": [
+    {
+      "rankInfo": "めちゃ得！",
+      "name": "関西高低差グルメ",
+      "menu": "鴨川たかし",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/f3b430f7-ecb4-44d9-a202-7001b20337ba",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/f3b430f7-ecb4-44d9-a202-7001b20337ba/menu-3d66dc0b-ee93-412e-9734-61f744f86b8a.jpg"
+    },
+    {
+      "rankInfo": "めちゃ得！",
+      "name": "関西高低差グルメ",
+      "menu": "人夢叶思",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/208a9179-b019-4c30-92ca-ce94fbcc2271",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/208a9179-b019-4c30-92ca-ce94fbcc2271/menu-689e42ae-bd6a-4ca1-9c54-57ed3529e639.jpg"
+    },
+    {
+      "rankInfo": "めちゃ得！",
+      "name": "関西高低差グルメ",
+      "menu": "喜Shin",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/44efed4b-c658-42f4-8128-b1d7a2426d07",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/44efed4b-c658-42f4-8128-b1d7a2426d07/menu-66e6c8d6-a096-43a6-81db-3064b0b9922c.jpg"
+    },
+    {
+      "rankInfo": "めちゃ得！",
+      "name": "関西高低差グルメ",
+      "menu": "金のプリモ",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/2bd595af-c647-40e8-ba69-466f467994be",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/2bd595af-c647-40e8-ba69-466f467994be/menu-5d3f37f1-b0c0-4fea-a31a-4e6dc79afcfb.jpg"
+    },
+    {
+      "rankInfo": "めちゃ得！",
+      "name": "関西高低差グルメ",
+      "menu": "北新地 君しま",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/b0b386da-b5da-4ba3-9123-0b795a657205",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/b0b386da-b5da-4ba3-9123-0b795a657205/menu-ba2a9233-043a-4f94-a624-1c403fe35d0c.jpg"
+    },
+    {
+      "rankInfo": "めちゃ得！",
+      "name": "関西高低差グルメ",
+      "menu": "京洛焼肉ぽめ",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/455aa116-d28e-4f2e-87c4-b3b7626ac4d7",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/455aa116-d28e-4f2e-87c4-b3b7626ac4d7/menu-771e2f50-8a4b-46a6-9264-427cf98914c8.jpg"
+    },
+    {
+      "rankInfo": "めちゃ得！",
+      "name": "関西高低差グルメ",
+      "menu": "深夜焼肉じる",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/5dc95fc7-1571-4c63-976b-cc2fd02544b3",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/5dc95fc7-1571-4c63-976b-cc2fd02544b3/menu-772e701a-6a7d-492c-96e9-8350ebffd9b6.jpg"
+    },
+    {
+      "rankInfo": "めちゃ得！",
+      "name": "関西高低差グルメ",
+      "menu": "VELROSIER",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/41cd4d0e-284d-4870-bb34-2fc58efe7098",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/41cd4d0e-284d-4870-bb34-2fc58efe7098/menu-d9ee4e3a-e45c-4faf-a565-e0e27456f58b.jpg"
+    },
+    {
+      "rankInfo": "めちゃ得！",
+      "name": "関西高低差グルメ",
+      "menu": "中華そば 六",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/3ca0db22-f217-498e-b7e0-8a4ae8101484",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/3ca0db22-f217-498e-b7e0-8a4ae8101484/menu-815ddfcb-4b3d-4ce6-a905-96fc95be2285.jpg"
+    }
+  ]
+}

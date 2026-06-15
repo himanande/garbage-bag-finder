@@ -1,0 +1,43 @@
+{
+  "broadcastDate": "2024-09-25",
+  "url": "https://mahou-contents.mbs.jp/shops/onair/2024-09-25",
+  "programTitle": "水野真紀の魔法のレストラン",
+  "episodeTitle": "関西行列店裏側密着SP",
+  "shops": [
+    {
+      "rankInfo": "オープンから深夜まで大行列",
+      "name": "眠らない中華の名店",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/a9a592b4-ab94-476f-88b6-19de5e9ebc88",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/a9a592b4-ab94-476f-88b6-19de5e9ebc88/menu-8c8a5774-9248-4e45-940b-3d3737704514.jpg"
+    },
+    {
+      "rankInfo": "客vs店主",
+      "name": "メニュー数80種類の",
+      "menu": "陳列攻防戦！",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/4d0cdf6c-cca0-4fbc-8b4d-5b1844c3b673",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/4d0cdf6c-cca0-4fbc-8b4d-5b1844c3b673/menu-c3e08537-b413-4b26-90a5-232b7148a0c1.jpg"
+    },
+    {
+      "rankInfo": "年間100万個を販売",
+      "name": "大人気クリームパン",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/b3c5ec91-b35f-4a68-b7c9-23c559e6c39b",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/b3c5ec91-b35f-4a68-b7c9-23c559e6c39b/menu-d8359eb5-9712-4f5e-9e3f-3128069f6e52.jpg"
+    },
+    {
+      "rankInfo": "1日に注文300個！",
+      "name": "ハンバーグの食べ放題",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/5dc284da-467a-4d26-bd95-c1a55d1a2887",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/5dc284da-467a-4d26-bd95-c1a55d1a2887/menu-be68c36e-ad7d-4ea5-b334-944e21ee7caa.jpg"
+    },
+    {
+      "rankInfo": "絶対に休まない！",
+      "name": "24時間営業に全てを捧げるうどん店",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/c9073672-c802-478a-8fec-9aa1ddf4765c",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/c9073672-c802-478a-8fec-9aa1ddf4765c/menu-080fd5cf-904b-4591-b5af-b22a9a9cb98f.jpg"
+    }
+  ]
+}

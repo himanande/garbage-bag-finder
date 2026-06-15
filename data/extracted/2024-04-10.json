@@ -1,0 +1,50 @@
+{
+  "broadcastDate": "2024-04-10",
+  "url": "https://mahou-contents.mbs.jp/shops/onair/2024-04-10",
+  "programTitle": "水野真紀の魔法のレストラン",
+  "episodeTitle": "大阪麺料理 新旧儲かりグルメ",
+  "shops": [
+    {
+      "rankInfo": "大阪麺料理",
+      "name": "新旧儲かりグルメ",
+      "menu": "ラーメンステーション",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/852a6701-aab2-469c-96aa-b72f21889457",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/852a6701-aab2-469c-96aa-b72f21889457/menu-b5b35bce-9569-4b7e-8f12-aaac9c5d0730.jpg"
+    },
+    {
+      "rankInfo": "大阪麺料理",
+      "name": "新旧儲かりグルメ",
+      "menu": "光洋軒",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/dad1a020-ead9-4d9c-bf6f-960c1fce922e",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/dad1a020-ead9-4d9c-bf6f-960c1fce922e/menu-257dd4c1-ad94-41f1-a852-bb0f3af3d662.jpg"
+    },
+    {
+      "rankInfo": "大阪麺料理",
+      "name": "新旧儲かりグルメ",
+      "menu": "吾妻",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/92165899-6308-4eeb-a521-168b02196309",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/92165899-6308-4eeb-a521-168b02196309/menu-129d0acd-75aa-4c62-aac7-6860fad613a7.jpg"
+    },
+    {
+      "rankInfo": "大阪麺料理",
+      "name": "新旧儲かりグルメ",
+      "menu": "細うどん専門 白庵",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/19f0c31c-7065-4a86-89c5-28db607d27d0",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/19f0c31c-7065-4a86-89c5-28db607d27d0/menu-a0a0f0d1-2081-48ca-8667-78e6a327931c.jpg"
+    },
+    {
+      "rankInfo": "大阪麺料理",
+      "name": "新旧儲かりグルメ",
+      "menu": "ネスパ",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/939c381d-064b-4c5a-9306-c25fa375dc3e",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/939c381d-064b-4c5a-9306-c25fa375dc3e/menu-9a32dca0-30fa-4065-9a44-457d1cedcab5.jpg"
+    },
+    {
+      "rankInfo": "大阪麺料理",
+      "name": "新旧儲かりグルメ",
+      "menu": "GRILL HIRO",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/f7424c7e-72bf-4ea1-950d-378f4166e3fd",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/f7424c7e-72bf-4ea1-950d-378f4166e3fd/menu-468a3929-a417-4752-b058-5be965b72888.jpg"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "broadcastDate": "2024-02-28",
+  "url": "https://mahou-contents.mbs.jp/shops/onair/2024-02-28",
+  "programTitle": "水野真紀の魔法のレストラン",
+  "episodeTitle": "食のプロが選ぶ！ホンマに美味しい町中華ランキング",
+  "shops": [
+    {
+      "rankInfo": "大阪・天満",
+      "name": "ランチが超お得！飲める麻婆豆腐",
+      "menu": "双龍居・池田町本店",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/2bd2b093-02fc-486d-a2db-e079a22250e5",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/2bd2b093-02fc-486d-a2db-e079a22250e5/menu-07cdd3fe-8506-45f8-bc7d-b8003c273c86.jpg"
+    },
+    {
+      "rankInfo": "大阪・天満",
+      "name": "大阪ならでは油かす入り麻婆豆腐",
+      "menu": "黒龍天神樓",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/8151bc7d-150f-4739-beb4-0ab8c7731991",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/8151bc7d-150f-4739-beb4-0ab8c7731991/menu-22a410db-0c68-4011-a50f-01a4ce1e9d6a.jpg"
+    },
+    {
+      "rankInfo": "大阪・寺田町",
+      "name": "400g！インパクト抜群巨大から揚げ",
+      "menu": "笑福亭",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/fd80b008-23ba-4fba-aeca-9aacf7c24b20",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/fd80b008-23ba-4fba-aeca-9aacf7c24b20/menu-3c59cd59-c55d-41d7-a875-98910c69dbc7.jpg"
+    },
+    {
+      "rankInfo": "大阪・九条",
+      "name": "高級食材満載！オリジナル「XO丼」",
+      "menu": "吉林菜館",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/3540197a-eb1a-4b65-a8a1-eb312e4d33ad",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/3540197a-eb1a-4b65-a8a1-eb312e4d33ad/menu-2c097049-ad12-4c7c-8bd8-188f75d85910.jpg"
+    },
+    {
+      "rankInfo": "兵庫・元町",
+      "name": "昼だけで100杯名物カレー",
+      "menu": "広東料理 香美園",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/09617eeb-652b-4be0-baa7-19eb92f3d4fa",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/09617eeb-652b-4be0-baa7-19eb92f3d4fa/menu-0e6f4b27-b989-441b-9599-bf381bd32a00.jpg"
+    },
+    {
+      "rankInfo": "大阪・玉造",
+      "name": "マネできない！肉汁たっぷり餃子",
+      "menu": "純華楼",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/2f3e02aa-79d9-4c69-8e36-5357faad406a",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/2f3e02aa-79d9-4c69-8e36-5357faad406a/menu-786862fa-4aa1-41e8-a742-796fa414856f.jpg"
+    },
+    {
+      "rankInfo": "大阪・心斎橋",
+      "name": "一石三鳥！コスパ最強よだれ鶏ランチ",
+      "menu": "中華旬彩 森本",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/ba1c0063-f5f3-440c-b4e5-672169e4b452",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/ba1c0063-f5f3-440c-b4e5-672169e4b452/menu-9955c92e-fd07-4a70-a191-1b2cdcd38aec.jpg"
+    },
+    {
+      "rankInfo": "大阪・北浜",
+      "name": "ボリューム満点！天津カレー炒飯",
+      "menu": "中国料理 龍門",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/ca5dd38e-912b-4be7-8504-63ee44927699",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/ca5dd38e-912b-4be7-8504-63ee44927699/menu-0e6842d9-273f-4ade-a3dd-fb8ef4343466.jpg"
+    },
+    {
+      "rankInfo": "大阪・西成",
+      "name": "食べ方多彩！7種の絶品餃子",
+      "menu": "ぎょうざや",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/7a2b1b40-47a9-4347-bbfa-a9720a62a807",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/7a2b1b40-47a9-4347-bbfa-a9720a62a807/menu-2ac7cdd7-629a-43a5-8253-826d471f7ba6.jpg"
+    },
+    {
+      "rankInfo": "京都・東山",
+      "name": "大行列！熟成肉餃子＆フワトロ天津飯",
+      "menu": "マルシン飯店",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/83b0a04e-8cc8-4b01-a3df-87944040b307",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/83b0a04e-8cc8-4b01-a3df-87944040b307/menu-1c1a4553-1d90-45e3-acc6-75e5f10ac963.jpg"
+    }
+  ]
+}

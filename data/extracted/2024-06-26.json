@@ -1,0 +1,36 @@
+{
+  "broadcastDate": "2024-06-26",
+  "url": "https://mahou-contents.mbs.jp/shops/onair/2024-06-26",
+  "programTitle": "水野真紀の魔法のレストラン",
+  "episodeTitle": "関西行列店裏側密着SP",
+  "shops": [
+    {
+      "rankInfo": "1日2000本売れるコッペパン",
+      "name": "お店を支えるスゴ腕三兄弟",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/6c386fbc-2e02-44b7-8594-b2c6f8c2f262",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/6c386fbc-2e02-44b7-8594-b2c6f8c2f262/menu-d5ab13cf-712e-4137-a55f-d5dcc6603942.jpg"
+    },
+    {
+      "rankInfo": "仕込みはゼロ！？",
+      "name": "元祖！？とんかつカレー",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/60124322-4cfe-4024-ac2e-e296c91d73a5",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/60124322-4cfe-4024-ac2e-e296c91d73a5/menu-cda99c05-1f68-41ce-9a33-8573ca281aa9.jpg"
+    },
+    {
+      "rankInfo": "ミナミで早朝から",
+      "name": "大行列を作るだし巻き",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/ab43b25f-7055-4d97-af77-7fd3f26a0ebc",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/ab43b25f-7055-4d97-af77-7fd3f26a0ebc/menu-abb7a369-090a-4966-8f70-f8be47bbbe5d.jpg"
+    },
+    {
+      "rankInfo": "若者の胃袋を支える！",
+      "name": "おかわり無限オムライス",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/d1738f65-de6d-4b77-bc06-ebed4c3f6746",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/d1738f65-de6d-4b77-bc06-ebed4c3f6746/menu-9ca0c628-86d2-4344-8b8c-2382f7aa6cca.jpg"
+    }
+  ]
+}

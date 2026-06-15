@@ -1,0 +1,50 @@
+{
+  "broadcastDate": "2024-03-13",
+  "url": "https://mahou-contents.mbs.jp/shops/onair/2024-03-13",
+  "programTitle": "水野真紀の魔法のレストラン",
+  "episodeTitle": "関西行列店 ホンマはこっちグルメ",
+  "shops": [
+    {
+      "rankInfo": "関西行列店",
+      "name": "ホンマはこっちグルメ",
+      "menu": "中国菜 オイル",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/2e497bee-5aa1-40f2-945f-f647aded1c33",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/2e497bee-5aa1-40f2-945f-f647aded1c33/menu-4913a279-5e66-4a7b-b762-39bcaf0d1637.jpg"
+    },
+    {
+      "rankInfo": "関西行列店",
+      "name": "ホンマはこっちグルメ",
+      "menu": "グリルー平",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/ded11e47-0b22-42f8-91e0-414b571f634d",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/ded11e47-0b22-42f8-91e0-414b571f634d/menu-8f207ecc-8dff-48ad-bdfd-ff3a68f2142b.jpg"
+    },
+    {
+      "rankInfo": "関西行列店",
+      "name": "ホンマはこっちグルメ",
+      "menu": "クラブハリエ",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/bec81c64-d2f0-46bb-a29d-2f37af3d2db8",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/bec81c64-d2f0-46bb-a29d-2f37af3d2db8/menu-fecb93e2-5655-45ed-8d8c-5d3541eaeedf.jpg"
+    },
+    {
+      "rankInfo": "関西行列店",
+      "name": "ホンマはこっちグルメ",
+      "menu": "岡北",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/af7e6186-c298-4cac-b6c6-8ac894629ed7",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/af7e6186-c298-4cac-b6c6-8ac894629ed7/menu-80fd7a08-7251-48ba-9e88-30c8b4a8ba3b.jpg"
+    },
+    {
+      "rankInfo": "関西行列店",
+      "name": "ホンマはこっちグルメ",
+      "menu": "朧八瑞雲堂",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/5ec258c5-6f7a-415d-b4ce-1a96d01fc4e9",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/5ec258c5-6f7a-415d-b4ce-1a96d01fc4e9/menu-4d0abc44-7a98-4d32-b2d9-098c415e1072.jpg"
+    },
+    {
+      "rankInfo": "関西行列店",
+      "name": "ホンマはこっちグルメ",
+      "menu": "ポアール",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/7a4b3071-ad79-4bfd-b52d-ec727da004b4",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/7a4b3071-ad79-4bfd-b52d-ec727da004b4/menu-d3d875bf-ef7b-452c-823c-79731a81af54.jpg"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "broadcastDate": "2024-04-17",
+  "url": "https://mahou-contents.mbs.jp/shops/onair/2024-04-17",
+  "programTitle": "水野真紀の魔法のレストラン",
+  "episodeTitle": "関西どえらいグルメBEST10",
+  "shops": [
+    {
+      "rankInfo": "どえらい販売方法の",
+      "name": "ケーキ",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/edea1c7b-0e44-4a5a-beab-6376c39f0975",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/edea1c7b-0e44-4a5a-beab-6376c39f0975/menu-66aa8482-3a36-4f74-b455-2c7b520fe1fa.jpg"
+    },
+    {
+      "rankInfo": "どえらい",
+      "name": "おにぎりが似合う",
+      "menu": "職人",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/90ec540b-c546-49b0-aec7-09e43bc78462",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/90ec540b-c546-49b0-aec7-09e43bc78462/menu-c63a3f5f-171d-47bc-8d09-f527c03e908b.jpg"
+    },
+    {
+      "rankInfo": "どえらいシェフが作る",
+      "name": "本格洋食",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/ad87dffe-36ed-42d8-8546-8bc885d60e9e",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/ad87dffe-36ed-42d8-8546-8bc885d60e9e/menu-554e5232-e93c-42af-b03c-90869a00824c.jpg"
+    },
+    {
+      "rankInfo": "どえらいメニューがある",
+      "name": "うどん店",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/eaa488de-4d75-4372-8801-fd5df5b329bc",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/eaa488de-4d75-4372-8801-fd5df5b329bc/menu-76dccbee-93de-4d4d-94bf-29c1ec8856cf.jpg"
+    },
+    {
+      "rankInfo": "どえらい営業時間の",
+      "name": "町中華",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/f64d76e0-927f-4cdb-89ba-b460196e3422",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/f64d76e0-927f-4cdb-89ba-b460196e3422/menu-74faeb38-34df-4c64-8a4b-0a066dea8d69.jpg"
+    },
+    {
+      "rankInfo": "どえらいメニュー数の",
+      "name": "お好み焼き店",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/093f811e-e92e-424b-823f-4a29409f0552",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/093f811e-e92e-424b-823f-4a29409f0552/menu-0cb672bb-87da-45c4-bb88-66c95bbb134e.jpg"
+    },
+    {
+      "rankInfo": "どえらい麺にこだわる",
+      "name": "行列ラーメン",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/f6071e44-7f24-4973-a92f-1c45cf969311",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/f6071e44-7f24-4973-a92f-1c45cf969311/menu-8569af33-6be0-44d0-8997-0de6e39ecdc5.jpg"
+    },
+    {
+      "rankInfo": "どえらい決まりがある",
+      "name": "ふわふわオムレツ",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/82412b1c-088f-40ab-b81f-96918dc62fbc",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/82412b1c-088f-40ab-b81f-96918dc62fbc/menu-33e69aa4-b14b-4940-a1c2-6e666f1590d9.jpg"
+    },
+    {
+      "rankInfo": "どえらい融通がきく",
+      "name": "スーパーマーケット",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/b3c05e20-a6db-4666-bc47-ce226ca092c5",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/b3c05e20-a6db-4666-bc47-ce226ca092c5/menu-1a6d575d-eb46-4fef-a0d5-72b1595be3bc.jpg"
+    },
+    {
+      "rankInfo": "どえらいスープの",
+      "name": "超濃厚ラーメン",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/c929fa6d-25a1-432b-8fd2-9683cfda0e01",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/c929fa6d-25a1-432b-8fd2-9683cfda0e01/menu-dab0f2b1-bc88-4b82-938f-99149e8a9612.jpg"
+    }
+  ]
+}

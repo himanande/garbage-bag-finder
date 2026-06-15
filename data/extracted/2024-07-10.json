@@ -1,0 +1,22 @@
+{
+  "broadcastDate": "2024-07-10",
+  "url": "https://mahou-contents.mbs.jp/shops/onair/2024-07-10",
+  "programTitle": "水野真紀の魔法のレストラン",
+  "episodeTitle": "ココが悔しい！ライバル対決 スシローvs.魚べい 90分SP",
+  "shops": [
+    {
+      "rankInfo": "ココが悔しい！",
+      "name": "ライバル対決",
+      "menu": "スシローvs.魚べい 90分SP",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/b3ca0603-032a-42b8-b826-8215cad92d1d",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/b3ca0603-032a-42b8-b826-8215cad92d1d/menu-fb30659b-ab70-4425-aa48-5dee3c4e367f.jpg"
+    },
+    {
+      "rankInfo": "ココが悔しい！",
+      "name": "ライバル対決",
+      "menu": "スシローvs.魚べい 90分SP",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/a815035b-4983-499c-bb7c-b14534e93042",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/a815035b-4983-499c-bb7c-b14534e93042/menu-0c05b658-1d41-4c25-9ddf-25fb3f50b937.jpg"
+    }
+  ]
+}

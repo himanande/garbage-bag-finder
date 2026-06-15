@@ -1,0 +1,57 @@
+{
+  "broadcastDate": "2024-02-21",
+  "url": "https://mahou-contents.mbs.jp/shops/onair/2024-02-21",
+  "programTitle": "水野真紀の魔法のレストラン",
+  "episodeTitle": "大阪行列ドキュメント24時",
+  "shops": [
+    {
+      "rankInfo": "大東市",
+      "name": "6時に行列",
+      "menu": "華龍食品",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/421b2c02-e9fc-4239-a251-8ac2d491c1a6",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/421b2c02-e9fc-4239-a251-8ac2d491c1a6/menu-e1c60aad-dd1c-4e58-a415-09096823f82a.jpg"
+    },
+    {
+      "rankInfo": "大阪市桃谷",
+      "name": "8時に行列",
+      "menu": "食道山田商店",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/7ea26909-377a-41c3-9f96-5124121ebda5",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/7ea26909-377a-41c3-9f96-5124121ebda5/menu-cd9139ea-8dc2-46f2-8ab7-85c50435ba35.jpg"
+    },
+    {
+      "rankInfo": "泉南市",
+      "name": "10時に行列",
+      "menu": "廻鮮鮨 喜十郎",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/a6b5e25f-aa64-4947-8e3b-36f64ed3ebf9",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/a6b5e25f-aa64-4947-8e3b-36f64ed3ebf9/menu-a140ab75-d14d-4c56-b0ae-6089c4705e16.jpg"
+    },
+    {
+      "rankInfo": "茨木市",
+      "name": "12時に行列",
+      "menu": "Sラーメン",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/2b6360aa-1b8b-4e24-a3e2-4fa1be08511c",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/2b6360aa-1b8b-4e24-a3e2-4fa1be08511c/menu-45bf8eb1-2404-44f4-b154-449d2a48f9e6.jpg"
+    },
+    {
+      "rankInfo": "大阪市北浜",
+      "name": "14時に行列",
+      "menu": "五感-GOKAN-北浜本館",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/84533050-1b67-46ea-a1ea-9d5b1575ee6b",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/84533050-1b67-46ea-a1ea-9d5b1575ee6b/menu-c3a8024a-d894-4265-baa1-96aa5b1f933d.jpg"
+    },
+    {
+      "rankInfo": "堺市",
+      "name": "18時に行列",
+      "menu": "焼肉 味楽",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/9e6f6b44-09cc-4135-bba2-ee45bcdec05c",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/9e6f6b44-09cc-4135-bba2-ee45bcdec05c/menu-1d4d6467-2e5a-4b43-a5b3-b2d2217701d0.jpg"
+    },
+    {
+      "rankInfo": "藤井寺市",
+      "name": "24時に行列",
+      "menu": "KASUYA 藤井寺本店",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/419544a1-efc9-4e21-9f75-e1093b48dcdf",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/419544a1-efc9-4e21-9f75-e1093b48dcdf/menu-b7107073-8ba5-47d4-bb8c-a21ceb27ea19.jpg"
+    }
+  ]
+}

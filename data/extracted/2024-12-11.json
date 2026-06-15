@@ -1,0 +1,22 @@
+{
+  "broadcastDate": "2024-12-11",
+  "url": "https://mahou-contents.mbs.jp/shops/onair/2024-12-11",
+  "programTitle": "水野真紀の魔法のレストラン",
+  "episodeTitle": "人気焼肉チェーン店対決 焼肉きんぐvs.牛角",
+  "shops": [
+    {
+      "rankInfo": "人気焼肉チェーン店",
+      "name": "悔しい！対決",
+      "menu": "焼肉きんぐ",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/00afbac7-1fc8-458f-90dc-446e643e3c4b",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/00afbac7-1fc8-458f-90dc-446e643e3c4b/menu-039e0cad-601b-4466-a26d-1de674186957.jpg"
+    },
+    {
+      "rankInfo": "人気焼肉チェーン店",
+      "name": "悔しい！対決",
+      "menu": "牛角",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/402b4c3b-baa2-48da-80fe-484717675732",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/402b4c3b-baa2-48da-80fe-484717675732/menu-93838654-f6e2-4c4e-bcad-40d6663910ea.jpg"
+    }
+  ]
+}

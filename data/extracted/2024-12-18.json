@@ -1,0 +1,57 @@
+{
+  "broadcastDate": "2024-12-18",
+  "url": "https://mahou-contents.mbs.jp/shops/onair/2024-12-18",
+  "programTitle": "水野真紀の魔法のレストラン",
+  "episodeTitle": "関西ミシュランシェフ激推し！ガチ通いチェーン7連発",
+  "shops": [
+    {
+      "rankInfo": "関西ミシュランシェフ激推し！ガチ通いチェーン7連発",
+      "name": "バーミヤン",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/c53876e1-8ccd-4acc-9a56-2e9a4713ee83",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/c53876e1-8ccd-4acc-9a56-2e9a4713ee83/menu-e4b0dc7f-2bde-4fba-9396-8dd07d180a9d.jpg"
+    },
+    {
+      "rankInfo": "関西ミシュランシェフ激推し！ガチ通いチェーン7連発",
+      "name": "ドミノ・ピザ",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/2221d205-4031-47fb-98d2-b7460556d854",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/2221d205-4031-47fb-98d2-b7460556d854/menu-c19fa9a4-1b8b-410f-bc1d-6c29ae409ee0.jpg"
+    },
+    {
+      "rankInfo": "関西ミシュランシェフ激推し！ガチ通いチェーン7連発",
+      "name": "麺匠の心つくし つるとんたん",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/e9ff20ef-48cc-417f-adcd-1b844d3f140f",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/e9ff20ef-48cc-417f-adcd-1b844d3f140f/menu-d0a146a8-f51c-48b9-8bfc-2b6401e2568b.jpg"
+    },
+    {
+      "rankInfo": "関西ミシュランシェフ激推し！ガチ通いチェーン7連発",
+      "name": "CoCo壱番屋",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/4e973ea8-38fa-4039-88fd-1adc6b0d635e",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/4e973ea8-38fa-4039-88fd-1adc6b0d635e/menu-0df297b9-2299-4fda-bcff-27a8e81e4855.jpg"
+    },
+    {
+      "rankInfo": "関西ミシュランシェフ激推し！ガチ通いチェーン7連発",
+      "name": "天下一品",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/287f75c2-339f-4b01-b0a1-d99ecda28905",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/287f75c2-339f-4b01-b0a1-d99ecda28905/menu-7b381fba-b724-4667-b86b-85d3fee38702.jpg"
+    },
+    {
+      "rankInfo": "関西ミシュランシェフ激推し！ガチ通いチェーン7連発",
+      "name": "ピザハット",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/fe6b014e-9648-4fa7-8a2f-4e373f394e21",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/fe6b014e-9648-4fa7-8a2f-4e373f394e21/menu-c05bc4a7-8bd0-4060-9f18-89d41080b48f.jpg"
+    },
+    {
+      "rankInfo": "関西ミシュランシェフ激推し！ガチ通いチェーン7連発",
+      "name": "キャピタル東洋亭",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/44cf7b23-58ce-4bc8-a51b-f5210f604c4e",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/44cf7b23-58ce-4bc8-a51b-f5210f604c4e/menu-160ae5e8-7d20-4a43-b1d9-fae73750c2e5.jpg"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "broadcastDate": "2024-05-08",
+  "url": "https://mahou-contents.mbs.jp/shops/onair/2024-05-08",
+  "programTitle": "水野真紀の魔法のレストラン",
+  "episodeTitle": "行列店 ホンマはこっちグルメ第2弾",
+  "shops": [
+    {
+      "rankInfo": "行列店",
+      "name": "ホンマはこっちグルメ第2弾",
+      "menu": "大洋軒",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/c048ba42-2f78-4d21-a0e0-f248cb31ec67",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/c048ba42-2f78-4d21-a0e0-f248cb31ec67/menu-688a09df-7f0a-4940-8287-bfb7b0641014.jpg"
+    },
+    {
+      "rankInfo": "行列店",
+      "name": "行列店 ホンマはこっちグルメ第2弾",
+      "menu": "志津屋",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/e39a6dc0-1a01-4a85-9889-aada32332a88",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/e39a6dc0-1a01-4a85-9889-aada32332a88/menu-6be0c2fe-530e-437a-b751-d5cde197aa03.jpg"
+    },
+    {
+      "rankInfo": "行列店",
+      "name": "ホンマはこっちグルメ第2弾",
+      "menu": "パールズ",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/263c8bbe-51de-4ec2-8f3b-d3d37ae7ed2b",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/263c8bbe-51de-4ec2-8f3b-d3d37ae7ed2b/menu-883b7999-33a3-431e-9cae-5f15d1472068.jpg"
+    },
+    {
+      "rankInfo": "行列店",
+      "name": "ホンマはこっちグルメ第2弾",
+      "menu": "松乃屋",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/6867d4e4-4df6-469e-bec1-bbbb581d195a",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/6867d4e4-4df6-469e-bec1-bbbb581d195a/menu-5d522bd2-8718-4a32-8aeb-2dab558f2ae3.jpg"
+    },
+    {
+      "rankInfo": "行列店",
+      "name": "ホンマはこっちグルメ第2弾",
+      "menu": "ソワレ",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/0ad5f89c-3149-47bc-aa6a-d78a4670bd61",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/0ad5f89c-3149-47bc-aa6a-d78a4670bd61/menu-d5d33584-4934-43f1-b4e8-0e6523fc9566.jpg"
+    },
+    {
+      "rankInfo": "行列店",
+      "name": "ホンマはこっちグルメ第2弾",
+      "menu": "うどん 讃く",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/be9d6bc6-cb32-400f-99a7-adb3872f1abf",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/be9d6bc6-cb32-400f-99a7-adb3872f1abf/menu-b452b657-917e-44a2-ab07-36d6f5f548f5.jpg"
+    }
+  ]
+}

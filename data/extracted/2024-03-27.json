@@ -1,0 +1,64 @@
+{
+  "broadcastDate": "2024-03-27",
+  "url": "https://mahou-contents.mbs.jp/shops/onair/2024-03-27",
+  "programTitle": "水野真紀の魔法のレストラン",
+  "episodeTitle": "ここが悔しい！デパ地下ライバル対決阪急うめだvs.あべのハルカス",
+  "shops": [
+    {
+      "rankInfo": "ここが悔しい！",
+      "name": "デパ地下ライバル対決",
+      "menu": "おさつどきっ",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/20c4b4dc-d474-4bcd-bad9-9d30df208a33",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/20c4b4dc-d474-4bcd-bad9-9d30df208a33/menu-f33ac8cb-d712-4de5-9205-caa274c8f5a4.jpg"
+    },
+    {
+      "rankInfo": "ここが悔しい！",
+      "name": "デパ地下ライバル対決",
+      "menu": "サントノーレ",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/c7626a99-e9f7-41ca-aa6a-96181b03d765",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/c7626a99-e9f7-41ca-aa6a-96181b03d765/menu-f2f62ffe-3668-470a-91f5-3e4fc4bf375c.jpg"
+    },
+    {
+      "rankInfo": "ここが悔しい！",
+      "name": "デパ地下ライバル対決",
+      "menu": "祇園八坂 圓堂",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/54273131-8288-4f93-9db8-ce4d85cd36d1",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/54273131-8288-4f93-9db8-ce4d85cd36d1/menu-96d9b308-9aa7-4f4b-8f90-ddb14a8a1dec.jpg"
+    },
+    {
+      "rankInfo": "ここが悔しい！",
+      "name": "デパ地下ライバル対決",
+      "menu": "人類みな辛さが全て",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/96105c2e-c8b7-4591-8271-394e6a16f9e8",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/96105c2e-c8b7-4591-8271-394e6a16f9e8/menu-607d6a12-83c5-4f49-b229-eba3b9f250b7.jpg"
+    },
+    {
+      "rankInfo": "ここが悔しい！",
+      "name": "デパ地下ライバル対決",
+      "menu": "道頓堀大阪とんかつ(旧ちよ松)",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/8be6d4cc-d085-4e2b-a08b-1eaf199dbc79",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/8be6d4cc-d085-4e2b-a08b-1eaf199dbc79/menu-18059981-0644-44da-b073-f7cea966f7a1.jpg"
+    },
+    {
+      "rankInfo": "ここが悔しい！",
+      "name": "デパ地下ライバル対決",
+      "menu": "バターバトラー",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/3fdb2d3e-8253-4e83-99f7-e04c5ecf6842",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/3fdb2d3e-8253-4e83-99f7-e04c5ecf6842/menu-d1c7d0ec-1cc6-4e19-8bed-65fb28671ed8.jpg"
+    },
+    {
+      "rankInfo": "ここが悔しい！",
+      "name": "デパ地下ライバル対決",
+      "menu": "あげもちCocoro",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/5328d806-4989-41e7-b97d-a2cd5c3b7517",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/5328d806-4989-41e7-b97d-a2cd5c3b7517/menu-8d399162-f721-4cee-a3cb-dae6de6af9e9.jpg"
+    },
+    {
+      "rankInfo": "ここが悔しい！",
+      "name": "デパ地下ライバル対決",
+      "menu": "ベビーフェイス",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/574a27d1-fc06-44e4-bb38-561378b6edc7",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/574a27d1-fc06-44e4-bb38-561378b6edc7/menu-228269e8-aff1-4317-9f2a-991fa66798d4.jpg"
+    }
+  ]
+}

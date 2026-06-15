@@ -1,0 +1,78 @@
+{
+  "broadcastDate": "2024-05-15",
+  "url": "https://mahou-contents.mbs.jp/shops/onair/2024-05-15",
+  "programTitle": "水野真紀の魔法のレストラン",
+  "episodeTitle": "関西ホンマに美味しいグルメMAP 天満編",
+  "shops": [
+    {
+      "rankInfo": "グルメMAP天満",
+      "name": "新行列店",
+      "menu": "天満鮨",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/cc9cb892-7a2e-4d70-ac12-c406450758e5",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/cc9cb892-7a2e-4d70-ac12-c406450758e5/menu-dcb3b15d-5f4a-41b4-8a31-0ca918bf5b09.jpg"
+    },
+    {
+      "rankInfo": "グルメMAP天満",
+      "name": "新行列店",
+      "menu": "ミートくんの間借り食堂",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/42c6c5c3-c3b6-4c6d-9bdd-69ab38ea6b5f",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/42c6c5c3-c3b6-4c6d-9bdd-69ab38ea6b5f/menu-c417b6c0-0657-4487-9f15-b14ff0a7c2e6.jpg"
+    },
+    {
+      "rankInfo": "グルメMAP天満",
+      "name": "新行列店",
+      "menu": "フーナ",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/4bb866ce-ae46-4daa-9dcf-a15c4691b124",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/4bb866ce-ae46-4daa-9dcf-a15c4691b124/menu-cf84ba05-d9d3-4668-9941-110ed8f6ea05.jpg"
+    },
+    {
+      "rankInfo": "グルメMAP天満",
+      "name": "進化系立ち飲み",
+      "menu": "新多聞酒蔵",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/0746e81b-2c4f-44bf-a9b0-c7860567f074",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/0746e81b-2c4f-44bf-a9b0-c7860567f074/menu-14c7b581-d26f-44c3-a9cb-f1a3c1921059.jpg"
+    },
+    {
+      "rankInfo": "グルメMAP天満",
+      "name": "進化系立ち飲み",
+      "menu": "ラムのラヴソング",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/43967327-0999-4c0e-a1fa-90bf36d6144b",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/43967327-0999-4c0e-a1fa-90bf36d6144b/menu-5f1de112-ba25-4e51-b127-d6ebe73eaf1f.jpg"
+    },
+    {
+      "rankInfo": "グルメMAP天満",
+      "name": "進化系立ち飲み",
+      "menu": "カレー デ ドコマデモ べジン",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/934990a1-b739-4529-adcf-70cd1ee22f08",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/934990a1-b739-4529-adcf-70cd1ee22f08/menu-e5f4236a-1127-4ace-af5b-2795c36d2556.jpg"
+    },
+    {
+      "rankInfo": "グルメMAP天満",
+      "name": "円広志オススメ店",
+      "menu": "季節料理 選 SEN",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/dac852cb-ea0c-4ff4-a7b8-564cbc524dea",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/dac852cb-ea0c-4ff4-a7b8-564cbc524dea/menu-9a7360f5-84d2-46f4-a040-40c9cd1f6f6a.jpg"
+    },
+    {
+      "rankInfo": "グルメMAP天満",
+      "name": "朝ラーメン",
+      "menu": "中華そば兎",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/d8fdc207-fb76-4280-b507-d4749bc2375f",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/d8fdc207-fb76-4280-b507-d4749bc2375f/menu-9debbf82-e8a4-425b-9f90-1e7331ed7d94.jpg"
+    },
+    {
+      "rankInfo": "グルメMAP天満",
+      "name": "朝ラーメン",
+      "menu": "ヤドカリ食堂",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/79706434-560c-40af-904b-07fe124c653b",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/79706434-560c-40af-904b-07fe124c653b/menu-2dd28d48-a697-4139-9b5e-b5496400e0ca.jpg"
+    },
+    {
+      "rankInfo": "グルメMAP天満",
+      "name": "朝ラーメン",
+      "menu": "膳途洋々",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/bb8e01fb-5533-462a-a5a4-aaf6443ce846",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/bb8e01fb-5533-462a-a5a4-aaf6443ce846/menu-9daf6247-8766-4a43-92d7-854a3d09204f.jpg"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "broadcastDate": "2024-09-04",
+  "url": "https://mahou-contents.mbs.jp/shops/onair/2024-09-04",
+  "programTitle": "水野真紀の魔法のレストラン",
+  "episodeTitle": "食のプロが選ぶ！大阪ホンマに美味しい定食ランキング",
+  "shops": [
+    {
+      "rankInfo": "食のプロが選ぶ",
+      "name": "定食ランキング 第10位",
+      "menu": "当志郎",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/8c96cf5a-2d36-4396-90de-631df266d840",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/8c96cf5a-2d36-4396-90de-631df266d840/menu-c5cf3f42-2141-4894-a2b3-4a5a7de789a4.jpg"
+    },
+    {
+      "rankInfo": "食のプロが選ぶ",
+      "name": "定食ランキング 第9位",
+      "menu": "実身美",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/d7c3c615-3a5c-4907-8c9f-d9b8c2898ccd",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/d7c3c615-3a5c-4907-8c9f-d9b8c2898ccd/menu-02c94d6a-1aa5-4822-bd1d-17121463a4ee.jpg"
+    },
+    {
+      "rankInfo": "食のプロが選ぶ",
+      "name": "定食ランキング 第7位",
+      "menu": "赤丸食堂",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/955658f1-fb3b-436c-ad9a-e962863c13b3",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/955658f1-fb3b-436c-ad9a-e962863c13b3/menu-ba24b876-7a49-4e59-aff1-78e39abdaf37.jpg"
+    },
+    {
+      "rankInfo": "食のプロが選ぶ",
+      "name": "定食ランキング 第6位",
+      "menu": "普通の食堂いわま",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/c5ed271f-146f-4238-9a86-f8618d30030a",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/c5ed271f-146f-4238-9a86-f8618d30030a/menu-2bda2042-6af6-4b48-8c6e-68d693363fb2.jpg"
+    },
+    {
+      "rankInfo": "食のプロが選ぶ",
+      "name": "定食ランキング 第5位",
+      "menu": "魚料理あのの",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/1f93f2db-21f5-490c-9653-cc8141147a2b",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/1f93f2db-21f5-490c-9653-cc8141147a2b/menu-7a76c1d3-9a56-4090-a8b2-b9e179f59a14.jpg"
+    },
+    {
+      "rankInfo": "食のプロが選ぶ",
+      "name": "定食ランキング 第4位",
+      "menu": "フーナ",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/ce68df62-c118-428d-b24a-6dd16fab6cbf",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/ce68df62-c118-428d-b24a-6dd16fab6cbf/menu-82a17508-0433-4856-a327-6e12db7f9b0e.jpg"
+    },
+    {
+      "rankInfo": "食のプロが選ぶ",
+      "name": "定食ランキング 第3位",
+      "menu": "大洋軒",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/8446ee7c-e75f-44a1-b1f5-225e3706d570",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/8446ee7c-e75f-44a1-b1f5-225e3706d570/menu-de631b8a-c42a-448e-b88f-1bc0c6b8c212.jpg"
+    },
+    {
+      "rankInfo": "食のプロが選ぶ",
+      "name": "定食ランキング 第2位",
+      "menu": "八百屋とごはん",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/37ce1b09-fa5f-40e1-af2d-a0ea35406b16",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/37ce1b09-fa5f-40e1-af2d-a0ea35406b16/menu-b2736847-8903-4996-a610-14a4f868bece.jpg"
+    },
+    {
+      "rankInfo": "食のプロが選ぶ",
+      "name": "定食ランキング 第1位",
+      "menu": "一富士食堂",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/c5819eb1-8b5e-453f-8f8c-8e9bd2f27a70",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/c5819eb1-8b5e-453f-8f8c-8e9bd2f27a70/menu-f7a849d9-0046-40f2-96c2-0b7569a235de.jpg"
+    }
+  ]
+}

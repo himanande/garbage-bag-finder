@@ -1,0 +1,78 @@
+{
+  "broadcastDate": "2024-05-01",
+  "url": "https://mahou-contents.mbs.jp/shops/onair/2024-05-01",
+  "programTitle": "水野真紀の魔法のレストラン",
+  "episodeTitle": "食のプロが選ぶ！京阪神ホンマに美味しいパン店ランキング",
+  "shops": [
+    {
+      "rankInfo": "食のプロが選ぶ",
+      "name": "パン店ランキング 第10位",
+      "menu": "パネ ホ マレッタ",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/ad031da3-7138-4097-9f6c-acb41db0c700",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/ad031da3-7138-4097-9f6c-acb41db0c700/menu-eb7b6c7d-ca94-4b65-b6f6-6ce2a18be92d.jpg"
+    },
+    {
+      "rankInfo": "食のプロが選ぶ",
+      "name": "パン店ランキング 第9位",
+      "menu": "HATSUTATSU",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/552c1a1d-8a49-4e04-920a-ca8aed351ad9",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/552c1a1d-8a49-4e04-920a-ca8aed351ad9/menu-10a3e285-27fc-4b75-b8d1-94f8c3e992e9.jpg"
+    },
+    {
+      "rankInfo": "食のプロが選ぶ",
+      "name": "パン店ランキング 第8位",
+      "menu": "ブーランジュリー パリゴ",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/404d1407-c82c-403c-aa45-f4f2797e6fb2",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/404d1407-c82c-403c-aa45-f4f2797e6fb2/menu-4c620590-7bfc-4ef2-ba20-8f031d82b2f5.jpg"
+    },
+    {
+      "rankInfo": "食のプロが選ぶ",
+      "name": "パン店ランキング 第7位",
+      "menu": "イスズベーカリー",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/4b30c84d-f619-4e60-95d9-759b95ae7f9f",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/4b30c84d-f619-4e60-95d9-759b95ae7f9f/menu-9bbd06b1-d3b2-4d07-89c0-c053fd0cc872.jpg"
+    },
+    {
+      "rankInfo": "食のプロが選ぶ",
+      "name": "パン店ランキング 第6位",
+      "menu": "ル プチメック",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/006ecb44-de5d-4bfb-9630-1311caf51fe3",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/006ecb44-de5d-4bfb-9630-1311caf51fe3/menu-7d9c1823-da34-4ad8-b580-fb09e85b77bd.jpg"
+    },
+    {
+      "rankInfo": "食のプロが選ぶ",
+      "name": "パン店ランキング 第5位",
+      "menu": "ファイブラン",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/f99168ac-6a8c-44a0-838c-9cd7c7abd37b",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/f99168ac-6a8c-44a0-838c-9cd7c7abd37b/menu-2504a945-ac82-42bd-a2c9-29d96f1cd590.jpg"
+    },
+    {
+      "rankInfo": "食のプロが選ぶ",
+      "name": "パン店ランキング 第4位",
+      "menu": "パネ・ポルチーニ",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/40c683c1-e852-4825-bfa1-a4936c01ac59",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/40c683c1-e852-4825-bfa1-a4936c01ac59/menu-8778da2d-a6f5-4e4c-8c06-8de5520cdf36.jpg"
+    },
+    {
+      "rankInfo": "食のプロが選ぶ",
+      "name": "パン店ランキング 第3位",
+      "menu": "まん福ベーカリー",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/aeab81de-a788-4988-9df4-ebeaddb40352",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/aeab81de-a788-4988-9df4-ebeaddb40352/menu-5f7646a3-d0e6-4041-9b0c-414b7c482d3d.jpg"
+    },
+    {
+      "rankInfo": "食のプロが選ぶ",
+      "name": "パン店ランキング 第2位",
+      "menu": "ル シュクレクール",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/6ea5faf6-fee0-4932-8e97-77aa864bc3b6",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/6ea5faf6-fee0-4932-8e97-77aa864bc3b6/menu-d60a1958-96db-4567-b08b-02549e5a0599.jpg"
+    },
+    {
+      "rankInfo": "食のプロが選ぶ",
+      "name": "パン店ランキング 第1位",
+      "menu": "パンデュース",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/96d87364-1142-49fc-aeff-9a71f5a0f7d5",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/96d87364-1142-49fc-aeff-9a71f5a0f7d5/menu-30d0a083-2821-40f7-b88f-f5bf174abe36.jpg"
+    }
+  ]
+}
