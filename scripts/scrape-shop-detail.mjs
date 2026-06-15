@@ -14,36 +14,14 @@
 import fs from 'node:fs'
 import path from 'node:path'
 import * as cheerio from 'cheerio'
+import { sleep, fetchAndCache, DELAY_MS } from './lib/http.mjs'
 
 const ROOT = process.cwd()
 const RAW_DIR = path.join(ROOT, 'data', 'raw-shops')
 const OUT_DIR = path.join(ROOT, 'data', 'shops')
-const BASE_URL = 'https://mahou-contents.mbs.jp/shops'
+export const SHOP_BASE_URL = 'https://mahou-contents.mbs.jp/shops'
 
-const DELAY_MS = 3000
-const USER_AGENT =
-  'magic-restaurant-search-research-bot/0.1 (+https://github.com/himanande/magic-restaurant-search; contact: ikeda3.note@gmail.com)'
-
-function sleep(ms) {
-  return new Promise((resolve) => setTimeout(resolve, ms))
-}
-
-async function fetchAndCache(url, cachePath) {
-  if (fs.existsSync(cachePath)) {
-    return { html: fs.readFileSync(cachePath, 'utf-8'), fromCache: true }
-  }
-
-  const res = await fetch(url, { headers: { 'User-Agent': USER_AGENT } })
-  if (!res.ok) {
-    return { html: null, status: res.status, fromCache: false }
-  }
-
-  const html = await res.text()
-  fs.writeFileSync(cachePath, html)
-  return { html, fromCache: false }
-}
-
-function extract(html, uuid, url) {
+export function extractShopDetail(html, uuid, url) {
   const $ = cheerio.load(html)
 
   // #details 内の <dl> は <dt>ラベル</dt><dd>値</dd> の繰り返し
@@ -89,7 +67,7 @@ async function main() {
   let skipped = 0
 
   for (const [i, uuid] of uuids.entries()) {
-    const url = `${BASE_URL}/${uuid}`
+    const url = `${SHOP_BASE_URL}/${uuid}`
     const cachePath = path.join(RAW_DIR, `${uuid}.html`)
     process.stdout.write(`[${i + 1}/${uuids.length}] ${uuid} `)
 
@@ -101,7 +79,7 @@ async function main() {
     }
 
     console.log(fromCache ? '-> キャッシュ利用' : '-> 取得OK')
-    const extracted = extract(html, uuid, url)
+    const extracted = extractShopDetail(html, uuid, url)
     fs.writeFileSync(path.join(OUT_DIR, `${uuid}.json`), JSON.stringify(extracted, null, 2))
     ok++
 
@@ -113,4 +91,6 @@ async function main() {
   console.log(`完了: 成功 ${ok}件 / スキップ ${skipped}件`)
 }
 
-main()
+if (import.meta.url === `file://${process.argv[1]}`) {
+  main()
+}

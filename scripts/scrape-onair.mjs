@@ -17,19 +17,16 @@
 import fs from 'node:fs'
 import path from 'node:path'
 import * as cheerio from 'cheerio'
+import { sleep, fetchAndCache, DELAY_MS } from './lib/http.mjs'
 
 const ROOT = process.cwd()
 const CSV_PATH = path.join(ROOT, 'data', 'onair-urls.csv')
 const RAW_DIR = path.join(ROOT, 'data', 'raw')
 const OUT_DIR = path.join(ROOT, 'data', 'extracted')
 
-const DELAY_MS = 3000
-const USER_AGENT =
-  'magic-restaurant-search-research-bot/0.1 (+https://github.com/himanande/magic-restaurant-search; contact: ikeda3.note@gmail.com)'
-
 const filterPrefix = process.argv[2] ?? ''
 
-function loadTargets() {
+export function loadOnairTargets(prefix = '') {
   const lines = fs.readFileSync(CSV_PATH, 'utf-8').trim().split('\n')
   const [, ...rows] = lines
   return rows
@@ -37,29 +34,10 @@ function loadTargets() {
       const [broadcastDate, url] = line.split(',')
       return { broadcastDate, url }
     })
-    .filter(({ broadcastDate }) => broadcastDate.startsWith(filterPrefix))
+    .filter(({ broadcastDate }) => broadcastDate.startsWith(prefix))
 }
 
-function sleep(ms) {
-  return new Promise((resolve) => setTimeout(resolve, ms))
-}
-
-async function fetchAndCache(url, cachePath) {
-  if (fs.existsSync(cachePath)) {
-    return { html: fs.readFileSync(cachePath, 'utf-8'), fromCache: true }
-  }
-
-  const res = await fetch(url, { headers: { 'User-Agent': USER_AGENT } })
-  if (!res.ok) {
-    return { html: null, status: res.status, fromCache: false }
-  }
-
-  const html = await res.text()
-  fs.writeFileSync(cachePath, html)
-  return { html, fromCache: false }
-}
-
-function extract(html, broadcastDate, url) {
+export function extractOnair(html, broadcastDate, url) {
   const $ = cheerio.load(html)
 
   // <title>は「{回タイトル} | {番組名} | MBS 毎日放送」の形式
@@ -100,7 +78,7 @@ async function main() {
   fs.mkdirSync(RAW_DIR, { recursive: true })
   fs.mkdirSync(OUT_DIR, { recursive: true })
 
-  const targets = loadTargets()
+  const targets = loadOnairTargets(filterPrefix)
   console.log(`対象: ${targets.length}件 (prefix: "${filterPrefix}")`)
 
   let ok = 0
@@ -118,7 +96,7 @@ async function main() {
     }
 
     console.log(fromCache ? '-> キャッシュ利用' : '-> 取得OK')
-    const extracted = extract(html, broadcastDate, url)
+    const extracted = extractOnair(html, broadcastDate, url)
     fs.writeFileSync(
       path.join(OUT_DIR, `${broadcastDate}.json`),
       JSON.stringify(extracted, null, 2)
@@ -133,4 +111,6 @@ async function main() {
   console.log(`完了: 成功 ${ok}件 / スキップ ${skipped}件`)
 }
 
-main()
+if (import.meta.url === `file://${process.argv[1]}`) {
+  main()
+}
