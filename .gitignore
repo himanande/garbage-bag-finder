@@ -42,3 +42,4 @@ next-env.d.ts
 
 # scraping cache (生HTMLはサイズが大きいためコミットしない)
 /data/raw/
+/data/raw-shops/
