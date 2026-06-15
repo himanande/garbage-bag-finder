@@ -1,0 +1,78 @@
+{
+  "broadcastDate": "2026-04-29",
+  "url": "https://mahou-contents.mbs.jp/shops/onair/2026-04-29",
+  "programTitle": "水野真紀の魔法のレストラン",
+  "episodeTitle": "食のプロが選ぶ！ホンマに美味しい御堂筋線お好み焼きランキング",
+  "shops": [
+    {
+      "rankInfo": "本町駅",
+      "name": "花まる亭",
+      "menu": "○○を使ってふわとろ食感に！",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/9e986507-db18-4ae2-bc13-889e38d64df5",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/9e986507-db18-4ae2-bc13-889e38d64df5/menu-2d81f8fe-c8dd-41ed-a7da-431831240ce1.jpg"
+    },
+    {
+      "rankInfo": "天王寺駅",
+      "name": "あべとん",
+      "menu": "カベポ驚愕の○○！",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/1c476f47-7471-4f39-8ec6-e4c92d7d68f0",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/1c476f47-7471-4f39-8ec6-e4c92d7d68f0/menu-bfb57dd7-17c7-4696-b300-2c256800fe36.jpg"
+    },
+    {
+      "rankInfo": "新大阪駅",
+      "name": "めっせ熊",
+      "menu": "夢の炭水化物定食！",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/3017bcc7-072c-4578-866d-ba4ea11359e2",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/3017bcc7-072c-4578-866d-ba4ea11359e2/menu-713d50a1-901f-4528-b199-ffa394e0909a.jpg"
+    },
+    {
+      "rankInfo": "昭和町駅",
+      "name": "陽氣",
+      "menu": "門外不出のレシピ",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/aede0b63-5f0b-4dec-82cf-d49c76edd95e",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/aede0b63-5f0b-4dec-82cf-d49c76edd95e/menu-f07f2d98-e20a-4b0b-99de-db907eb67ffb.jpg"
+    },
+    {
+      "rankInfo": "中津駅",
+      "name": "桃谷てんぐ",
+      "menu": "昔ながらの王道",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/6636c776-21fc-4d1a-8720-76c57e1310f1",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/6636c776-21fc-4d1a-8720-76c57e1310f1/menu-0dd39565-1f06-4098-b58c-52d0e660e3dd.jpg"
+    },
+    {
+      "rankInfo": "動物園前駅",
+      "name": "でん",
+      "menu": "野菜が超新鮮！",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/39807d92-8126-4b12-a3d0-e61fb944748f",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/39807d92-8126-4b12-a3d0-e61fb944748f/menu-870bdc08-25ba-4ad7-b618-0b8fe476893e.jpg"
+    },
+    {
+      "rankInfo": "なんば駅",
+      "name": "AT THE 21 namba",
+      "menu": "極厚モダン焼き",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/d3f15e07-c2bf-42fe-902e-e01331427526",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/d3f15e07-c2bf-42fe-902e-e01331427526/menu-4088e503-370b-4a73-ab52-49f0278f5b3d.jpg"
+    },
+    {
+      "rankInfo": "なんば駅",
+      "name": "福太郎",
+      "menu": "トロトロ重ね焼き",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/28e2a742-dc56-4aad-b93f-fb58a094f0a8",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/28e2a742-dc56-4aad-b93f-fb58a094f0a8/menu-98eb0996-295f-4ad5-8812-c8b506137728.jpg"
+    },
+    {
+      "rankInfo": "梅田駅",
+      "name": "tanpopo",
+      "menu": "お好み焼きとワイン",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/15c3c8aa-b769-4d0d-a073-7033b6608843",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/15c3c8aa-b769-4d0d-a073-7033b6608843/menu-a67a07ef-7bb5-4da3-856a-39feab27fb16.jpg"
+    },
+    {
+      "rankInfo": "梅田駅",
+      "name": "きじ",
+      "menu": "食のプロが絶賛の技術",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/f6a3b2e3-8a00-4039-822b-1302051fd259",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/f6a3b2e3-8a00-4039-822b-1302051fd259/menu-071cae83-539f-4c1e-aa4d-18f43ae00ed3.jpg"
+    }
+  ]
+}

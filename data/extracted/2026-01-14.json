@@ -1,0 +1,36 @@
+{
+  "broadcastDate": "2026-01-14",
+  "url": "https://mahou-contents.mbs.jp/shops/onair/2026-01-14",
+  "programTitle": "水野真紀の魔法のレストラン",
+  "episodeTitle": "大阪メトロ御堂筋線 行列店の裏側大調査SP",
+  "shops": [
+    {
+      "rankInfo": "大阪メトロ御堂筋線 行列店の裏側大調査SP",
+      "name": "中国料理 璠房(ファンファン)",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/27c2b25c-48c5-4b4f-9749-31e83530fb20",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/27c2b25c-48c5-4b4f-9749-31e83530fb20/menu-006c9bab-514f-4926-838b-05a4534c9c24.jpg"
+    },
+    {
+      "rankInfo": "大阪メトロ御堂筋線 行列店の裏側大調査SP",
+      "name": "fiveran osaka Coffee BASE",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/90ac3550-e18f-482a-a1e5-8e629c18810d",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/90ac3550-e18f-482a-a1e5-8e629c18810d/menu-87fd8aaa-9b0a-436a-97ee-7c17865481aa.jpg"
+    },
+    {
+      "rankInfo": "大阪メトロ御堂筋線 行列店の裏側大調査SP",
+      "name": "グリル梵",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/e4d709aa-6da7-4a19-9bc0-37c88344ad1a",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/e4d709aa-6da7-4a19-9bc0-37c88344ad1a/menu-f4f32080-d786-4abd-b232-93c1a0febbd3.jpg"
+    },
+    {
+      "rankInfo": "大阪メトロ御堂筋線 行列店の裏側大調査SP",
+      "name": "権兵衛",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/3020e0e7-b1d7-4ac9-8235-e5f7cb342f0e",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/3020e0e7-b1d7-4ac9-8235-e5f7cb342f0e/menu-45580022-d15f-43c0-8c54-95239e4a1b39.jpg"
+    }
+  ]
+}

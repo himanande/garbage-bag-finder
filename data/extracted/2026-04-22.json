@@ -1,0 +1,50 @@
+{
+  "broadcastDate": "2026-04-22",
+  "url": "https://mahou-contents.mbs.jp/shops/onair/2026-04-22",
+  "programTitle": "水野真紀の魔法のレストラン",
+  "episodeTitle": "昭和vs.平成vs.令和 世代差グルメ大調査",
+  "shops": [
+    {
+      "rankInfo": "昭和vs.平成vs.令和 世代差グルメ大調査",
+      "name": "今西軒",
+      "menu": "おはぎ",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/0e75eae4-ee21-41a5-996f-ecb30bc2c7a1",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/0e75eae4-ee21-41a5-996f-ecb30bc2c7a1/menu-3eebcd01-4072-49d9-84cd-ed7a4dbba1d0.jpg"
+    },
+    {
+      "rankInfo": "昭和vs.平成vs.令和 世代差グルメ大調査",
+      "name": "Oh!huggy!!",
+      "menu": "フラワーおはぎ",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/d69ebe91-7d1b-4574-9246-81a28497ec0a",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/d69ebe91-7d1b-4574-9246-81a28497ec0a/menu-431f1749-7341-4167-b609-60c2b368ee40.jpg"
+    },
+    {
+      "rankInfo": "昭和vs.平成vs.令和 世代差グルメ大調査",
+      "name": "CHASHITSU time",
+      "menu": "おはぎバーガー",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/a538b715-4cb8-411c-8776-065c51c6ab34",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/a538b715-4cb8-411c-8776-065c51c6ab34/menu-2329b7b0-c133-41de-91cb-903a2be1d5c1.jpg"
+    },
+    {
+      "rankInfo": "昭和vs.平成vs.令和 世代差グルメ大調査",
+      "name": "おたべ",
+      "menu": "ふわふわおたべ",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/96ee567b-d4d2-44aa-94a6-918ab3277b8f",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/96ee567b-d4d2-44aa-94a6-918ab3277b8f/menu-bf28b79c-e735-4726-9151-071972239535.jpg"
+    },
+    {
+      "rankInfo": "昭和vs.平成vs.令和 世代差グルメ大調査",
+      "name": "RAMEN .R 難波店",
+      "menu": "二郎系ラーメン",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/28ccb033-48cc-463d-9d42-16b2d823e654",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/28ccb033-48cc-463d-9d42-16b2d823e654/menu-84093587-2f68-40cb-97c3-702ec1af74dd.jpg"
+    },
+    {
+      "rankInfo": "昭和vs.平成vs.令和 世代差グルメ大調査",
+      "name": "HONMACHI豚テキ",
+      "menu": "トンテキ",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/d95021a0-a11f-48b4-be8e-906ba60c5a70",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/d95021a0-a11f-48b4-be8e-906ba60c5a70/menu-09c1527f-cd76-4458-b78f-abd583a0e121.jpg"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "broadcastDate": "2026-05-06",
+  "url": "https://mahou-contents.mbs.jp/shops/onair/2026-05-06",
+  "programTitle": "水野真紀の魔法のレストラン",
+  "episodeTitle": "同業店主が選ぶ！京阪神ホンマに美味しいパンランキング",
+  "shops": [
+    {
+      "rankInfo": "10位",
+      "name": "うるうる食感",
+      "menu": "伸びるしかない注目店",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/bdf7c897-b8ab-4e7d-82b4-304e7bf6d1dc",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/bdf7c897-b8ab-4e7d-82b4-304e7bf6d1dc/menu-0d7101b7-0866-49ad-ac36-d70abdbd5b65.jpg"
+    },
+    {
+      "rankInfo": "9位",
+      "name": "コスパ最強",
+      "menu": "子どもに大人気",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/68d0ed6d-1964-4b17-bc7a-b2213d5b4ac0",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/68d0ed6d-1964-4b17-bc7a-b2213d5b4ac0/menu-e64b4f02-92d3-48ac-b97b-f9469449428a.jpg"
+    },
+    {
+      "rankInfo": "8位",
+      "name": "山積みディスプレイ",
+      "menu": "ほかの店にない組み合わせ",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/ac3137d8-7abc-414f-8945-350dc6bfd927",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/ac3137d8-7abc-414f-8945-350dc6bfd927/menu-6471cc54-5a58-4c2c-b768-2f62d492ee67.jpg"
+    },
+    {
+      "rankInfo": "7位",
+      "name": "シェフの技術",
+      "menu": "オリジナル小麦粉",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/004dfd21-37bc-4069-a18d-f0417ca1fc3c",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/004dfd21-37bc-4069-a18d-f0417ca1fc3c/menu-52362dc2-151f-4cb5-a7ac-a00f609658ff.jpg"
+    },
+    {
+      "rankInfo": "6位",
+      "name": "日本パン業界のホープ",
+      "menu": "こだわり惣菜パン",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/1c3dcc3e-f6e2-453d-bb30-0cac91857a35",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/1c3dcc3e-f6e2-453d-bb30-0cac91857a35/menu-11a0ee49-c599-4db7-ba58-cf6450e45a37.jpg"
+    },
+    {
+      "rankInfo": "5位",
+      "name": "売り切れ必至",
+      "menu": "国際色豊かなパン",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/a2ef5961-4050-41f7-b0c6-adc9a76fee9b",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/a2ef5961-4050-41f7-b0c6-adc9a76fee9b/menu-d009e3e1-35bb-41c1-b28d-3191059de498.jpg"
+    },
+    {
+      "rankInfo": "4位",
+      "name": "しっとり",
+      "menu": "もちもち",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/0c5d9a1b-b294-4896-9c13-1a256f338ace",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/0c5d9a1b-b294-4896-9c13-1a256f338ace/menu-8d9a950b-01be-4943-9cdd-7d6d52be66a9.jpg"
+    },
+    {
+      "rankInfo": "3位",
+      "name": "大阪の超有名店",
+      "menu": "衝撃的な味わい",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/879f6209-f155-41ea-ad5a-19658dfb45d3",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/879f6209-f155-41ea-ad5a-19658dfb45d3/menu-69bdb7a5-3e74-4a09-b7dc-9aa5b1a44823.jpg"
+    },
+    {
+      "rankInfo": "2位",
+      "name": "パン界のレジェンド",
+      "menu": "100種類以上のパン",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/7a5163a4-0cb7-418c-8d86-b12c4a7a4f35",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/7a5163a4-0cb7-418c-8d86-b12c4a7a4f35/menu-7e00d45b-9dc8-4467-b944-294a35cdc2b2.jpg"
+    },
+    {
+      "rankInfo": "1位",
+      "name": "伝説店がさらなる進化",
+      "menu": "こだわりまくりの惣菜パン",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/866014c3-9565-4655-aec2-f18614f00409",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/866014c3-9565-4655-aec2-f18614f00409/menu-df76a6d2-0666-4347-9378-d2bcdf192244.jpg"
+    }
+  ]
+}

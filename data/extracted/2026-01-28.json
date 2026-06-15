@@ -1,0 +1,57 @@
+{
+  "broadcastDate": "2026-01-28",
+  "url": "https://mahou-contents.mbs.jp/shops/onair/2026-01-28",
+  "programTitle": "水野真紀の魔法のレストラン",
+  "episodeTitle": "京阪神 駅直結グルメ",
+  "shops": [
+    {
+      "rankInfo": "京阪神 駅直結グルメ",
+      "name": "梅田パート",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/4a3a15ed-e0dc-4652-9728-1ab030970fd2",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/4a3a15ed-e0dc-4652-9728-1ab030970fd2/menu-2e4dc39c-557a-4cfb-8da5-cef564bd7528.jpg"
+    },
+    {
+      "rankInfo": "京阪神 駅直結グルメ",
+      "name": "梅田パート",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/86691a88-6280-4441-9c2e-5491b75e24f5",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/86691a88-6280-4441-9c2e-5491b75e24f5/menu-ca99044c-52f5-466d-bb77-2cf7acc6cd15.jpg"
+    },
+    {
+      "rankInfo": "京阪神 駅直結グルメ",
+      "name": "梅田パート",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/2e8d0487-6c69-4500-a35c-55b32615acab",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/2e8d0487-6c69-4500-a35c-55b32615acab/menu-86e6bb0c-5f5b-4e25-8fd8-9f40aa976bd6.jpg"
+    },
+    {
+      "rankInfo": "京阪神 駅直結グルメ",
+      "name": "三宮パート",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/9d97d946-c1da-41d7-8f36-a48e39641ff3",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/9d97d946-c1da-41d7-8f36-a48e39641ff3/menu-c1b979dd-5ccc-49d6-b1ae-43b713855fa3.jpg"
+    },
+    {
+      "rankInfo": "京阪神 駅直結グルメ",
+      "name": "三宮パート",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/2c253550-92da-403e-a0b8-36bc5643c23a",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/2c253550-92da-403e-a0b8-36bc5643c23a/menu-b610c161-f8bb-4a07-b1dd-30cc553e3249.jpg"
+    },
+    {
+      "rankInfo": "京阪神 駅直結グルメ",
+      "name": "京都パート",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/f9ede076-445c-4929-a1a8-4fcd271399ae",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/f9ede076-445c-4929-a1a8-4fcd271399ae/menu-2792d9b7-a6f7-422d-ab9f-e20adae2d651.jpg"
+    },
+    {
+      "rankInfo": "京阪神 駅直結グルメ",
+      "name": "京都パート",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/454dea72-bc42-45a7-91a2-ec8699afaeba",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/454dea72-bc42-45a7-91a2-ec8699afaeba/menu-9aa8eecc-d73e-4d94-9522-96901248575c.jpg"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "broadcastDate": "2026-05-20",
+  "url": "https://mahou-contents.mbs.jp/shops/onair/2026-05-20",
+  "programTitle": "水野真紀の魔法のレストラン",
+  "episodeTitle": "あした行きたくなる！ライフ ロピア オーケー 惣菜ランキングBEST5",
+  "shops": [
+    {
+      "rankInfo": "ライフ",
+      "name": "小西シェフがオススメ",
+      "menu": "惣菜BEST5",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/e1e93805-ec3c-44c0-9ef6-c7c320a0c3d0",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/e1e93805-ec3c-44c0-9ef6-c7c320a0c3d0/menu-40678b21-aa61-4613-a20b-7b84c5ba9fa0.jpg"
+    },
+    {
+      "rankInfo": "ロピア",
+      "name": "槌谷シェフがオススメ",
+      "menu": "惣菜BEST5",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/ebb97579-277c-42bf-ad8d-688c998aebe1",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/ebb97579-277c-42bf-ad8d-688c998aebe1/menu-83034bae-e194-49ec-8d06-a7921be9d15d.jpg"
+    },
+    {
+      "rankInfo": "オーケー",
+      "name": "山口シェフがオススメ",
+      "menu": "惣菜BEST5",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/ffe6aa68-8878-43f0-9da2-236cc916fdc4",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/ffe6aa68-8878-43f0-9da2-236cc916fdc4/menu-91f38bf4-4f22-42d2-a4aa-b33c350fb5d9.jpg"
+    }
+  ]
+}

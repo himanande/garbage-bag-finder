@@ -1,0 +1,50 @@
+{
+  "broadcastDate": "2026-04-08",
+  "url": "https://mahou-contents.mbs.jp/shops/onair/2026-04-08",
+  "programTitle": "水野真紀の魔法のレストラン",
+  "episodeTitle": "北摂vs.泉州 食プロが推すホンマに美味い店ベスト3",
+  "shops": [
+    {
+      "rankInfo": "北摂",
+      "name": "麵部門",
+      "menu": "創作中華",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/e99f18cf-37d8-416d-a8b7-88f3150c9e82",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/e99f18cf-37d8-416d-a8b7-88f3150c9e82/menu-05fbfb55-7f80-41ac-83ad-abe16935eeba.jpg"
+    },
+    {
+      "rankInfo": "泉州",
+      "name": "麵部門",
+      "menu": "もちもち讃岐うどん",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/84265b6e-aba5-40e7-95b2-4267b3039671",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/84265b6e-aba5-40e7-95b2-4267b3039671/menu-03d02ee6-a33b-4de0-b94c-fd2bb3a65d5a.jpg"
+    },
+    {
+      "rankInfo": "北摂",
+      "name": "肉部門",
+      "menu": "オーナーが厳選",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/ca2cd0a7-9e99-4cc8-8d5d-d54c18a6c422",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/ca2cd0a7-9e99-4cc8-8d5d-d54c18a6c422/menu-a09f523c-94b0-40e8-94da-09d534b60ed3.jpg"
+    },
+    {
+      "rankInfo": "泉州",
+      "name": "肉部門",
+      "menu": "コスパ最強の焼肉",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/cfc97843-9056-4cd8-8ddd-e56a044c28fa",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/cfc97843-9056-4cd8-8ddd-e56a044c28fa/menu-1a8a97e7-16fb-46f8-847f-7e36c6eceef6.jpg"
+    },
+    {
+      "rankInfo": "北摂",
+      "name": "新名物部門",
+      "menu": "毎週食べても飽きない",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/d777c249-a581-45cf-a60d-84d20d873208",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/d777c249-a581-45cf-a60d-84d20d873208/menu-92a53794-8bb1-46cc-b7ac-bfe5dbaef889.jpg"
+    },
+    {
+      "rankInfo": "泉州",
+      "name": "新名物部門",
+      "menu": "インパクト抜群",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/17dec2d2-3ef5-4a28-a92b-4307a6f20550",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/17dec2d2-3ef5-4a28-a92b-4307a6f20550/menu-ba86159c-39c6-48ec-9f0e-e35304074f3c.jpg"
+    }
+  ]
+}

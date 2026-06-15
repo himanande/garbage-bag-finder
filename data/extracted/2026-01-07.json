@@ -1,0 +1,29 @@
+{
+  "broadcastDate": "2026-01-07",
+  "url": "https://mahou-contents.mbs.jp/shops/onair/2026-01-07",
+  "programTitle": "水野真紀の魔法のレストラン",
+  "episodeTitle": "スーパー惣菜頂上決戦 ライフ・ロピア・コストコ",
+  "shops": [
+    {
+      "rankInfo": "スーパー惣菜頂上決戦",
+      "name": "ライフ",
+      "menu": "小西シェフ一押し！",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/bd849a84-f619-415b-8454-f9cc694479ca",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/bd849a84-f619-415b-8454-f9cc694479ca/menu-a88c2e91-301d-480c-891d-7d19f73ff395.jpg"
+    },
+    {
+      "rankInfo": "スーパー惣菜頂上決戦",
+      "name": "食生活♡♡ロピア",
+      "menu": "槌谷シェフ一押し！",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/175f1753-6e0e-436a-b5b0-0f6bd66db927",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/175f1753-6e0e-436a-b5b0-0f6bd66db927/menu-bdab6ac5-e4b2-4bb9-b81e-b18cbd13f523.jpg"
+    },
+    {
+      "rankInfo": "スーパー惣菜頂上決戦",
+      "name": "コストコ",
+      "menu": "澤田シェフ一押し！",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/8afc6e61-a129-4384-9ee8-8679d6503624",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/8afc6e61-a129-4384-9ee8-8679d6503624/menu-5abda3db-ec96-43fa-9442-587125a4ae15.jpg"
+    }
+  ]
+}

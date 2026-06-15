@@ -1,0 +1,50 @@
+{
+  "broadcastDate": "2026-02-18",
+  "url": "https://mahou-contents.mbs.jp/shops/onair/2026-02-18",
+  "programTitle": "水野真紀の魔法のレストラン",
+  "episodeTitle": "寒くても並びたい！真冬の行列グルメ24時",
+  "shops": [
+    {
+      "rankInfo": "町中華の名店の味を引き継ぐ",
+      "name": "冬限定の？",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/06f0284e-ab82-4081-9110-fd9b9c776ef7",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/06f0284e-ab82-4081-9110-fd9b9c776ef7/menu-f0f0b24d-1eab-4cae-ac42-d60690ab1fe3.jpg"
+    },
+    {
+      "rankInfo": "朝食にピッタリ！？",
+      "name": "80年以上続く名店の？専門店",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/91c1ec05-9a46-4616-bbde-7fc3ea16e755",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/91c1ec05-9a46-4616-bbde-7fc3ea16e755/menu-07b56846-e640-4377-ad49-7c10b6ec3371.jpg"
+    },
+    {
+      "rankInfo": "関西の大御所が絶賛！？",
+      "name": "糸のような麺の？",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/07f20829-fe22-4ca6-8b94-55a303a9eae4",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/07f20829-fe22-4ca6-8b94-55a303a9eae4/menu-eb5dbeb8-a106-49d5-ac09-b5f83b944d54.jpg"
+    },
+    {
+      "rankInfo": "客の8割が注文！",
+      "name": "希少部位を使った絶品？",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/001eb3b5-e623-4721-97f2-2ebf8f923116",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/001eb3b5-e623-4721-97f2-2ebf8f923116/menu-3cd10602-7aaa-4adc-96a2-942154ebfe73.jpg"
+    },
+    {
+      "rankInfo": "3日で1万本を販売",
+      "name": "地元文化を作った？",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/fb0e8493-4b9b-4abd-a55f-c65a1e8600c9",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/fb0e8493-4b9b-4abd-a55f-c65a1e8600c9/menu-0cb31f64-9cce-4450-9883-e25b9c6a6e27.jpg"
+    },
+    {
+      "rankInfo": "ご飯やお酒と相性抜群",
+      "name": "鉄板で作る？焼き",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/9c42ae2c-bcbd-49f1-8586-0b0ad25fef30",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/9c42ae2c-bcbd-49f1-8586-0b0ad25fef30/menu-18fa9b14-9009-43c0-8dcf-ef2ecd62b67a.jpg"
+    }
+  ]
+}

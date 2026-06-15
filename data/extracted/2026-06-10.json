@@ -1,0 +1,78 @@
+{
+  "broadcastDate": "2026-06-10",
+  "url": "https://mahou-contents.mbs.jp/shops/onair/2026-06-10",
+  "programTitle": "水野真紀の魔法のレストラン",
+  "episodeTitle": "食のプロがホンマは教えたくない！京阪神 寿司＆海鮮ランチ",
+  "shops": [
+    {
+      "rankInfo": "第10位(大阪)",
+      "name": "鮨処 米×魚",
+      "menu": "900円寿司ランチ",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/16c9c12b-5439-4977-a278-78462e95b2f2",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/16c9c12b-5439-4977-a278-78462e95b2f2/menu-67eec213-b423-48fd-9eac-b6680c177021.jpg"
+    },
+    {
+      "rankInfo": "第9位(大阪)",
+      "name": "旬彩山元",
+      "menu": "希少ネタの海鮮丼",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/3000a690-b4e6-41dc-bcd9-f2d083836afa",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/3000a690-b4e6-41dc-bcd9-f2d083836afa/menu-957afb63-27d3-4b22-a5d2-fdd7cbfa3da8.jpg"
+    },
+    {
+      "rankInfo": "第8位(京都)",
+      "name": "魚楽",
+      "menu": "メニュー数45種！？",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/57d54784-d2d0-4253-9d2d-cf98f0689ba6",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/57d54784-d2d0-4253-9d2d-cf98f0689ba6/menu-9215c65a-716b-492c-80c3-f5c4209c3df2.jpg"
+    },
+    {
+      "rankInfo": "第7位(大阪)",
+      "name": "スタンドふじ",
+      "menu": "新感覚海鮮丼",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/82dc747b-0430-4a6d-acc6-e2fd360ce251",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/82dc747b-0430-4a6d-acc6-e2fd360ce251/menu-8567a199-e2d4-46ba-b895-e39a574ec63c.jpg"
+    },
+    {
+      "rankInfo": "第6位(大阪)",
+      "name": "大起水産 まぐろスタジアム",
+      "menu": "優雅に海鮮が楽しめる",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/3587095d-33ed-4b30-946c-e0a68a3250f5",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/3587095d-33ed-4b30-946c-e0a68a3250f5/menu-d23e4a85-0c5a-45f4-ae0b-2134006609bd.jpg"
+    },
+    {
+      "rankInfo": "第5位(大阪)",
+      "name": "銀蔵",
+      "menu": "ネタてんこ盛りの定食",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/8b463d85-e79e-4665-9476-e1363d3e0875",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/8b463d85-e79e-4665-9476-e1363d3e0875/menu-8dba53e4-4137-4f18-98e6-53811cb6a994.jpg"
+    },
+    {
+      "rankInfo": "第4位(神戸)",
+      "name": "才谷梅太郎",
+      "menu": "カツオ丼専門店",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/dd1f51c3-85e7-49ba-bd77-25487b2a603d",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/dd1f51c3-85e7-49ba-bd77-25487b2a603d/menu-c652a5ec-c7b3-49b9-a117-a502bad3015c.jpg"
+    },
+    {
+      "rankInfo": "第3位(大阪)",
+      "name": "雅 鮮魚店",
+      "menu": "超激レア生本マグロ丼",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/35be82b7-8c36-480a-a5dd-b5a16a3416a9",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/35be82b7-8c36-480a-a5dd-b5a16a3416a9/menu-ae90c579-fc01-4f8f-a81d-57135661c883.jpg"
+    },
+    {
+      "rankInfo": "第2位(神戸)",
+      "name": "ふさ鮨",
+      "menu": "極厚すぎるネタ",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/b92356ea-bd62-4659-b70a-8b96b29916a0",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/b92356ea-bd62-4659-b70a-8b96b29916a0/menu-c4ceb38e-a08b-4c9f-b28a-29569450341a.jpg"
+    },
+    {
+      "rankInfo": "第1位(大阪)",
+      "name": "げんき水産",
+      "menu": "仲卸直営 破格鉄火丼",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/a7095a84-95f7-4501-9e58-70e79f4a6d0d",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/a7095a84-95f7-4501-9e58-70e79f4a6d0d/menu-1670c53f-d1b5-4aed-8bf9-cb56915cc9fa.jpg"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "broadcastDate": "2026-04-01",
+  "url": "https://mahou-contents.mbs.jp/shops/onair/2026-04-01",
+  "programTitle": "水野真紀の魔法のレストラン",
+  "episodeTitle": "無印良品＆ニトリ＆Seria ホンマに使える！キッチングッズ決定戦",
+  "shops": [
+    {
+      "rankInfo": "無印良品＆ニトリ＆Seria ホンマに使える！キッチングッズ決定戦",
+      "name": "無印良品 グランフロント大阪",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/891e412a-8a4a-4f0b-9dd1-a14f089b7600",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/891e412a-8a4a-4f0b-9dd1-a14f089b7600/menu-518ca153-a6f0-479b-847f-349731b360d0.jpg"
+    },
+    {
+      "rankInfo": "無印良品＆ニトリ＆Seria ホンマに使える！キッチングッズ決定戦",
+      "name": "ニトリ 西田辺店",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/4259b22b-edda-453c-9b34-bc1b370f6c42",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/4259b22b-edda-453c-9b34-bc1b370f6c42/menu-b30c64b9-102d-4cab-9874-6c1d7fd9fb3e.jpg"
+    },
+    {
+      "rankInfo": "無印良品＆ニトリ＆Seria ホンマに使える！キッチングッズ決定戦",
+      "name": "Seria あべのand店",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/bca8ad41-f8d7-4ff6-9613-cf67a82b409c",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/bca8ad41-f8d7-4ff6-9613-cf67a82b409c/menu-e53d32f9-1e38-470b-9cfd-965ce6cfaa0c.jpg"
+    }
+  ]
+}

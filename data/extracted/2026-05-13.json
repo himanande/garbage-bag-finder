@@ -1,0 +1,50 @@
+{
+  "broadcastDate": "2026-05-13",
+  "url": "https://mahou-contents.mbs.jp/shops/onair/2026-05-13",
+  "programTitle": "水野真紀の魔法のレストラン",
+  "episodeTitle": "言われてみればなんで！？関西グルメの謎",
+  "shops": [
+    {
+      "rankInfo": "言われてみればなんで！？関西グルメの謎",
+      "name": "混ぜ焼き お好み焼き",
+      "menu": "ゆかり",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/d7983b6e-6b10-4bc4-a4ab-bf9ea75149f5",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/d7983b6e-6b10-4bc4-a4ab-bf9ea75149f5/menu-7400dddf-fe78-42ba-be2d-67185884c114.jpg"
+    },
+    {
+      "rankInfo": "言われてみればなんで！？関西グルメの謎",
+      "name": "重ね焼き お好み焼き",
+      "menu": "青森",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/3fa10ba2-d390-4e4e-b9ff-5f545fcb6f8c",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/3fa10ba2-d390-4e4e-b9ff-5f545fcb6f8c/menu-acb4b89f-abe6-48ae-8bdc-41919135e459.jpg"
+    },
+    {
+      "rankInfo": "言われてみればなんで！？関西グルメの謎",
+      "name": "紅ショウガ天",
+      "menu": "日新天ぷら店",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/c3372781-bf3d-43e5-bc1a-e36b01fd0024",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/c3372781-bf3d-43e5-bc1a-e36b01fd0024/menu-8adedab6-6f31-44d7-ba7b-86ce6a6ab39d.jpg"
+    },
+    {
+      "rankInfo": "言われてみればなんで！？関西グルメの謎",
+      "name": "大阪発のお菓子",
+      "menu": "粟おこし",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/917801b4-ee11-4987-9262-c2406bdf9afe",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/917801b4-ee11-4987-9262-c2406bdf9afe/menu-af088fb9-8542-40a4-a14e-872b4fd213c8.jpg"
+    },
+    {
+      "rankInfo": "言われてみればなんで！？関西グルメの謎",
+      "name": "大阪発のお菓子",
+      "menu": "満月ポン",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/d97be025-5eac-4d0d-ad98-84f9c663c239",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/d97be025-5eac-4d0d-ad98-84f9c663c239/menu-39588b7a-e543-4aa7-ac20-d8c6776961b5.jpg"
+    },
+    {
+      "rankInfo": "言われてみればなんで！？関西グルメの謎",
+      "name": "大阪発のお菓子",
+      "menu": "月化粧",
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/b5e77442-de59-4072-97e9-f64b1b78802f",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/b5e77442-de59-4072-97e9-f64b1b78802f/menu-56569b9b-ef87-46eb-8a69-83d0e6c93e54.jpg"
+    }
+  ]
+}

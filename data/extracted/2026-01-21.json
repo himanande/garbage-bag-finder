@@ -1,0 +1,50 @@
+{
+  "broadcastDate": "2026-01-21",
+  "url": "https://mahou-contents.mbs.jp/shops/onair/2026-01-21",
+  "programTitle": "水野真紀の魔法のレストラン",
+  "episodeTitle": "言われてみればなんで！？ 関西グルメの謎大調査",
+  "shops": [
+    {
+      "rankInfo": "関西グルメの謎 大調査",
+      "name": "たこ焼きの謎",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/ea1e5619-6de0-4625-a864-9e1e0219c5ff",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/ea1e5619-6de0-4625-a864-9e1e0219c5ff/menu-06813f1d-80f9-448e-bbea-e1ab4bc5291c.jpg"
+    },
+    {
+      "rankInfo": "関西グルメの謎 大調査",
+      "name": "たこ焼きの謎",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/21442d8e-274a-4732-abe8-acedb6a4e756",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/21442d8e-274a-4732-abe8-acedb6a4e756/menu-80c3aff1-5c8c-42db-9d39-765d9a97be90.jpg"
+    },
+    {
+      "rankInfo": "関西グルメの謎 大調査",
+      "name": "スパイスカレーの謎",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/fc355181-b9a9-4cdd-9155-072e359c517e",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/fc355181-b9a9-4cdd-9155-072e359c517e/menu-23ad9026-ea62-41c2-bc36-085fd430032c.jpg"
+    },
+    {
+      "rankInfo": "関西グルメの謎 大調査",
+      "name": "スパイスカレー謎",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/9b6befd8-e351-4628-b6ed-b33154c7e998",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/9b6befd8-e351-4628-b6ed-b33154c7e998/menu-a97f2520-ab68-4fa6-be30-81355043d560.jpg"
+    },
+    {
+      "rankInfo": "関西グルメの謎 大調査",
+      "name": "スパイスカレーの謎",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/1fc203ec-a6f3-4382-9261-614b706f1ce7",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/1fc203ec-a6f3-4382-9261-614b706f1ce7/menu-23291076-6ffd-401a-83a5-2efb0817ba21.jpg"
+    },
+    {
+      "rankInfo": "関西グルメの謎 大調査",
+      "name": "呼び方の謎",
+      "menu": null,
+      "detailUrl": "https://mahou-contents.mbs.jp/shops/e21df1be-74c9-49c1-968e-db27e5bbb5ba",
+      "imageUrl": "https://storage.googleapis.com/mbs-recipe-and-restaurant-asset-production/e21df1be-74c9-49c1-968e-db27e5bbb5ba/menu-da5046d6-af21-407d-bdb6-556ae1d5e7aa.jpg"
+    }
+  ]
+}
