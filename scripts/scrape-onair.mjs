@@ -59,27 +59,40 @@ async function fetchAndCache(url, cachePath) {
   return { html, fromCache: false }
 }
 
-// ページ構造がまだ不明なため、まずは構造調査に使える情報を広く抽出する。
 function extract(html, broadcastDate, url) {
   const $ = cheerio.load(html)
 
-  const jsonLd = []
-  $('script[type="application/ld+json"]').each((_, el) => {
-    try {
-      jsonLd.push(JSON.parse($(el).text()))
-    } catch {
-      // 不正なJSON-LDは無視
-    }
+  // <title>は「{回タイトル} | {番組名} | MBS 毎日放送」の形式
+  const [episodeTitle, programTitle] = $('title')
+    .text()
+    .split('|')
+    .map((s) => s.trim())
+
+  // 各お店は <dl><dt class="photo">...</dt><dd>順位(地域)</dd><dd>店名</dd><dd>紹介文</dd></dl>
+  const shops = []
+  $('dl').each((_, el) => {
+    const $dl = $(el)
+    const $photo = $dl.find('dt.photo')
+    if ($photo.length === 0) return
+
+    const dds = $dl.find('dd').map((_, dd) => $(dd).text().trim()).get()
+    const href = $photo.find('a').attr('href') ?? null
+
+    shops.push({
+      rankInfo: dds[0] ?? null,
+      name: dds[1] ?? $photo.find('img').attr('alt') ?? null,
+      menu: dds[2] ?? null,
+      detailUrl: href ? new URL(href, url).toString() : null,
+      imageUrl: $photo.find('img').attr('data-src') ?? null,
+    })
   })
 
   return {
     broadcastDate,
     url,
-    title: $('title').text().trim(),
-    ogTitle: $('meta[property="og:title"]').attr('content') ?? null,
-    description: $('meta[name="description"]').attr('content') ?? null,
-    headings: $('h1, h2, h3').map((_, el) => $(el).text().trim()).get(),
-    jsonLd,
+    programTitle: programTitle ?? null,
+    episodeTitle: episodeTitle ?? null,
+    shops,
   }
 }
 
