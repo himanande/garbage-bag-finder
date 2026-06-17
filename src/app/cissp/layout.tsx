@@ -17,22 +17,22 @@ export default function CisspLayout({ children }: { children: React.ReactNode })
   return (
     <div className="min-h-screen bg-gradient-to-br from-sky-50 via-white to-emerald-50">
       <header className="bg-gradient-to-r from-slate-800 to-sky-800 shadow-lg">
-        <div className="max-w-5xl mx-auto px-4 py-6">
-          <Link href="/cissp" className="flex items-center gap-3">
-            <GraduationCap className="w-8 h-8 text-emerald-300" />
-            <h1 className="text-xl sm:text-2xl font-bold text-white">CISSP用語マスター</h1>
+        <div className="max-w-5xl mx-auto px-4 py-4 sm:py-6">
+          <Link href="/cissp" className="flex items-center gap-2 sm:gap-3">
+            <GraduationCap className="w-7 h-7 sm:w-8 sm:h-8 text-emerald-300 shrink-0" />
+            <h1 className="text-lg sm:text-2xl font-bold text-white">CISSP用語マスター</h1>
           </Link>
-          <p className="text-sky-100 mt-1 text-sm">
+          <p className="text-sky-100 mt-1 text-xs sm:text-sm hidden sm:block">
             出題されやすい用語・キーワードを集中的に学習する、CISSP対策の入門サービス
           </p>
-          <nav className="flex flex-wrap gap-2 mt-4">
+          <nav className="grid grid-cols-2 sm:flex sm:flex-wrap gap-2 mt-3 sm:mt-4">
             {NAV_ITEMS.map(({ href, label, icon: Icon }) => (
               <Link
                 key={href}
                 href={href}
-                className="flex items-center gap-1.5 bg-white/10 hover:bg-white/20 text-white text-sm font-medium px-3 py-2 rounded-lg transition-colors"
+                className="flex items-center justify-center sm:justify-start gap-1.5 bg-white/10 hover:bg-white/20 text-white text-xs sm:text-sm font-medium px-3 py-2 rounded-lg transition-colors"
               >
-                <Icon className="w-4 h-4" />
+                <Icon className="w-4 h-4 shrink-0" />
                 {label}
               </Link>
             ))}
@@ -40,7 +40,7 @@ export default function CisspLayout({ children }: { children: React.ReactNode })
         </div>
       </header>
 
-      <main className="max-w-5xl mx-auto px-4 py-8">{children}</main>
+      <main className="max-w-5xl mx-auto px-3 sm:px-4 py-6 sm:py-8">{children}</main>
 
       <footer className="bg-slate-800 text-white py-8 mt-16">
         <div className="max-w-5xl mx-auto px-4 text-center">

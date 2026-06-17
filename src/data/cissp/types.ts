@@ -27,7 +27,12 @@ export interface CisspTerm {
   definition: string
   /** 補足の関連キーワード(任意) */
   tags?: string[]
+  /** 出題頻度(任意) */
+  frequency?: TermFrequency
 }
+
+/** 出題頻度 ◯=high / B=medium / A=low */
+export type TermFrequency = 'high' | 'medium' | 'low'
 
 /** 学習進捗のステータス */
 export type LearningStatus = 'unlearned' | 'review' | 'mastered'

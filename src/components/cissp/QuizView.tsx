@@ -3,12 +3,13 @@
 import { useMemo, useState } from 'react'
 import { CheckCircle2, XCircle, RotateCcw, ListChecks, MessageCircleQuestion } from 'lucide-react'
 import { cisspTerms } from '@/data/cissp/terms'
-import { CISSP_DOMAINS, CisspTerm } from '@/data/cissp/types'
+import { CISSP_DOMAINS, CisspTerm, LearningStatus } from '@/data/cissp/types'
 import { useCisspProgress } from '@/lib/cissp/progress'
 import { buildQuizQueue, createMultipleChoiceQuestion } from '@/lib/cissp/quiz'
 
 type QuizMode = 'oneQuestion' | 'multipleChoice'
 type Phase = 'setup' | 'playing' | 'result'
+type StatusFilter = '' | 'needsReview' | LearningStatus
 
 const QUESTION_COUNT_OPTIONS = [5, 10, 0] as const // 0 = 全問
 
@@ -16,6 +17,8 @@ export default function QuizView() {
   const [phase, setPhase] = useState<Phase>('setup')
   const [mode, setMode] = useState<QuizMode>('multipleChoice')
   const [selectedDomain, setSelectedDomain] = useState<string>('')
+  const [selectedFreq, setSelectedFreq] = useState<string>('')
+  const [selectedStatus, setSelectedStatus] = useState<StatusFilter>('')
   const [questionCount, setQuestionCount] = useState<number>(10)
 
   const [queue, setQueue] = useState<CisspTerm[]>([])
@@ -24,11 +27,23 @@ export default function QuizView() {
   const [revealed, setRevealed] = useState(false)
   const [selectedChoice, setSelectedChoice] = useState<number | null>(null)
 
-  const { setStatus } = useCisspProgress()
+  const { setStatus, getStatus, loaded } = useCisspProgress()
 
   const availableTerms = useMemo(() => {
-    return selectedDomain ? cisspTerms.filter((t) => t.domain === selectedDomain) : cisspTerms
-  }, [selectedDomain])
+    return cisspTerms.filter((t) => {
+      if (selectedDomain && t.domain !== selectedDomain) return false
+      if (selectedFreq && t.frequency !== selectedFreq) return false
+      if (selectedStatus && loaded) {
+        const s = getStatus(t.id)
+        if (selectedStatus === 'needsReview') {
+          if (s === 'mastered') return false
+        } else if (s !== selectedStatus) {
+          return false
+        }
+      }
+      return true
+    })
+  }, [selectedDomain, selectedFreq, selectedStatus, loaded, getStatus])
 
   const currentTerm = queue[currentIndex]
   const mcQuestion = useMemo(() => {
@@ -77,30 +92,30 @@ export default function QuizView() {
         <h2 className="text-lg font-bold text-slate-800">クイズ設定</h2>
 
         <div>
-          <label className="block text-sm font-semibold text-slate-700 mb-2">出題形式</label>
+          <label className="block text-sm font-semibold text-slate-900 mb-2">出題形式</label>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             <button
               onClick={() => setMode('multipleChoice')}
               className={`flex items-center gap-2 border rounded-lg px-4 py-3 text-left transition-colors ${
-                mode === 'multipleChoice' ? 'border-sky-500 bg-sky-50 text-sky-700' : 'border-slate-300 text-slate-600 hover:bg-slate-50'
+                mode === 'multipleChoice' ? 'border-sky-500 bg-sky-50 text-sky-700' : 'border-slate-300 text-slate-900 hover:bg-slate-50'
               }`}
             >
               <ListChecks className="w-5 h-5" />
               <div>
                 <p className="font-semibold">4択クイズ</p>
-                <p className="text-xs">用語に合う解説を4つの選択肢から選びます</p>
+                <p className="text-xs text-slate-900">用語に合う解説を4つの選択肢から選びます</p>
               </div>
             </button>
             <button
               onClick={() => setMode('oneQuestion')}
               className={`flex items-center gap-2 border rounded-lg px-4 py-3 text-left transition-colors ${
-                mode === 'oneQuestion' ? 'border-sky-500 bg-sky-50 text-sky-700' : 'border-slate-300 text-slate-600 hover:bg-slate-50'
+                mode === 'oneQuestion' ? 'border-sky-500 bg-sky-50 text-sky-700' : 'border-slate-300 text-slate-900 hover:bg-slate-50'
               }`}
             >
               <MessageCircleQuestion className="w-5 h-5" />
               <div>
                 <p className="font-semibold">一問一答クイズ</p>
-                <p className="text-xs">用語の意味を思い出し、答えを見て自己採点します</p>
+                <p className="text-xs text-slate-900">用語の意味を思い出し、答えを見て自己採点します</p>
               </div>
             </button>
           </div>
@@ -108,11 +123,11 @@ export default function QuizView() {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <div>
-            <label className="block text-sm font-semibold text-slate-700 mb-2">ドメインで絞り込み</label>
+            <label className="block text-sm font-semibold text-slate-900 mb-2">ドメインで絞り込み</label>
             <select
               value={selectedDomain}
               onChange={(e) => setSelectedDomain(e.target.value)}
-              className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-sky-500 focus:border-sky-500"
+              className="w-full px-4 py-3 border border-slate-300 rounded-lg text-slate-900 focus:ring-2 focus:ring-sky-500 focus:border-sky-500"
             >
               <option value="">すべてのドメイン</option>
               {CISSP_DOMAINS.map((domain) => (
@@ -121,11 +136,38 @@ export default function QuizView() {
             </select>
           </div>
           <div>
-            <label className="block text-sm font-semibold text-slate-700 mb-2">出題数</label>
+            <label className="block text-sm font-semibold text-slate-900 mb-2">頻出度で絞り込み</label>
+            <select
+              value={selectedFreq}
+              onChange={(e) => setSelectedFreq(e.target.value)}
+              className="w-full px-4 py-3 border border-slate-300 rounded-lg text-slate-900 focus:ring-2 focus:ring-sky-500 focus:border-sky-500"
+            >
+              <option value="">すべての頻出度</option>
+              <option value="high">★ 高頻出</option>
+              <option value="medium">☆ 中</option>
+              <option value="low">○ 低</option>
+            </select>
+          </div>
+          <div>
+            <label className="block text-sm font-semibold text-slate-900 mb-2">学習状況で絞り込み</label>
+            <select
+              value={selectedStatus}
+              onChange={(e) => setSelectedStatus(e.target.value as StatusFilter)}
+              className="w-full px-4 py-3 border border-slate-300 rounded-lg text-slate-900 focus:ring-2 focus:ring-sky-500 focus:border-sky-500"
+            >
+              <option value="">すべて</option>
+              <option value="needsReview">要復習モード(習得済み以外)</option>
+              <option value="unlearned">未学習のみ</option>
+              <option value="review">要復習のみ</option>
+              <option value="mastered">習得済みのみ</option>
+            </select>
+          </div>
+          <div>
+            <label className="block text-sm font-semibold text-slate-900 mb-2">出題数</label>
             <select
               value={questionCount}
               onChange={(e) => setQuestionCount(Number(e.target.value))}
-              className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-sky-500 focus:border-sky-500"
+              className="w-full px-4 py-3 border border-slate-300 rounded-lg text-slate-900 focus:ring-2 focus:ring-sky-500 focus:border-sky-500"
             >
               {QUESTION_COUNT_OPTIONS.map((count) => (
                 <option key={count} value={count}>{count === 0 ? '全問' : `${count}問`}</option>
@@ -134,7 +176,7 @@ export default function QuizView() {
           </div>
         </div>
 
-        <p className="text-sm text-slate-500">{availableTerms.length}件の用語が対象です</p>
+        <p className="text-sm text-slate-900">{availableTerms.length}件の用語が対象です</p>
 
         <button
           onClick={startQuiz}
@@ -183,7 +225,7 @@ export default function QuizView() {
 
   return (
     <div className="space-y-4">
-      <p className="text-center text-sm text-slate-500">
+      <p className="text-center text-sm text-slate-900">
         第 {currentIndex + 1} 問 / 全{queue.length}問(現在のスコア: {score})
       </p>
 
@@ -196,7 +238,7 @@ export default function QuizView() {
 
         {mode === 'multipleChoice' && mcQuestion ? (
           <div className="space-y-3">
-            <p className="text-sm font-semibold text-slate-700">この用語の説明として正しいものを選んでください</p>
+            <p className="text-sm font-semibold text-slate-900">この用語の説明として正しいものを選んでください</p>
             {mcQuestion.choices.map((choice, i) => {
               const isSelected = selectedChoice === i
               const isCorrect = i === mcQuestion.correctIndex
