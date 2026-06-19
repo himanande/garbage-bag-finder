@@ -2,7 +2,7 @@
 
 import React, { useMemo, useState } from 'react'
 import dynamic from 'next/dynamic'
-import { MapPin, Search, Sparkles, List, Map as MapIcon, Calendar, Award, Navigation } from 'lucide-react'
+import { MapPin, Search, Sparkles, List, Map as MapIcon, Calendar, Award, Navigation, RotateCcw } from 'lucide-react'
 import { restaurants, GENRES, PREFECTURES } from '@/data/restaurants'
 
 function haversineKm(lat1: number, lng1: number, lat2: number, lng2: number): number {
@@ -270,14 +270,14 @@ export default function RestaurantSearch() {
           </div>
 
           <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mt-4">
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-3">
               <button
                 onClick={resetFilters}
-                className="text-sm text-purple-600 hover:text-purple-700 font-medium"
+                className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-purple-300 text-purple-700 text-sm font-medium hover:bg-purple-50 transition-colors"
               >
+                <RotateCcw className="w-3.5 h-3.5" />
                 条件をリセット
               </button>
-              <span className="text-slate-300">|</span>
               <span className="text-sm text-slate-600">
                 {hasFilter ? `${groupedRestaurants.length}件のお店が見つかりました` : '条件を入力して検索してください'}
               </span>
