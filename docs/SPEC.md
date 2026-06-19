@@ -180,8 +180,10 @@ DBは使用せず、ビルド時に静的JSONとして同梱する方式（`src/
 | 変数名 | 必須 | 用途 | 未設定時のデフォルト |
 |---|---|---|---|
 | `NEXT_PUBLIC_SITE_URL` | 任意 | OGP(`metadataBase`)・sitemap.xmlの絶対URL生成に使用 | `https://magic-restaurant-search.vercel.app` |
+| `NEXT_PUBLIC_ADSENSE_PUBLISHER_ID` | 任意 | Google AdSenseのパブリッシャーID（`ca-pub-XXXXXXXXXXXXXXXX`形式）。設定すると`/ads.txt`の内容生成と`layout.tsx`でのAdSenseスクリプト読み込みが有効化される | 未設定時はads.txtが空、広告スクリプトも読み込まれない |
 
 独自ドメイン設定後は、Vercelの環境変数に `NEXT_PUBLIC_SITE_URL=https://<独自ドメイン>` を設定すること（**3-2のデプロイタスク参照**）。
+AdSense審査通過後は `NEXT_PUBLIC_ADSENSE_PUBLISHER_ID` をVercelの環境変数に設定するだけで広告が有効化される（コード変更不要）。
 
 Vercelプロジェクト: projectId `prj_L1KXWVzDW3R12xgrggJLTQmGthRU`（プロジェクト名は`cissp-master`だが本番ドメインは`magic-restaurant-search.vercel.app`。2026-06-19に本番デプロイ済み）。
 
