@@ -1,7 +1,8 @@
 'use client'
 
+import { useRef, useState } from 'react'
 import Link from 'next/link'
-import { BookOpen, Layers, ListChecks, CheckCircle2, RotateCcw, CircleDashed } from 'lucide-react'
+import { BookOpen, Layers, ListChecks, CheckCircle2, RotateCcw, CircleDashed, Download, Upload } from 'lucide-react'
 import { cisspTerms } from '@/data/cissp/terms'
 import { useCisspProgress } from '@/lib/cissp/progress'
 
@@ -27,12 +28,26 @@ const FEATURES = [
 ]
 
 export default function CisspHome() {
-  const { progress, loaded } = useCisspProgress()
+  const { progress, loaded, exportProgress, importProgress } = useCisspProgress()
+  const fileInputRef = useRef<HTMLInputElement>(null)
+  const [importMessage, setImportMessage] = useState<string | null>(null)
 
   const total = cisspTerms.length
   const mastered = cisspTerms.filter((t) => progress[t.id] === 'mastered').length
   const review = cisspTerms.filter((t) => progress[t.id] === 'review').length
   const unlearned = total - mastered - review
+
+  const handleImportFile = async (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0]
+    e.target.value = ''
+    if (!file) return
+    try {
+      const count = await importProgress(file)
+      setImportMessage(`${count}件の学習状況を取り込みました。`)
+    } catch (err) {
+      setImportMessage(err instanceof Error ? err.message : 'インポートに失敗しました。')
+    }
+  }
 
   return (
     <div className="space-y-8">
@@ -72,6 +87,37 @@ export default function CisspHome() {
         ) : (
           <p className="text-sm text-slate-400">読み込み中...</p>
         )}
+
+        <div className="mt-6 pt-6 border-t border-slate-100">
+          <h4 className="text-sm font-semibold text-slate-900 mb-2">進捗データのバックアップ</h4>
+          <p className="text-xs text-slate-600 mb-3">
+            学習状況はこの端末のブラウザにのみ保存されています。他の端末に移したり、消えてしまうのを防ぐためにバックアップ(エクスポート)しておくことをおすすめします。
+          </p>
+          <div className="flex flex-wrap gap-3">
+            <button
+              onClick={exportProgress}
+              className="flex items-center gap-2 bg-sky-600 hover:bg-sky-700 text-white text-sm font-medium px-4 py-2.5 rounded-lg transition-colors"
+            >
+              <Download className="w-4 h-4" />
+              進捗をエクスポート
+            </button>
+            <button
+              onClick={() => fileInputRef.current?.click()}
+              className="flex items-center gap-2 bg-slate-100 hover:bg-slate-200 text-slate-700 text-sm font-medium px-4 py-2.5 rounded-lg transition-colors"
+            >
+              <Upload className="w-4 h-4" />
+              進捗をインポート
+            </button>
+            <input
+              ref={fileInputRef}
+              type="file"
+              accept="application/json"
+              onChange={handleImportFile}
+              className="hidden"
+            />
+          </div>
+          {importMessage && <p className="text-xs text-slate-500 mt-2">{importMessage}</p>}
+        </div>
       </section>
 
       <section className="grid grid-cols-1 sm:grid-cols-3 gap-6">
