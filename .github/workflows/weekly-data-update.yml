@@ -1,0 +1,112 @@
+name: 週次データ更新
+
+# 「水野真紀の魔法のレストラン」は毎週水曜よる7時放送。
+# 木曜07:00 JST = 水曜22:00 UTC にチェックする。
+on:
+  schedule:
+    - cron: '0 22 * * 3'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: データ収集ブランチをチェックアウト
+        uses: actions/checkout@v4
+        with:
+          ref: claude/magic-restaurant-scraping-nujto9
+          path: data-pipeline
+          fetch-depth: 0
+
+      - name: 新着放送回をチェック
+        id: check_new
+        working-directory: data-pipeline
+        run: |
+          python3 check_new_episodes.py | tee /tmp/check_new.log
+          if grep -q "新着放送回を発見" /tmp/check_new.log; then
+            echo "found=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "found=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: スクレイピングパイプライン実行
+        if: steps.check_new.outputs.found == 'true'
+        working-directory: data-pipeline
+        run: |
+          python3 scrape.py
+          python3 merge.py
+          python3 geocode.py
+          cp data/draft-restaurants-geocoded.json data/draft-restaurants.json
+          python3 fix_location.py
+          python3 fix_city_ward.py
+          python3 generate_app_json.py app_restaurants.json
+
+      - name: データ収集ブランチへコミット・push
+        if: steps.check_new.outputs.found == 'true'
+        working-directory: data-pipeline
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "data: 週次自動更新 ($(date +%Y-%m-%d))"
+          git push origin claude/magic-restaurant-scraping-nujto9
+
+      - name: アプリ用JSONをアップロード
+        if: steps.check_new.outputs.found == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: app-restaurants-json
+          path: data-pipeline/app_restaurants.json
+
+  create-pr:
+    needs: update
+    if: needs.update.result == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - name: mainをチェックアウト
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: アプリ用JSONをダウンロード
+        id: download
+        continue-on-error: true
+        uses: actions/download-artifact@v4
+        with:
+          name: app-restaurants-json
+
+      - name: restaurants.jsonを更新
+        if: steps.download.outcome == 'success'
+        run: |
+          cp app_restaurants.json src/data/restaurants.json
+          rm -f app_restaurants.json
+
+      - name: 変更件数を集計
+        if: steps.download.outcome == 'success'
+        id: diff
+        run: |
+          OLD_COUNT=$(git show HEAD:src/data/restaurants.json | python3 -c "import json,sys; print(len(json.load(sys.stdin)))")
+          NEW_COUNT=$(python3 -c "import json; print(len(json.load(open('src/data/restaurants.json'))))")
+          echo "old=$OLD_COUNT" >> "$GITHUB_OUTPUT"
+          echo "new=$NEW_COUNT" >> "$GITHUB_OUTPUT"
+
+      - name: Pull Requestを作成
+        if: steps.download.outcome == 'success'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: auto/weekly-data-update
+          delete-branch: true
+          title: "data: 週次自動更新（新着放送回データ）"
+          commit-message: "data: 週次自動更新で新着放送回データを反映"
+          body: |
+            新しい放送回のデータを自動取得しました。
+
+            - 更新前: ${{ steps.diff.outputs.old }}件
+            - 更新後: ${{ steps.diff.outputs.new }}件
+
+            内容を確認し、問題なければマージしてください。マージするとVercelに自動デプロイされます。
