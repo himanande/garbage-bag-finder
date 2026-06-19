@@ -12,9 +12,24 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const SITE_NAME = "水野真紀の魔法のレストラン 紹介店検索";
+const SITE_DESCRIPTION = "MBS「水野真紀の魔法のレストラン」で紹介されたお店を都道府県・市区町村・ジャンル・現在地から検索できる非公式サイト。2016年から現在まで2700件超のお店を収録。";
+
 export const metadata: Metadata = {
-  title: "魔法のレストラン セレクション",
-  description: "番組で紹介された全国の名店を地域・ジャンル・地図から検索できるサイト",
+  title: SITE_NAME,
+  description: SITE_DESCRIPTION,
+  openGraph: {
+    title: SITE_NAME,
+    description: SITE_DESCRIPTION,
+    type: "website",
+    locale: "ja_JP",
+    siteName: SITE_NAME,
+  },
+  twitter: {
+    card: "summary",
+    title: SITE_NAME,
+    description: SITE_DESCRIPTION,
+  },
 };
 
 export default function RootLayout({
@@ -23,7 +38,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="ja">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
