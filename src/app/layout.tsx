@@ -14,8 +14,10 @@ const geistMono = Geist_Mono({
 
 const SITE_NAME = "水野真紀の魔法のレストラン 紹介店検索";
 const SITE_DESCRIPTION = "MBS「水野真紀の魔法のレストラン」で紹介されたお店を都道府県・市区町村・ジャンル・現在地から検索できる非公式サイト。2016年から現在まで2700件超のお店を収録。";
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://magic-restaurant-search.vercel.app";
 
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
   title: SITE_NAME,
   description: SITE_DESCRIPTION,
   openGraph: {

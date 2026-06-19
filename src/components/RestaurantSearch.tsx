@@ -425,7 +425,12 @@ export default function RestaurantSearch() {
       </div>
 
       <footer className="bg-slate-800 text-white py-8 mt-16">
-        <div className="max-w-7xl mx-auto px-4 text-center">
+        <div className="max-w-7xl mx-auto px-4 text-center space-y-3">
+          <div className="flex items-center justify-center gap-4 text-sm text-slate-300">
+            <a href="/about" className="hover:text-white hover:underline">このサイトについて</a>
+            <span className="text-slate-600">|</span>
+            <a href="/privacy" className="hover:text-white hover:underline">プライバシーポリシー</a>
+          </div>
           <p className="text-slate-400">© 2026 水野真紀の魔法のレストラン 紹介店検索</p>
         </div>
       </footer>
