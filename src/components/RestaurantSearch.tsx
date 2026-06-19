@@ -2,8 +2,16 @@
 
 import React, { useMemo, useState } from 'react'
 import dynamic from 'next/dynamic'
-import { MapPin, Search, Sparkles, List, Map as MapIcon, Calendar, Award } from 'lucide-react'
-import { restaurants, REGIONS, GENRES } from '@/data/restaurants'
+import { MapPin, Search, Sparkles, List, Map as MapIcon, Calendar, Award, Navigation } from 'lucide-react'
+import { restaurants, GENRES, PREFECTURES } from '@/data/restaurants'
+
+function haversineKm(lat1: number, lng1: number, lat2: number, lng2: number): number {
+  const R = 6371
+  const dLat = (lat2 - lat1) * Math.PI / 180
+  const dLng = (lng2 - lng1) * Math.PI / 180
+  const a = Math.sin(dLat / 2) ** 2 + Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) * Math.sin(dLng / 2) ** 2
+  return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a))
+}
 
 const RestaurantMap = dynamic(() => import('@/components/RestaurantMap'), {
   ssr: false,
@@ -14,29 +22,133 @@ const RestaurantMap = dynamic(() => import('@/components/RestaurantMap'), {
   ),
 })
 
+interface Appearance {
+  broadcastDate: string
+  episodeTitle?: string
+  award: string
+}
+
+interface GroupedRestaurant {
+  id: string
+  name: string
+  genre: string
+  region: string
+  prefecture: string
+  city: string
+  address: string
+  lat: number
+  lng: number
+  description: string
+  imageUrl?: string
+  nearStation?: string
+  tel?: string
+  appearances: Appearance[]
+  distanceKm?: number
+}
+
+type GeoStatus = 'idle' | 'loading' | 'success' | 'error'
+
 export default function RestaurantSearch() {
   const [keyword, setKeyword] = useState('')
-  const [selectedRegion, setSelectedRegion] = useState<string>('')
+  const [selectedPrefecture, setSelectedPrefecture] = useState<string>('')
+  const [selectedCity, setSelectedCity] = useState<string>('')
   const [selectedGenre, setSelectedGenre] = useState<string>('')
   const [viewMode, setViewMode] = useState<'list' | 'map'>('list')
+  const [userLocation, setUserLocation] = useState<{ lat: number; lng: number } | null>(null)
+  const [geoStatus, setGeoStatus] = useState<GeoStatus>('idle')
+  const [nearbyRadius, setNearbyRadius] = useState(5)
 
-  const filteredRestaurants = useMemo(() => {
+  const hasFilter = keyword.trim() !== '' || selectedPrefecture !== '' || selectedCity !== '' || selectedGenre !== '' || userLocation !== null
+
+  const citiesForPrefecture = useMemo(() => {
+    if (!selectedPrefecture) return []
+    const cities = new Set<string>()
+    for (const r of restaurants) {
+      if (r.prefecture === selectedPrefecture && r.city) cities.add(r.city)
+    }
+    return Array.from(cities).sort((a, b) => a.localeCompare(b, 'ja'))
+  }, [selectedPrefecture])
+
+  const handleLocate = () => {
+    if (!navigator.geolocation) { setGeoStatus('error'); return }
+    setGeoStatus('loading')
+    navigator.geolocation.getCurrentPosition(
+      (pos) => {
+        setUserLocation({ lat: pos.coords.latitude, lng: pos.coords.longitude })
+        setGeoStatus('success')
+      },
+      () => setGeoStatus('error'),
+    )
+  }
+
+  const groupedRestaurants = useMemo((): GroupedRestaurant[] => {
+    if (!hasFilter) return []
     const lowerKeyword = keyword.trim().toLowerCase()
-    return restaurants.filter((restaurant) => {
-      if (selectedRegion && restaurant.region !== selectedRegion) return false
-      if (selectedGenre && restaurant.genre !== selectedGenre) return false
+    const filtered = restaurants.filter((r) => {
+      if (selectedPrefecture && r.prefecture !== selectedPrefecture) return false
+      if (selectedCity && r.city !== selectedCity) return false
+      if (selectedGenre && r.genre !== selectedGenre) return false
       if (lowerKeyword) {
-        const haystack = `${restaurant.name} ${restaurant.prefecture} ${restaurant.city} ${restaurant.address} ${restaurant.description}`.toLowerCase()
+        const haystack = `${r.name} ${r.prefecture} ${r.city} ${r.address} ${r.description}`.toLowerCase()
         if (!haystack.includes(lowerKeyword)) return false
+      }
+      if (userLocation) {
+        if (r.lat === 0 && r.lng === 0) return false
+        if (haversineKm(userLocation.lat, userLocation.lng, r.lat, r.lng) > nearbyRadius) return false
       }
       return true
     })
-  }, [keyword, selectedRegion, selectedGenre])
+
+    const map = new Map<string, GroupedRestaurant>()
+    for (const r of filtered) {
+      const existing = map.get(r.name)
+      const appearance: Appearance = {
+        broadcastDate: r.broadcastDate,
+        episodeTitle: r.episodeTitle,
+        award: r.award,
+      }
+      if (existing) {
+        existing.appearances.push(appearance)
+      } else {
+        const distanceKm = userLocation && r.lat !== 0
+          ? haversineKm(userLocation.lat, userLocation.lng, r.lat, r.lng)
+          : undefined
+        map.set(r.name, {
+          id: r.id,
+          name: r.name,
+          genre: r.genre,
+          region: r.region,
+          prefecture: r.prefecture,
+          city: r.city,
+          address: r.address,
+          lat: r.lat,
+          lng: r.lng,
+          description: r.description,
+          imageUrl: r.imageUrl,
+          nearStation: r.nearStation,
+          tel: r.tel,
+          appearances: [appearance],
+          distanceKm,
+        })
+      }
+    }
+    const result = Array.from(map.values())
+    if (userLocation) result.sort((a, b) => (a.distanceKm ?? 999) - (b.distanceKm ?? 999))
+    return result
+  }, [keyword, selectedPrefecture, selectedCity, selectedGenre, hasFilter, userLocation, nearbyRadius])
+
+  const handlePrefectureChange = (value: string) => {
+    setSelectedPrefecture(value)
+    setSelectedCity('')
+  }
 
   const resetFilters = () => {
     setKeyword('')
-    setSelectedRegion('')
+    setSelectedPrefecture('')
+    setSelectedCity('')
     setSelectedGenre('')
+    setUserLocation(null)
+    setGeoStatus('idle')
   }
 
   return (
@@ -45,10 +157,10 @@ export default function RestaurantSearch() {
         <div className="max-w-7xl mx-auto px-4 py-8">
           <div className="flex items-center space-x-3">
             <Sparkles className="w-8 h-8 text-amber-300" />
-            <h1 className="text-2xl sm:text-3xl font-bold text-white">魔法のレストラン セレクション</h1>
+            <h1 className="text-2xl sm:text-3xl font-bold text-white">水野真紀の魔法のレストラン 紹介店検索</h1>
           </div>
           <p className="text-purple-100 mt-2">
-            番組で紹介された全国の名店を、地域・ジャンル・地図から検索できます
+            番組で紹介されたお店を、地域・ジャンル・キーワードから検索できます
           </p>
         </div>
       </header>
@@ -56,9 +168,9 @@ export default function RestaurantSearch() {
       <div className="max-w-7xl mx-auto px-4 py-8">
         {/* 検索フォーム */}
         <div className="bg-white rounded-2xl shadow-lg border border-slate-200 p-6 mb-8">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            <div className="md:col-span-1">
-              <label className="block text-sm font-semibold text-slate-700 mb-2">キーワード検索</label>
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4">
+            <div>
+              <label className="block text-sm font-semibold text-slate-900 mb-2">キーワード検索</label>
               <div className="relative">
                 <Search className="w-4 h-4 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2" />
                 <input
@@ -66,31 +178,46 @@ export default function RestaurantSearch() {
                   placeholder="店名・地名で検索"
                   value={keyword}
                   onChange={(e) => setKeyword(e.target.value)}
-                  className="w-full pl-9 pr-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500"
+                  className="w-full pl-9 pr-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500 text-slate-900 placeholder:text-slate-400"
                 />
               </div>
             </div>
 
             <div>
-              <label className="block text-sm font-semibold text-slate-700 mb-2">地域で絞り込み</label>
+              <label className="block text-sm font-semibold text-slate-900 mb-2">都道府県で絞り込み</label>
               <select
-                value={selectedRegion}
-                onChange={(e) => setSelectedRegion(e.target.value)}
-                className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500"
+                value={selectedPrefecture}
+                onChange={(e) => handlePrefectureChange(e.target.value)}
+                className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500 text-slate-900"
               >
-                <option value="">すべての地域</option>
-                {REGIONS.map((region) => (
-                  <option key={region} value={region}>{region}</option>
+                <option value="">すべての都道府県</option>
+                {PREFECTURES.map((pref) => (
+                  <option key={pref} value={pref}>{pref}</option>
                 ))}
               </select>
             </div>
 
             <div>
-              <label className="block text-sm font-semibold text-slate-700 mb-2">ジャンルで絞り込み</label>
+              <label className="block text-sm font-semibold text-slate-900 mb-2">市区町村で絞り込み</label>
+              <select
+                value={selectedCity}
+                onChange={(e) => setSelectedCity(e.target.value)}
+                disabled={!selectedPrefecture}
+                className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500 text-slate-900 disabled:bg-slate-100 disabled:text-slate-400"
+              >
+                <option value="">{selectedPrefecture ? 'すべての市区町村' : '都道府県を選択してください'}</option>
+                {citiesForPrefecture.map((city) => (
+                  <option key={city} value={city}>{city}</option>
+                ))}
+              </select>
+            </div>
+
+            <div>
+              <label className="block text-sm font-semibold text-slate-900 mb-2">ジャンルで絞り込み</label>
               <select
                 value={selectedGenre}
                 onChange={(e) => setSelectedGenre(e.target.value)}
-                className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500"
+                className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-purple-500 text-slate-900"
               >
                 <option value="">すべてのジャンル</option>
                 {GENRES.map((genre) => (
@@ -100,7 +227,47 @@ export default function RestaurantSearch() {
             </div>
           </div>
 
-          <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mt-6">
+          {/* 現在地検索 */}
+          <div className="mt-4 pt-4 border-t border-slate-100">
+            {userLocation ? (
+              <div className="flex items-center gap-3 flex-wrap">
+                <div className="flex items-center gap-2 text-sm text-green-700 font-medium">
+                  <Navigation className="w-4 h-4" />
+                  <span>現在地から検索中</span>
+                </div>
+                <select
+                  value={nearbyRadius}
+                  onChange={(e) => setNearbyRadius(Number(e.target.value))}
+                  className="text-sm border border-slate-300 rounded-lg px-3 py-1.5 text-slate-900 focus:ring-2 focus:ring-purple-500"
+                >
+                  <option value={1}>半径1km</option>
+                  <option value={3}>半径3km</option>
+                  <option value={5}>半径5km</option>
+                  <option value={10}>半径10km</option>
+                </select>
+                <button
+                  onClick={() => { setUserLocation(null); setGeoStatus('idle') }}
+                  className="text-sm text-slate-500 hover:text-slate-700 underline"
+                >
+                  現在地をクリア
+                </button>
+              </div>
+            ) : (
+              <button
+                onClick={handleLocate}
+                disabled={geoStatus === 'loading'}
+                className="flex items-center gap-2 px-4 py-2 rounded-lg border border-purple-300 text-purple-700 text-sm font-medium hover:bg-purple-50 disabled:opacity-50 transition-colors"
+              >
+                <Navigation className="w-4 h-4" />
+                {geoStatus === 'loading' ? '位置情報を取得中...' : '現在地から探す'}
+              </button>
+            )}
+            {geoStatus === 'error' && (
+              <p className="text-xs text-red-500 mt-1">位置情報の取得に失敗しました。ブラウザの設定を確認してください。</p>
+            )}
+          </div>
+
+          <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mt-4">
             <div className="flex items-center gap-2">
               <button
                 onClick={resetFilters}
@@ -109,7 +276,9 @@ export default function RestaurantSearch() {
                 条件をリセット
               </button>
               <span className="text-slate-300">|</span>
-              <span className="text-sm text-slate-600">{filteredRestaurants.length}件のお店が見つかりました</span>
+              <span className="text-sm text-slate-600">
+                {hasFilter ? `${groupedRestaurants.length}件のお店が見つかりました` : '条件を入力して検索してください'}
+              </span>
             </div>
 
             <div className="flex bg-slate-100 rounded-lg p-1">
@@ -136,38 +305,64 @@ export default function RestaurantSearch() {
         </div>
 
         {/* 検索結果 */}
-        {viewMode === 'list' ? (
+        {!hasFilter ? null : viewMode === 'list' ? (
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
-            {filteredRestaurants.map((restaurant) => (
+            {groupedRestaurants.map((restaurant) => (
               <div
                 key={restaurant.id}
                 className="bg-white rounded-xl shadow-sm border border-slate-200 hover:shadow-lg transition-all p-5 flex flex-col"
               >
                 <div className="flex items-start justify-between gap-2 mb-2">
                   <h3 className="font-bold text-slate-800">{restaurant.name}</h3>
-                  <span className="shrink-0 bg-purple-100 text-purple-700 px-2 py-1 rounded-full text-xs font-medium">
-                    {restaurant.genre}
-                  </span>
+                  <div className="flex items-center gap-1 shrink-0">
+                    {restaurant.appearances.length > 1 && (
+                      <span className="bg-amber-100 text-amber-700 px-2 py-1 rounded-full text-xs font-medium">
+                        {restaurant.appearances.length}回登場
+                      </span>
+                    )}
+                    <span className="bg-purple-100 text-purple-700 px-2 py-1 rounded-full text-xs font-medium">
+                      {restaurant.genre}
+                    </span>
+                  </div>
                 </div>
 
                 <div className="flex items-center gap-1 text-sm text-slate-600 mb-2">
                   <MapPin className="w-4 h-4 text-slate-400 shrink-0" />
                   <span>{restaurant.region} / {restaurant.prefecture}{restaurant.city}</span>
+                  {restaurant.distanceKm !== undefined && (
+                    <span className="ml-auto shrink-0 text-xs text-green-700 font-medium">
+                      {restaurant.distanceKm < 1
+                        ? `${Math.round(restaurant.distanceKm * 1000)}m`
+                        : `${restaurant.distanceKm.toFixed(1)}km`}
+                    </span>
+                  )}
                 </div>
 
                 <p className="text-sm text-slate-500 mb-3">{restaurant.address}</p>
 
                 <p className="text-sm text-slate-700 mb-4 flex-1">{restaurant.description}</p>
 
-                <div className="space-y-1 border-t border-slate-100 pt-3">
-                  <div className="flex items-center gap-1 text-sm text-amber-700 font-semibold">
-                    <Award className="w-4 h-4 shrink-0" />
-                    <span>{restaurant.award}</span>
-                  </div>
-                  <div className="flex items-center gap-1 text-xs text-slate-500">
-                    <Calendar className="w-3.5 h-3.5 shrink-0" />
-                    <span>放送日: {restaurant.broadcastDate}</span>
-                  </div>
+                <div className="space-y-2 border-t border-slate-100 pt-3">
+                  {restaurant.appearances.map((ap, i) => (
+                    <div key={i} className="space-y-0.5">
+                      <div className="flex items-center gap-1 text-sm text-amber-700 font-semibold">
+                        <Award className="w-4 h-4 shrink-0" />
+                        <span>{ap.award}</span>
+                      </div>
+                      <div className="flex items-center gap-1 text-xs text-slate-500 pl-5">
+                        <Calendar className="w-3.5 h-3.5 shrink-0" />
+                        <span>{ap.broadcastDate}｜</span>
+                        <a
+                          href={`https://mahou-contents.mbs.jp/shops/onair/${ap.broadcastDate}`}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="hover:text-purple-600 hover:underline"
+                        >
+                          {ap.episodeTitle ?? '放送回を見る'}
+                        </a>
+                      </div>
+                    </div>
+                  ))}
                 </div>
               </div>
             ))}
@@ -175,26 +370,33 @@ export default function RestaurantSearch() {
         ) : (
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
             <div className="lg:col-span-2 bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden h-[600px]">
-              <RestaurantMap restaurants={filteredRestaurants} />
+              <RestaurantMap restaurants={groupedRestaurants} />
             </div>
             <div className="space-y-3 max-h-[600px] overflow-y-auto pr-1">
-              {filteredRestaurants.map((restaurant) => (
+              {groupedRestaurants.map((restaurant) => (
                 <div key={restaurant.id} className="bg-white rounded-xl shadow-sm border border-slate-200 p-4">
                   <div className="flex items-start justify-between gap-2 mb-1">
                     <h3 className="font-bold text-slate-800 text-sm">{restaurant.name}</h3>
-                    <span className="shrink-0 bg-purple-100 text-purple-700 px-2 py-0.5 rounded-full text-xs font-medium">
-                      {restaurant.genre}
-                    </span>
+                    <div className="flex items-center gap-1 shrink-0">
+                      {restaurant.appearances.length > 1 && (
+                        <span className="bg-amber-100 text-amber-700 px-2 py-0.5 rounded-full text-xs font-medium">
+                          {restaurant.appearances.length}回登場
+                        </span>
+                      )}
+                      <span className="shrink-0 bg-purple-100 text-purple-700 px-2 py-0.5 rounded-full text-xs font-medium">
+                        {restaurant.genre}
+                      </span>
+                    </div>
                   </div>
                   <p className="text-xs text-slate-500 mb-1">{restaurant.prefecture}{restaurant.city}</p>
-                  <p className="text-xs text-amber-700 font-semibold">{restaurant.award}</p>
+                  <p className="text-xs text-amber-700 font-semibold">{restaurant.appearances[0].award}</p>
                 </div>
               ))}
             </div>
           </div>
         )}
 
-        {filteredRestaurants.length === 0 && (
+        {hasFilter && groupedRestaurants.length === 0 && (
           <div className="text-center py-12">
             <Sparkles className="w-16 h-16 text-slate-300 mx-auto mb-4" />
             <h3 className="text-lg font-semibold text-slate-700 mb-2">該当するお店が見つかりませんでした</h3>
@@ -208,7 +410,7 @@ export default function RestaurantSearch() {
 
       <footer className="bg-slate-800 text-white py-8 mt-16">
         <div className="max-w-7xl mx-auto px-4 text-center">
-          <p className="text-slate-400">© 2026 魔法のレストラン セレクション. すべての権利を保有します。</p>
+          <p className="text-slate-400">© 2026 水野真紀の魔法のレストラン 紹介店検索</p>
         </div>
       </footer>
     </div>
