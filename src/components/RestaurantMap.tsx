@@ -12,7 +12,7 @@ interface MapRestaurant {
   address: string
   lat: number
   lng: number
-  appearances: { award: string; broadcastDate: string }[]
+  appearances: { id: string; award: string; broadcastDate: string }[]
 }
 
 interface RestaurantMapProps {
@@ -72,7 +72,14 @@ export default function RestaurantMap({ restaurants }: RestaurantMapProps) {
               <p className="text-xs text-slate-600">
                 {restaurant.genre} | {restaurant.prefecture}{restaurant.city}
               </p>
-              <p className="text-xs text-amber-700 font-semibold">{restaurant.appearances[0].award}</p>
+              <a
+                href={`https://mahou-contents.mbs.jp/shops/${restaurant.appearances[0].id}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-xs text-amber-700 font-semibold hover:text-amber-900 hover:underline"
+              >
+                {restaurant.appearances[0].award}
+              </a>
               <p className="text-xs text-slate-600">{restaurant.address}</p>
             </div>
           </Popup>

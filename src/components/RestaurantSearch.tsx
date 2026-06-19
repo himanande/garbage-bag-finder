@@ -23,6 +23,7 @@ const RestaurantMap = dynamic(() => import('@/components/RestaurantMap'), {
 })
 
 interface Appearance {
+  id: string
   broadcastDate: string
   episodeTitle?: string
   award: string
@@ -103,6 +104,7 @@ export default function RestaurantSearch() {
     for (const r of filtered) {
       const existing = map.get(r.name)
       const appearance: Appearance = {
+        id: r.id,
         broadcastDate: r.broadcastDate,
         episodeTitle: r.episodeTitle,
         award: r.award,
@@ -347,7 +349,14 @@ export default function RestaurantSearch() {
                     <div key={i} className="space-y-0.5">
                       <div className="flex items-center gap-1 text-sm text-amber-700 font-semibold">
                         <Award className="w-4 h-4 shrink-0" />
-                        <span>{ap.award}</span>
+                        <a
+                          href={`https://mahou-contents.mbs.jp/shops/${ap.id}`}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="hover:text-amber-900 hover:underline"
+                        >
+                          {ap.award}
+                        </a>
                       </div>
                       <div className="flex items-center gap-1 text-xs text-slate-500 pl-5">
                         <Calendar className="w-3.5 h-3.5 shrink-0" />
@@ -389,7 +398,14 @@ export default function RestaurantSearch() {
                     </div>
                   </div>
                   <p className="text-xs text-slate-500 mb-1">{restaurant.prefecture}{restaurant.city}</p>
-                  <p className="text-xs text-amber-700 font-semibold">{restaurant.appearances[0].award}</p>
+                  <a
+                    href={`https://mahou-contents.mbs.jp/shops/${restaurant.appearances[0].id}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-xs text-amber-700 font-semibold hover:text-amber-900 hover:underline"
+                  >
+                    {restaurant.appearances[0].award}
+                  </a>
                 </div>
               ))}
             </div>
