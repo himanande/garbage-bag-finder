@@ -59,7 +59,24 @@ export default function AboutPage() {
             <h3 className="font-bold text-slate-800 mb-2">掲載内容の削除依頼について</h3>
             <p>
               店舗情報・画像等の掲載について、権利者の方からの削除・修正のご依頼があれば速やかに対応いたします。
-              お問い合わせ方法は今後追記予定です。
+              下記のお問い合わせ窓口よりご連絡ください。
+            </p>
+          </section>
+
+          <section>
+            <h3 className="font-bold text-slate-800 mb-2">お問い合わせ</h3>
+            <p>
+              掲載内容の修正・削除依頼、その他お問い合わせは、以下のX（旧Twitter）アカウントへDMにてご連絡ください。
+            </p>
+            <p className="mt-2">
+              <a
+                href="https://x.com/prgb8h"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 text-purple-600 hover:underline font-medium"
+              >
+                @prgb8h
+              </a>
             </p>
           </section>
 
