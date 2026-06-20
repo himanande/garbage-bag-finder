@@ -58,6 +58,8 @@ def main():
             rec['nearStation'] = clean(r['_nearStation'])
         if r.get('_tel'):
             rec['tel'] = clean(r['_tel'])
+        if r.get('hotpepperUrl'):
+            rec['hotpepperUrl'] = clean(r['hotpepperUrl'])
         records.append(rec)
 
     with open(OUTPUT, 'w') as f:
