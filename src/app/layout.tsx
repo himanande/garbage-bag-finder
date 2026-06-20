@@ -36,6 +36,7 @@ export const metadata: Metadata = {
 };
 
 const ADSENSE_PUBLISHER_ID = process.env.NEXT_PUBLIC_ADSENSE_PUBLISHER_ID;
+const VALUECOMMERCE_PID = process.env.NEXT_PUBLIC_VALUECOMMERCE_PID;
 
 export default function RootLayout({
   children,
@@ -52,6 +53,17 @@ export default function RootLayout({
             crossOrigin="anonymous"
             strategy="afterInteractive"
           />
+        )}
+        {VALUECOMMERCE_PID && (
+          <>
+            <Script id="vc-pid" strategy="afterInteractive">
+              {`var vc_pid = "${VALUECOMMERCE_PID}";`}
+            </Script>
+            <Script
+              src="https://aml.valuecommerce.com/vcdal.js"
+              strategy="afterInteractive"
+            />
+          </>
         )}
       </head>
       <body

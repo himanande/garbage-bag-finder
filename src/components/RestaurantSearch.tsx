@@ -2,7 +2,7 @@
 
 import React, { useMemo, useState } from 'react'
 import dynamic from 'next/dynamic'
-import { MapPin, Search, Sparkles, List, Map as MapIcon, Calendar, Award, Navigation, RotateCcw } from 'lucide-react'
+import { MapPin, Search, Sparkles, List, Map as MapIcon, Calendar, Award, Navigation, RotateCcw, ExternalLink } from 'lucide-react'
 import { restaurants, GENRES, PREFECTURES } from '@/data/restaurants'
 
 function haversineKm(lat1: number, lng1: number, lat2: number, lng2: number): number {
@@ -43,6 +43,7 @@ interface GroupedRestaurant {
   imageUrl?: string
   nearStation?: string
   tel?: string
+  hotpepperUrl?: string
   appearances: Appearance[]
   distanceKm?: number
 }
@@ -129,6 +130,7 @@ export default function RestaurantSearch() {
           imageUrl: r.imageUrl,
           nearStation: r.nearStation,
           tel: r.tel,
+          hotpepperUrl: r.hotpepperUrl,
           appearances: [appearance],
           distanceKm,
         })
@@ -372,6 +374,29 @@ export default function RestaurantSearch() {
                       </div>
                     </div>
                   ))}
+                </div>
+
+                <div className="flex flex-wrap gap-2 mt-3 pt-3 border-t border-slate-100">
+                  <a
+                    href={`https://tabelog.com/rstLst/?sk=${encodeURIComponent(restaurant.name)}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-1 px-3 py-1.5 rounded-lg border border-orange-300 text-orange-700 text-xs font-medium hover:bg-orange-50 transition-colors"
+                  >
+                    <ExternalLink className="w-3 h-3" />
+                    食べログで見る
+                  </a>
+                  {restaurant.hotpepperUrl && (
+                    <a
+                      href={restaurant.hotpepperUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-1 px-3 py-1.5 rounded-lg border border-red-300 text-red-700 text-xs font-medium hover:bg-red-50 transition-colors"
+                    >
+                      <ExternalLink className="w-3 h-3" />
+                      ホットペッパーで予約
+                    </a>
+                  )}
                 </div>
               </div>
             ))}
