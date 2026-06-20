@@ -19,6 +19,7 @@ export interface Restaurant {
   rankInfo?: string
   nearStation?: string
   tel?: string
+  hotpepperUrl?: string
 }
 
 export const restaurants: Restaurant[] = restaurantsJson as Restaurant[]
