@@ -36,6 +36,10 @@ export default function PrivacyPage() {
               当サイトでは、サイトの利用状況を把握するためにGoogle Analytics等のアクセス解析ツールを使用する場合があります。
               これらのツールはトラフィックデータの収集のためにCookieを使用しますが、このトラフィックデータは匿名で収集されており、個人を特定するものではありません。
             </p>
+            <p className="mt-2">
+              また、当サイトのホスティング基盤であるVercelが提供する「Vercel Analytics」も利用しています。
+              これはCookieを使用せず、個人を特定しない匿名の集計アクセス情報（ページの閲覧数など）のみを収集するものです。
+            </p>
           </section>
 
           <section>
@@ -83,7 +87,7 @@ export default function PrivacyPage() {
           </section>
 
           <section>
-            <p className="text-sm text-slate-500">最終更新日: 2026年6月19日</p>
+            <p className="text-sm text-slate-500">最終更新日: 2026年6月20日</p>
           </section>
         </div>
 
