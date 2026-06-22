@@ -96,6 +96,7 @@ jobs:
 
       - name: Pull Requestを作成
         if: steps.download.outcome == 'success'
+        id: create_pr
         uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -110,3 +111,62 @@ jobs:
             - 更新後: ${{ steps.diff.outputs.new }}件
 
             内容を確認し、問題なければマージしてください。マージするとVercelに自動デプロイされます。
+
+  notify:
+    needs: [update, create-pr]
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - name: Slackに通知
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          UPDATE_STATUS: ${{ needs.update.result }}
+          CREATE_PR_STATUS: ${{ needs.create-pr.result }}
+        run: |
+          if [ "$UPDATE_STATUS" = "failure" ]; then
+            COLOR="danger"
+            TITLE="❌ 週次データ更新: 失敗"
+            TEXT="データ収集パイプラインの実行に失敗しました"
+          elif [ "$CREATE_PR_STATUS" = "failure" ]; then
+            COLOR="warning"
+            TITLE="⚠️ 週次データ更新: 部分失敗"
+            TEXT="データ取得は成功しましたが、PRの作成に失敗しました"
+          elif [ "$CREATE_PR_STATUS" = "skipped" ]; then
+            COLOR="good"
+            TITLE="✅ 週次データ更新: スキップ"
+            TEXT="新着放送回がありません"
+          else
+            COLOR="good"
+            TITLE="✅ 週次データ更新: 成功"
+            TEXT="新着放送回データを取得し、PRを作成しました"
+          fi
+
+          TIMESTAMP=$(date -u '+%Y-%m-%d %H:%M:%S UTC')
+
+          curl -X POST "$SLACK_WEBHOOK_URL" \
+            -H 'Content-Type: application/json' \
+            -d @- <<EOF
+          {
+            "attachments": [
+              {
+                "color": "$COLOR",
+                "title": "$TITLE",
+                "text": "$TEXT",
+                "fields": [
+                  {
+                    "title": "実行日時",
+                    "value": "$TIMESTAMP",
+                    "short": true
+                  },
+                  {
+                    "title": "ワークフロー",
+                    "value": "<https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}|詳細を見る>",
+                    "short": true
+                  }
+                ],
+                "footer": "magic-restaurant-search",
+                "ts": $(date +%s)
+              }
+            ]
+          }
+          EOF
