@@ -37,6 +37,7 @@ jobs:
         if: steps.check_new.outputs.found == 'true'
         working-directory: data-pipeline
         run: |
+          mkdir -p data/raw data/shops
           python3 scrape.py
           python3 merge.py
           python3 geocode.py
